@@ -14,7 +14,7 @@ source "https://rubygems.org"
 # To upgrade, run `bundle update`.
 
 gem "jekyll"
-gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll", "4.24.0"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -28,4 +28,5 @@ gem "minimal-mistakes-jekyll"
 group :jekyll_plugins do
 end
 
+# Other gems
 gem "webrick", "~> 1.7"
