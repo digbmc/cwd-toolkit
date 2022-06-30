@@ -1,6 +1,6 @@
 # /_data/authors.yml
 
-# To include a photo of an author, place the photo file in /assets/images, un-comment the
+# To include a photo of an author, place the photo file in /assets/images
 
 Firstname Lastname:
     name: "Firstname Lastname"
