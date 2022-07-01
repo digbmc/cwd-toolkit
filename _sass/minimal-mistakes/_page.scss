@@ -185,6 +185,7 @@ body {
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
 
+  /* overlay_image */
   &--overlay {
     position: relative;
     margin-bottom: 2em;
@@ -240,7 +241,7 @@ body {
 }
 
 .page__hero-caption {
-  position: absolute;
+  position:absolute;
   bottom: 0;
   right: 0;
   margin: 0 auto;
