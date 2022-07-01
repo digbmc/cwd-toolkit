@@ -185,10 +185,10 @@ body {
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
 
-  &--overlay {
+  &--overlay { /* changes formatting of site title photo header */
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: 3em 0; /* changing the paddding size changes the height */
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -235,16 +235,16 @@ body {
 
 .page__hero-image {
   width: 100%;
-  height: auto;
+  height: auto; /* original is #auto */
   -ms-interpolation-mode: bicubic;
 }
 
 .page__hero-caption {
-  position: absolute;
+  position:absolute; /* original is #absolute */
   bottom: 0;
   right: 0;
   margin: 0 auto;
-  padding: 2px 5px;
+  padding: 5px 5px; /* original is #2px 5px */
   color: #fff;
   font-family: $caption-font-family;
   font-size: $type-size-7;
