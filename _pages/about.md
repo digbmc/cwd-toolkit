@@ -26,5 +26,3 @@ Ranch, ketchup,
 
 ## Animals
 Giraffe, bear, cat
-
-{% include gallery layout="half" caption="This is a sample gallery with **Markdown support**." %}
