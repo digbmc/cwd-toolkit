@@ -3,6 +3,8 @@ permalink: /about/
 title: About
 toc: true
 toc_label: {{ page.title }}
+layout: splash
+link: https://www.pinterest.com/
 ---
 
 This is an about page.
