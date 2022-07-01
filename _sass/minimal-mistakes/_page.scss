@@ -236,16 +236,16 @@ body {
 
 .page__hero-image {
   width: 100%;
-  height: auto; /* original is #auto */
+  height: auto;
   -ms-interpolation-mode: bicubic;
 }
 
 .page__hero-caption {
-  position:absolute; /* original is #absolute */
+  position:absolute;
   bottom: 0;
   right: 0;
   margin: 0 auto;
-  padding: 5px 5px; /* original is #2px 5px */
+  padding: 2px 5px;
   color: #fff;
   font-family: $caption-font-family;
   font-size: $type-size-7;
