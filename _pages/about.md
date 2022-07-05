@@ -8,23 +8,6 @@ header:
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
 toc: true
 toc_label: {{ page.title }}
-gallery:
-  - url: /assets/images/home.jpg
-    image_path: /assets/images/home.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url: /assets/images/home.jpg
-    image_path: /assets/images/home.jpg
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
-  - url: /assets/images/home.jpg
-    image_path: /assets/images/home.jpg
-    alt: "placeholder image 3"
-    title: "Image 3 title caption"
-  - url: /assets/images/home.jpg
-    image_path: /assets/images/home.jpg
-    alt: "placeholder image 4"
-    title: "Image 4 title caption"
 ---
 
 This is an about page.
@@ -43,5 +26,3 @@ Ranch, ketchup,
 
 ## Animals
 Giraffe, bear, cat
-
-{% include gallery layout="half" caption="This is a sample gallery with **Markdown support**." %}
