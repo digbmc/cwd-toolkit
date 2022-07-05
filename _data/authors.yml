@@ -2,17 +2,17 @@
 
 # To include a photo of an author, place the photo file in /assets/images
 
-Firstname Lastname:
-    name: "Firstname Lastname"
-    bio: "Put a bio here or leave empty."
-    avatar: "/assets/images/bio-photo.jpg" 
-    links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url:
+# Firstname Lastname:
+#    name: "Firstname Lastname"
+#    bio: "Put a bio here or leave empty."
+#    avatar: "/assets/images/bio-photo.jpg" 
+#    links:
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
+#      url:
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url:
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url:

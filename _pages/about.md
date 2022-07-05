@@ -7,6 +7,7 @@ header:
     caption: # Put a caption for your image here. It will display in thecc bottom right corner of the image.
 toc: true
 toc_label: {{ page.title }}
+<<<<<<< HEAD
 layout: splash
 code: <iframe width="800" height="450" src="https://www.youtube.com/embed/Y-ObdZ6fw60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 # code: <iframe src="https://assets.pinterest.com/ext/embed.html?id=157274211977269324" allowfullscreen ></iframe>
@@ -34,6 +35,8 @@ gallery:
     alt: "placeholder image 4"
     title: "Image 4 title caption"
 
+=======
+>>>>>>> 935a549e9e2246c16c94e765d0e7d434645e91f7
 ---
 
 This is an about page.
@@ -52,5 +55,3 @@ Ranch, ketchup,
 
 ## Animals
 Giraffe, bear, cat
-
-{% include gallery layout="half" caption="This is a sample gallery with **Markdown support**." %}
