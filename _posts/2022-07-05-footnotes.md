@@ -24,6 +24,11 @@ header:
 
 "Don't look so angry, Basil. It was at my aunt, Lady Agatha's. She told me she had discovered a wonderful young man who was going to help her in the East End, and that his name was Dorian Gray. I am bound to state that she never told me he was good-looking. Women have no appreciation of good looks; at least, good women have not. She said that he was very earnest and had a beautiful nature. I at once pictured to myself a creature with spectacles and lank hair, horribly freckled, and tramping about on huge feet. I wish I had known it was your friend."
 
-[^1]: Here is footnote #1. All of the contents of the footnote will go on one line of text. There can be no paragraph breaks.
+[^1]: Here is footnote #1.
 
-[^2]: Here is footnote #2.
+[^2]: 
+    Here is footnote #2.
+
+    Footnotes can have line breaks and multiple paragraphs.
+
+    > They can even contain quotes like this one.
