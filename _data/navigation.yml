@@ -12,3 +12,13 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+categories:
+  - title: How-To
+    children:
+      - title: "Formatting Text with Markdown"
+        url: /how-to/markdown/
+      - title: "Including Images"
+        url: /how-to/gallery
+      - title: "Embedded Content"
+        url: /how-to/timeline
