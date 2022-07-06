@@ -26,6 +26,7 @@ gem "minimal-mistakes-jekyll", "4.24.0"
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
+    gem 'jekyll-scholar'
 end
 
 # Other gems

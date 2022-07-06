@@ -541,6 +541,19 @@ a.reversefootnote {
 }
 
 /*
+   Citations and Bibliography
+   ========================================================================== */
+.citation {
+  color: mix(#fff, $gray, 25%);
+}
+  
+.bibliography {
+  color: mix(#fff, $gray, 25%);
+    margin-bottom: 0;
+    font-size: $type-size-6;
+}
+
+/*
    Required
    ========================================================================== */
 
