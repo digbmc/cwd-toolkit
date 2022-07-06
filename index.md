@@ -4,6 +4,8 @@ author_profile: false # Setting this to true will display the site author inform
 header:
     overlay_image: /assets/images/home.jpg  # Putting the path to an image here will replace the header image.
     image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
+sidebar:
+    nav: "categories"
 entries_layout: grid # Choose how to display posts. Options: grid, list.
 #classes: wide # Setting the class as wide will extend the page's content into the right margin.
 ---
