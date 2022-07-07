@@ -74,7 +74,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-9;
 
   & + p {
     text-indent: 0;
@@ -103,7 +103,7 @@
   padding: 2px 5px;
   color: #fff;
   font-family: $caption-font-family;
-  font-size: $type-size-8;
+  font-size: $type-size-9;
   background: #000;
   text-align: right;
   z-index: 5;
@@ -219,7 +219,7 @@
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-9;
     }
   }
 
