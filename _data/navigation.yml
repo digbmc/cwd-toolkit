@@ -6,8 +6,8 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "Feedback"
+    url: /feedback/
 
 categories:
   - title: How-To
@@ -17,6 +17,6 @@ categories:
       - title: "Images"
         url: /how-to/images/
       - title: "Embedded Content"
-        url: /how-to/embed/
+        url: /how-to/embedded-content/
       - title: "Bibliography"
         url: /how-to/bibliography/
