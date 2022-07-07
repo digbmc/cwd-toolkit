@@ -2,8 +2,9 @@
 layout: single
 # code: This is where you paste your embed code if you want it to get displayed at the bottom of the page.
 title:  "This is a post with embedded content"
-date:   2022-07-05 10:00:00 -0400
-category: "How-To"
+category: ["how-to"]
+permalink: /how-to/embedded-content/
+
 header:
     teaser: /assets/images/default-4.jpg
     # image: /assets/images/home.jpg  # Putting the path to an image here will replace the header image.
