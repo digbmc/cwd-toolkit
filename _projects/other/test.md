@@ -2,7 +2,7 @@
 layout: single
 title:  "This is a post about formatting text with Markdown"
 category: ["other"]
-permalink: /how-to/test/
+permalink: /other/test/
 
 header:
     teaser: /assets/images/default-2.jpg
