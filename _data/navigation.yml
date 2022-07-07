@@ -6,6 +6,9 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "Feedback"
+    url: /feedback/
+    
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
@@ -20,5 +23,7 @@ categories:
         url: /how-to/markdown/
       - title: "Including Images"
         url: /how-to/gallery
-      - title: "Embedded Content"
+      - title: "Embedded Timeline"
         url: /how-to/timeline
+      - title: "Embedded Content"
+        url: /how-to/embedded-content/
