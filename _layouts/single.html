@@ -47,13 +47,17 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
-        {% if page.code %} <div class="embed-responsive"> 
+        
+   {% if page.code %} <div class="embed-responsive"> 
           {{page.code}}
         </div> {% endif %}
         <br/>
         {% if page.map %} <div class="map-responsive"> 
           {{page.map}}
         </div> {% endif %}
+
+        {% if page.bibliography %}<div><h2 id="bibliography">Bibliography</h2>{% bibliography --cited %}</div>{% endif %}
+
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
