@@ -241,17 +241,31 @@
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
-
+/*  border-bottom: 1px solid $border-color; */
+  min-height: 12.5rem;
   .archive__item-title {
     margin-bottom: 0;
+    text-decoration: none;
+  }
+  a .archive__item-title {
+    margin-bottom: 0;
+    text-decoration: none;
+    color:#fff;
+  }
+  a:hover .archive__item-title {
+    margin-bottom: 0;
+    text-decoration: underline;
+    color:#fff;
   }
 }
 
 .feature__item {
   position: relative;
   margin-bottom: 2em;
+  padding-bottom: 2em;
   font-size: 1.125em;
+  min-height: 12.5rem;
+  border-radius: $border-radius;
 
   @include breakpoint($small) {
     float: left;
