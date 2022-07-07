@@ -237,7 +237,6 @@
 /*
    Features
    ========================================================================== */
-
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
@@ -450,6 +449,10 @@
   .feature__item--right {
     font-size: 1em;
   }
+}
+
+.spotlight__wrapper {
+  
 }
 
 /*
