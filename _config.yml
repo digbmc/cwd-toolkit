@@ -11,7 +11,11 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme                  : "minimal-mistakes-jekyll"
+<<<<<<< HEAD
 minimal_mistakes_skin    : "mix" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+=======
+minimal_mistakes_skin    : "academic" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+>>>>>>> e1aeb8b7abe852485a3eacb4930f00bcf8ccddf9
 
 # Site Settings
 locale                   : "en-US"
