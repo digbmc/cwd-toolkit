@@ -1,15 +1,18 @@
 ---
-layout: single #try "single" after you are done, old = posts
+layout: single
 title:  "All About Images"
-date:   2022-07-01 14:00:00 -0400
-category: "How-To"
+category: ["how-to"]
+permalink: /how-to/images/
+
 header:
     teaser: /assets/images/default-1.jpg
-    # image: /assets/images/home.jpg  # Putting the path to an image here will replace the header image.
+    overlay_image: /assets/images/default-1.jpg  # Putting the path to an image here will replace the header image.
     image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
+
 toc: true
 toc_label: "On this page"
+
 gallery:
   - url: /assets/images/default-1.jpg
     image_path: /assets/images/default-1.jpg

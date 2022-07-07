@@ -6,19 +6,17 @@ main:
     url: /
   - title: "About"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Feedback"
+    url: /feedback/
 
 categories:
   - title: How-To
     children:
       - title: "Formatting Text with Markdown"
         url: /how-to/markdown/
-      - title: "Including Images"
-        url: /how-to/gallery
+      - title: "Images"
+        url: /how-to/images/
       - title: "Embedded Content"
-        url: /how-to/timeline
+        url: /how-to/embedded-content/
+      - title: "Bibliography"
+        url: /how-to/bibliography/
