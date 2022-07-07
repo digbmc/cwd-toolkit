@@ -242,14 +242,13 @@
   @include clearfix();
   margin-bottom: 2em;
 /*  border-bottom: 1px solid $border-color; */
-  min-height: 12.5rem;
   .archive__item-title {
     margin-bottom: 0;
     text-decoration: none;
   }
-  a .archive__item-title {
+  a {
     margin-bottom: 0;
-    text-decoration: none;
+    text-decoration: none !important;
     color:#fff;
   }
   a:hover .archive__item-title {
@@ -261,6 +260,7 @@
 
 .feature__item {
   position: relative;
+  margin-top: 1em;
   margin-bottom: 2em;
   padding-bottom: 2em;
   font-size: 1.125em;
