@@ -14,6 +14,23 @@ layout: default
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+     {% if page.code %} <div class="embed-responsive"> 
+        {{page.code}}
+     </div> {% endif %} 
+     <br />
+     {% if page.code2 %} <div class="embed-responsive-2"> 
+      {{page.code2}}
+   </div> {% endif %} 
+    
+     <!-- <iframe class="embed-responsive-item" src="{{link.url}}" allowfullscreen></iframe>  -->
+
+    <!-- <div class="embed-responsive embed-responsive-16by9"> -->
+      <!-- <iframe src="https://assets.pinterest.com/ext/embed.html?id=331788697560114486" height="550" width="450" frameborder="0" scrolling="no" ></iframe> -->
+
+      <!-- <iframe src="https://assets.pinterest.com/ext/embed.html?id=331788697560114486" allowfullscreen></iframe> -->
+
+
+    </div>
 
     <section class="page__content" itemprop="text">
       {{ content }}
