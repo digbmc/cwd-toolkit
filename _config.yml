@@ -278,7 +278,7 @@ compress_html:
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+
 
 # Defaults
 defaults:
