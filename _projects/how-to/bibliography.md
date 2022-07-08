@@ -13,20 +13,24 @@ header:
 sidebar:
     nav: "categories"
 
+toc: true;
+toc_label: "On this page"
+
 works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>
     - item: "Stoker, Bram. <i>Dracula</i> .Project Gutenberg, 1897, https://www.gutenberg.org/ebooks/345."
     - item: "Wilde, Oscar. <i>The Picture of Dorian Grey</i>. Ward Lock & Co., 1891, https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)."
 ---
 
-This post contains quotes from books that are in the public domain, such as this one from *Dracula*: "It is really wonderful how much resilience there is in human nature."[^1]
+This post shows how to add a bibliography to your projects.
 
 ## Adding Works Cited to the YAML Front Matter
-If you want to add a bibliography to your project, add the following code to its front matter and edit the list of items to contain the works you intend to cite. 
+If you want to add a bibliography to your project, add the following code to the project's YAML front matter and edit the list of items to contain the works you intend to cite. 
 ```
 works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>
     - item: "Stoker, Bram. <i>Dracula</i> .Project Gutenberg, 1897, https://www.gutenberg.org/ebooks/345."
     - item: "Wilde, Oscar. <i>The Picture of Dorian Grey</i>. Ward Lock & Co., 1891, https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)."
 ```
+To give examples of how different citations look and function, this page includes quotes from books that are in the public domain, such as this one from *Dracula*: "It is really wonderful how much resilience there is in human nature."[^1] You can format citations as footnotes like the one preceding this sentence, or you could use parenthetical citation, like this [(Stoker)](#bibliography).
 ## Adding Citations to Your Text
 
 (Write about how to add citations to text)
