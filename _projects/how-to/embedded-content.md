@@ -6,8 +6,8 @@ category: ["how-to"]
 permalink: /how-to/embedded-content/
 
 header:
-    teaser: /assets/images/default-4.jpg
-    # image: /assets/images/home.jpg  # Putting the path to an image here will replace the header image.
+    teaser: /assets/images/post-2.jpg
+    overlay image: /assets/images/post-2.jpg  
     image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
 # map: This is where you put the embed code of the Google Map.
@@ -20,7 +20,7 @@ Embedding refers to the integration of links, images, videos, gifs and other con
 
 ## Embed Code
 To embed any type of content, you would need an embed code first. An embed code is a block of HTML that is placed in another page and renders a visual element — a video, social media post, form, or page — from another website or source.
-<a href="https://blog.hubspot.com/marketing/embed-social-media-posts-guide" style="color: purple; text-decoration: underline;">You can follow this detailed guide to get the embed code for any type of content.</a>
+<a href="https://blog.hubspot.com/marketing/embed-social-media-posts-guide" style="color: peach; text-decoration: underline;">You can follow this detailed guide to get the embed code for any type of content.</a>
 
 ## Steps to embed content
 1. To embed any type of content, change the first line of the markdown file where you want to embed your content to layout: single. This will apply the single.html layout on your respective markdown file.
@@ -36,7 +36,7 @@ To embed any type of content, you would need an embed code first. An embed code 
 
 * If you want to embed a Google Map as shown below, follow step 2 from "Steps to Embed Content" but put the embed code of the Google Map beside map: **paste the embed code here** at the top of the markdown file. You could also just follow the first bullet point stated in the next section if you want the map to be in a specific position on the website and not at the bottom of the page.
 > <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24440.49827767732!2d-75.3074176!3d40.0293888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1657129930385!5m2!1sen!2sus" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-* If you want to make a timeline for your project(s), you can follow this <a href="https://timeline.knightlab.com/" style="color: purple; text-decoration: underline ;">guide</a> to create a timeline. You will also find the embed code of your timeline in this same guide which you can use to embed the timeline on the website.
+* If you want to make a timeline for your project(s), you can follow this <a href="https://timeline.knightlab.com/" style="color: peach; text-decoration: underline ;">guide</a> to create a timeline. You will also find the embed code of your timeline in this same guide which you can use to embed the timeline on the website.
 
 
 ## How to change the position of the embedded content

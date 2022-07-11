@@ -50,6 +50,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+
   a[rel="permalink"]::before {
     content: '';
     position: absolute;
@@ -255,17 +256,21 @@
     margin-bottom: 0;
     text-decoration: underline;
     color:#fff;
+    position: absolute;
   }
 }
 
 .feature__item {
   position: relative;
-  margin-top: 1em;
-  margin-bottom: 2em;
-  padding-bottom: 2em;
+  margin-top: 1.5em;
+  padding-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  text-align: center;
   font-size: 1.125em;
   min-height: 12.5rem;
   border-radius: $border-radius;
+  
 
   @include breakpoint($small) {
     float: left;
