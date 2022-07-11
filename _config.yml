@@ -270,16 +270,6 @@ tag_archive:
 #     tag: /tags/:name/
 
 
-# Jekyll Scholar
-# - https://github.com/inukshuk/jekyll-scholar
-scholar:
-  style: modern-language-association
-  locale: en
-  source: ./_bibliography
-  bibliography: references.bib
-  cite_class: citation
-
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
@@ -290,7 +280,7 @@ compress_html:
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+
 
 # Defaults
 defaults:

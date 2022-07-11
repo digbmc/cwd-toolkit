@@ -1,0 +1,25 @@
+<div class="spotlight__wrapper">
+
+    {% for f in include.projects %}
+  
+      {% if f.url contains "://" %}
+        {% capture f_url %}{{ f.url }}{% endcapture %}
+      {% else %}
+        {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
+      {% endif %}
+  
+  
+      <div class="archive__item{% if include.type %}--{{ include.type }}{% endif %}"
+          {% if f.header.teaser %} style="background-image:url({{ f.header.teaser }})" 
+          alt="{% if f.alt %}{{ f.header.alt }}{% endif %}"{% endif %}>
+        <a href="{{ f_url }}">
+          <div class="archive__item-body">
+            {% if f.title %}
+              <h3 class="archive__item-title">{{ f.title | truncatewords: 15 }}</h3>
+            {% endif %}
+          </div>
+      </a>
+      </div>
+    {% endfor %}
+  
+</div>

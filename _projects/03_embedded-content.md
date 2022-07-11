@@ -1,7 +1,7 @@
 ---
 layout: single
 # code: This is where you paste your embed code if you want it to get displayed at the bottom of the page.
-title:  "This is a post with embedded content"
+title:  "Embedded Content"
 category: ["how-to"]
 permalink: /how-to/embedded-content/
 
@@ -10,9 +10,14 @@ header:
     overlay image: /assets/images/post-2.jpg  
     image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
-# map: This is where you put the embed code of the Google Map.
+
+sidebar:
+    nav: "categories"
+
 toc: true
 toc_label: "On this page"
+
+# map: This is where you put the embed code of the Google Map.
 ---
 
 ## Embedded Content
