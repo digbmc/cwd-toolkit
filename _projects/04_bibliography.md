@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "This is a post with a bibliography"
+title:  "Bibliography"
 category: ["how-to"]
 permalink: /how-to/bibliography/
 

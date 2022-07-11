@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "This is a post about formatting text with Markdown"
-category: ["other"]
+title:  "Test Post"
+category: ["other", "spotlight"]
 permalink: /other/test/
 
 header:

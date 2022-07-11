@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "This is a post about formatting text with Markdown"
+title:  "Formatting Text with Markdown"
 category: ["how-to"]
 permalink: /how-to/markdown/
 

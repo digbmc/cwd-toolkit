@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "All About Images"
-category: ["how-to"]
+title:  "Images"
+category: ["how-to", "spotlight"]
 permalink: /how-to/images/
 
 header:
