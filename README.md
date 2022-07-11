@@ -23,7 +23,7 @@ Everyone! Our toolkit is designed in such a way that people with no prior knowle
 
 ## Why use a Static Site? 
 
-I know you might be tempted to close all of your tabs and pay for wordpress or square space at this point, but I promise that if you stick with this resource, you’ll get a lot out of learning how to build your own sit with Jekyll, not to mention, it is free.  
+I know you might be tempted to close all of your tabs and pay for wordpress or square space at this point, but I promise that if you stick with this resource, you’ll get a lot out of learning how to build your own site with Jekyll, not to mention, it is free.  
 
 Website performance is a crucial factor when it comes to running websites. In this aspect, static sites are very fast by nature as they serve the same HTML without any dynamic rendering. Static sites are also relatively safer when it comes to security breaches as there is no database to breach and no server-side platform with unpatched vulnerabilities. Moreover, hosting static sites are very inexpensive and even free depending on an individual’s preferences. Static sites are also very flexible to work with as there is no limitation about building a site. On top of that, it is very easy to keep track of using version control systems like Git and Github. 
 
