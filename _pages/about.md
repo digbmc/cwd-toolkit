@@ -39,14 +39,14 @@ The CWD Toolkit was designed and developed by the Digital Scholarship Summer Fel
 
 The resources we used while building our template are: 
 
-- [Jekyll]() 
+- [Jekyll](https://jekyllrb.com/) 
 
-- GitHub
+- [GitHub](https://github.com/)
 
-- W3 School 
+- [W3 School](https://www.w3schools.com/)
 
-- Liquid 
+- [Liquid](https://blog.webjeda.com/amp/jekyll-liquid.html)
 
-- HTML5 UP 
+- [HTML5 UP](https://html5up.net/)
 
 *This “About” page of our template is inspired by Wax.* 
