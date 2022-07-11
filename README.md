@@ -31,6 +31,8 @@ Website performance is a crucial factor when it comes to running websites. In th
 
 The CWD Toolkit was designed and developed by the Digital Scholarship Summer Fellows at Bryn Mawr College, Arlowe Willingham, Rafiun Haque, Cameron Boucher, and Adrianna Morsey with oversight from Alice McGrath, Karina Gonzalez, Chris Boyland, and Stella Fritzell. To learn more about our program, click here. The project was developed by students who often use digital scholarship in their studies and understand the importance of web accessibility and resources for digital scholarship.  
 
+## Our template is based on the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) template available in the Jekyll site. This template was also inspired by [The Reactor Room.](https://ds-pages.swarthmore.edu/reactor-room/)
+
 ## Further resources: 
 
 The resources we used while building our template are: 
