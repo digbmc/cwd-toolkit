@@ -13,7 +13,7 @@ sidebar:
 
 include_categories:   
   - how-to
-  - other
+  - templates
 
 entries_layout: grid # Choose how to display posts. Options: grid, list.
 
