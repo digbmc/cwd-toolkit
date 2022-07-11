@@ -20,6 +20,9 @@
 
 .archive__item {
   position: relative;
+  padding: 5%;
+  padding-top: 10%;
+  text-align: center;
 
   a {
     position: relative;
@@ -49,6 +52,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: $header-font-family;
 
   a[rel="permalink"]::before {
     content: '';
