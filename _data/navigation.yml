@@ -20,3 +20,7 @@ categories:
         url: /how-to/embedded-content/
       - title: "Bibliography"
         url: /how-to/bibliography/
+  - title: Other
+    children:
+      - title: Test
+        url: /other/test/

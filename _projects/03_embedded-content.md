@@ -1,17 +1,23 @@
 ---
 layout: single
 # code: This is where you paste your embed code if you want it to get displayed at the bottom of the page.
-title:  "This is a post with embedded content"
-date:   2022-07-05 10:00:00 -0400
-category: "How-To"
+title:  "Embedded Content"
+category: ["how-to"]
+permalink: /how-to/embedded-content/
+
 header:
     teaser: /assets/images/default-4.jpg
     # image: /assets/images/home.jpg  # Putting the path to an image here will replace the header image.
     image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
-# map: This is where you put the embed code of the Google Map.
+
+sidebar:
+    nav: "categories"
+
 toc: true
 toc_label: "On this page"
+
+# map: This is where you put the embed code of the Google Map.
 ---
 
 ## Embedded Content

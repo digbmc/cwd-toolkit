@@ -4,7 +4,7 @@
 
 .archive {
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 
   @include breakpoint($large) {
     float: right;
@@ -20,6 +20,9 @@
 
 .archive__item {
   position: relative;
+  padding: 5%;
+  padding-top: 10%;
+  text-align: center;
 
   a {
     position: relative;
@@ -49,6 +52,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: $header-font-family;
 
   a[rel="permalink"]::before {
     content: '';
@@ -239,16 +243,17 @@
    ========================================================================== */
 .feature__wrapper {
   @include clearfix();
-  margin-bottom: 2em;
-/*  border-bottom: 1px solid $border-color; */
-  min-height: 12.5rem;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid $border-color;
+
   .archive__item-title {
     margin-bottom: 0;
     text-decoration: none;
   }
-  a .archive__item-title {
+  a {
     margin-bottom: 0;
-    text-decoration: none;
+    text-decoration: none !important;
     color:#fff;
   }
   a:hover .archive__item-title {
@@ -260,6 +265,7 @@
 
 .feature__item {
   position: relative;
+  margin-top: 1em;
   margin-bottom: 2em;
   padding-bottom: 2em;
   font-size: 1.125em;
@@ -474,3 +480,87 @@
 		display: inline-block;
 	}
 }
+
+
+/*
+   Spotlights
+   ========================================================================== */
+
+  .spotlight__wrapper {
+    @include clearfix();
+    margin-bottom: 1em;
+    border-bottom: 1px solid $border-color;
+
+    .archive__item-title {
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+    a {
+      margin-bottom: 0;
+      text-decoration: none !important;
+      color:#fff;
+    }
+    a:hover .archive__item-title {
+      margin-bottom: 0;
+      text-decoration: underline;
+      color:#fff;
+    }
+  
+  
+    .archive__item {
+      position: relative;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 10%;
+      text-align: center;
+      font-size: 1.125em;
+      min-height: 12.5rem;
+      border-radius: $border-radius;
+    }
+
+    .archive__item-title {
+      margin-top: 1em;
+    }
+
+  }
+
+    /* Place inside an archive layout */
+    
+    .archive {
+      .feature__wrapper {
+        .archive__item-title {
+          font-size: 1em;
+        }
+      }
+    
+      .spotlight__item,
+      .spotlight__item--left,
+      .spotlight__item--center,
+      .spotlight__item--right {
+        font-size: 1em;
+      }
+    }
+    
+    /*
+      Wide Pages
+      ========================================================================== */
+    
+      .wide {
+      .archive {
+        @include breakpoint($large) {
+          padding-right: 0;
+        }
+    
+        @include breakpoint($x-large) {
+          padding-right: 0;
+        }
+      }
+    }
+    
+    /* Place inside a single layout */
+    
+    .layout--single {
+      .feature__wrapper {
+        display: inline-block;
+      }
+    }

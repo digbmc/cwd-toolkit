@@ -516,12 +516,12 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .footnote {
-  color: mix(#fff, $gray, 25%);
+  color: $muted-text-color;
   text-decoration: none;
 }
 
 .footnotes {
-  color: mix(#fff, $gray, 25%);
+  color: $muted-text-color;
 
   ol,
   li,
@@ -532,7 +532,7 @@ body:hover .visually-hidden button {
 }
 
 a.reversefootnote {
-  color: $gray;
+  color: $muted-text-color;
   text-decoration: none;
 
   &:hover {
@@ -541,16 +541,24 @@ a.reversefootnote {
 }
 
 /*
-   Citations and Bibliography
+   Bibliography
    ========================================================================== */
 .citation {
-  color: mix(#fff, $gray, 25%);
+  color: $muted-text-color;
 }
   
 .bibliography {
-  color: mix(#fff, $gray, 25%);
-    margin-bottom: 0;
+  
+  ul,
+  li,
+  p {
+    color: $muted-text-color;
+    margin-bottom: 1rem;
     font-size: $type-size-6;
+    list-style: none;
+    padding-left: 1rem;
+    text-indent: -1rem;
+  }
 }
 
 /*

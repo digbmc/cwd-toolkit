@@ -11,7 +11,8 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme                  : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+minimal_mistakes_skin    : "academic" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -268,16 +269,6 @@ tag_archive:
 #     tag: /tags/:name/
 
 
-# Jekyll Scholar
-# - https://github.com/inukshuk/jekyll-scholar
-scholar:
-  style: modern-language-association
-  locale: en
-  source: ./_bibliography
-  bibliography: references.bib
-  cite_class: citation
-
-
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
@@ -288,7 +279,7 @@ compress_html:
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+
 
 # Defaults
 defaults:
