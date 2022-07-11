@@ -1,0 +1,56 @@
+.spotlight__wrapper {
+
+.h3-spotlight {
+  font-size: 1.75rem;
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
+  font-family: $header-font-family;
+  font-weight: bold;
+  float: right;
+  position: relative;
+  left: 0.5em;
+  opacity: 0;
+  font-size: 0.8em;
+  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+  -moz-transition: opacity 0.2s ease-in-out 0.1s;
+  -o-transition: opacity 0.2s ease-in-out 0.1s;
+  transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+.spotlight__item {
+
+    .background-image {
+      float: left;
+      max-width: 2em;
+    }
+    
+    .spotlight__item-body {
+      float: right;
+    }
+
+    .spotlight__item-title {
+      margin: 2px;
+      float: right;
+
+    }
+    .spotlight__item-teaser {
+        margin: 2px;
+        float: left;
+        width: 30px;
+        height: 150px;
+      }
+
+      .spotlight__item-excerpt {
+        margin-top: 0;
+        font-size: $type-size-9;
+      
+        & + p {
+          text-indent: 0;
+        }
+      
+        a {
+          position: relative;
+        }
+    }
+}
+}

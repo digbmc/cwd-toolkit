@@ -13,11 +13,11 @@
           {% if f.header.teaser %} style="background-image:url({{ f.header.teaser }})" 
           alt="{% if f.alt %}{{ f.header.alt }}{% endif %}"{% endif %}>
         <a href="{{ f_url }}">
-        <div class="archive__item">
+        <div class="spotlight">
   
-          <div class="archive__item-body">
+          <div class="spotlight__item-body">
             {% if f.title %}
-              <h3 class="archive__item-title">{{ f.title | truncatewords: 15 }}</h3>
+              <h3 class="spotlight__item-title">{{ f.title | truncatewords: 15 }}</h3>
             {% endif %}
           </div>
         </div>

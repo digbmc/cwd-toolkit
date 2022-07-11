@@ -451,43 +451,6 @@
   }
 }
 
-.spotlight__wrapper {
-  @include clearfix();
-  margin-bottom: 1rem;
-  max-width: 1rem;
-  min-height: 12.5rem;
-
-  .archive__item-title {
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  a .archive__item-title {
-    margin-bottom: 0;
-    text-decoration: none;
-    color:#fff;
-  }
-  a:hover .archive__item-title {
-    margin-bottom: 0;
-    text-decoration: underline;
-    color:#fff;
-  }
-
-  .archive__item-excerpt {
-    float: right;
-    position: relative;
-  }
-}
-
-.spotlight__item {
-    float: left;
-    position: relative;
-    
-    .archive__item-title {
-    padding-left: gutter(1 of 12);
-    padding-right: gutter(1 of 12);
-  }
-  }
-
 /*
    Wide Pages
    ========================================================================== */
