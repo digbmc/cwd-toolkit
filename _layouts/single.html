@@ -48,6 +48,17 @@ layout: default
         {% endif %}
         {{ content }}
         
+        {% if page.works-cited %}
+        <div class="bibliography">
+            <h2 id="bibliography">Bibliography</h2>
+            <ul>
+            {% for i in page.works-cited %}
+                <li>{{ i.item }}</li>
+            {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
    {% if page.code %} <div class="embed-responsive"> 
           {{page.code}}
         </div> {% endif %}
@@ -55,9 +66,6 @@ layout: default
         {% if page.map %} <div class="map-responsive"> 
           {{page.map}}
         </div> {% endif %}
-
-        {% if page.bibliography %}<div><h2 id="bibliography">Bibliography</h2>{% bibliography --cited %}</div>{% endif %}
-
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
