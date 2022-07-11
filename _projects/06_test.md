@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Test Post"
-category: ["other", "spotlight"]
+category: ["other"]
 permalink: /other/test/
 
 header:

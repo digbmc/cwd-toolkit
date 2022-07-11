@@ -6,7 +6,7 @@ author_profile: false # Setting this to true will display the site author inform
 header:
     overlay_image: /assets/images/home.jpg  # Putting the path to an image here will replace the header image.
     image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
-    caption: "Photo by Alex Block on [Unsplash](https://unsplash.com/@alexblock)" #Add a visible caption to your image.
+    caption: "[Photo by Alex Block on Unsplash](https://unsplash.com/@alexblock)" #Add a visible caption to your image or give credit to the photographer or source.
 
 sidebar:
     nav: "categories"
