@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Images"
+title:  "All About Images"
 category: ["how-to", "spotlight"]
 permalink: /how-to/images/
 
@@ -34,8 +34,6 @@ gallery:
     alt: "placeholder image 4"
     title: "Image 4 title caption"
 ---
-<!-- command + ?/ to create an HTML comment -->
-
 Want to learn more about putting in images into your website? You've come to the right place. 
 
 ## The Basics
