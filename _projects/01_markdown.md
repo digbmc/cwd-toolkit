@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "This is a post about formatting text with Markdown"
-category: ["other"]
-permalink: /other/test/
+title:  "Formatting Text with Markdown"
+category: ["how-to"]
+permalink: /how-to/markdown/
 
 header:
     teaser: /assets/images/default-2.jpg
@@ -12,7 +12,7 @@ header:
 
 sidebar:
     nav: "categories"
-    
+
 toc: true
 toc_label: "On this page"
 ---

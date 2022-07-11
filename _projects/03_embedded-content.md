@@ -1,7 +1,7 @@
 ---
 layout: single
 # code: This is where you paste your embed code if you want it to get displayed at the bottom of the page.
-title:  "This is a post with embedded content"
+title:  "Embedded Content"
 category: ["how-to"]
 permalink: /how-to/embedded-content/
 

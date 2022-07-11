@@ -1,15 +1,15 @@
 /* ==========================================================================
-   Academic skin
+   Parchment skin
    ========================================================================== */
 
 /* Colors */
-$background-color: #eae0d4 !default;
+$background-color: #e9dcbe !default;
 $text-color: #000000 !default;
-$muted-text-color: #555761 !default;
-$primary-color: #2d345b !default;
+$muted-text-color: #615c50 !default;
+$primary-color: #c3a766 !default;
 $border-color: darken($background-color, 20%) !default;
 $footer-background-color: darken($background-color, 20%) !default;
-$link-color: #2d345b !default;
+$link-color: darken($primary-color, 30%) !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
