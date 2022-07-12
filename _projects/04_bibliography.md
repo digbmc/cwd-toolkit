@@ -59,7 +59,7 @@ You can also add citations to blockquotes. Here is an example of a blockquote wi
 > 
 > "They go to America," murmured Lord Henry. [^2]
 
-NOTE: If you intend to use both footnotes and a bibliography on a post, it is recommended to end the post with a level-2 header called "Notes," like the one below, and list your footnotes beneath it.
+NOTE: If you intend to use both footnotes and a bibliography on a project, it is recommended to end the project with a level-2 header called "Notes," like the one below, and list your footnotes beneath it.
 
 ## Notes
 

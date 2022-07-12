@@ -19,11 +19,11 @@ toc_label: "On this page"
 
 [Markdown](https://www.markdownguide.org/) is a markup language that you can use to add formatting elements to your text content. Here you will find a quick guide on how to add certain elements and what they look like within this site template. You can also find the official Markdown Cheat Sheet [here](https://www.markdownguide.org/cheat-sheet/). 
 
-If you're learning Markdown for the first time, it may help to view this post as it appears in your web browser alongside its Markdown file in the site repository. The file is found under _posts and is called 2022-07-05-markdown.md.
+If you're learning Markdown for the first time, it may help to view this project as it appears in your web browser alongside its Markdown file in the site repository. The file is found under _projects and is called 03_markdown.md.
 
 ## Headings and Paragraphs
 
-Markdown lets you easily add headings to your text. The heading above is a level-2 heading (H2). If you're using this template, the highest heading level you should use in the content section of your posts is level 2 (H2). This is because, generally speaking, a webpage should have just one level-1 header (H1), and in this case the title specified in this post's front matter is used as the page's H1. It is also important to make sure you do not skip heading levels, as properly ordered headings improve accessibility and aid the function of screen readers. The use of properly ordered headings is also necessary for the site's built-in table of contents function to work.
+Markdown lets you easily add headings to your text. The heading above is a level-2 heading (H2). If you're using this template, the highest heading level you should use in the content section of your projects is level 2 (H2). This is because, generally, a webpage should have just one level-1 header (H1), and in this case the title specified in this project's front matter is used as the page's H1. It is also important to make sure you do not skip heading levels, as properly ordered headings improve accessibility and aid the function of screen readers. The use of properly ordered headings is also necessary for the site's built-in table of contents function to work.
 
 Paragraphs are separated by a blank line. 
 
@@ -97,7 +97,7 @@ You may want to include footnotes in your text content.[^1] You can add footnote
     > Footnotes can even contain block quotes like this one.
 ```
 
-Regardless of where in the code you put the text for the footnotes, they will display at the bottom of the page's content section. That said, it may help to keep all of the footnotes in one place at the end of your post's content.
+Regardless of where in the code you put the text for the footnotes, they will display at the bottom of the page's content section. That said, it may help to keep all of the footnotes in one place at the end of your project's content.
 
 [^1]: Footnotes look like this.
 

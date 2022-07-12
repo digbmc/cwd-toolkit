@@ -16,3 +16,6 @@ sidebar:
 toc: true
 toc_label: "On this page"
 ---
+
+## Creating A Project
+You will notice each project has its own teaser image. You can specify what that image is in the YAML front matter (the code at the top of the file between the two sets of `---`) on each project. If a project is made with no teaser image specified in its YAML front matter, then your site will display a default teaser image, which you can set easily. Just delete the 'teaser.jpg' file in the /assets/images folder and replace it with the file of an image of your choice. Make sure you rename your new image file 'teaser.jpg'.
