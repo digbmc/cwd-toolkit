@@ -10,7 +10,7 @@
   
       <a href="{{ f_url }}">
       <div class="archive__item{% if include.type %}--{{ include.type }}{% endif %}"
-          {% if f.header.teaser %} style="background-image:url({{ f.header.teaser }})" 
+          {% if f.header.teaser %} style="background-image:url({{ site.baseurl }}{{ f.header.teaser }})" 
           alt="{% if f.alt %}{{ f.header.alt }}{% endif %}"{% endif %}>
           <div class="archive__item-body">
             {% if f.title %}

@@ -6,8 +6,8 @@ permalink: /how-to/markdown/
 
 header:
     teaser: /assets/images/default-3.jpg
-    overlay_image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
-    image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
+    image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
+    image_description: "A close up of typewriter keys." # It is good practice to include an image desription as alt text.
     caption: "[Photo by Camille Orgel on Unsplash](https://unsplash.com/@cam_bam)" # Put a caption for your image here. It will display in the bottom right corner of the image.
     show_overlay_excerpt: false
 
@@ -18,7 +18,7 @@ toc: true
 toc_label: "On this page"
 ---
 
-[Markdown](https://www.markdownguide.org/) is a markup language that you can use to add formatting elements to your text content. Here you will find a quick guide on how to add certain elements and what they look like within this site template. You can also find the official Markdown Cheat Sheet [here](https://www.markdownguide.org/cheat-sheet/). 
+[Markdown](https://www.markdownguide.org/) is a markup language that you can use to add formatting elements to your text content. Here you will find a quick guide on how to add certain elements and what they look like within this site template. You can also take a look at the official [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/). 
 
 If you're learning Markdown for the first time, it may help to view this post as it appears in your web browser alongside its Markdown file in the site repository. The file is found under _posts and is called 2022-07-05-markdown.md.
 

@@ -1,15 +1,16 @@
 ---
 layout: single
-title:  "Project Title"
-category: ["templates"]
+title:  "Project Page Template" # Replace this with the title of your project.
+tagline: "Copy the code in this file and replace the content with your own." # Add your own tagline or leave this line empty.
+category: ["templates"] # Give the post the "spotlight" category if you want it to appear in a large box on the homepage, or give it a category that matches one in _data/content.yml .
 permalink: /templates/project/
 
 header:
-    teaser: /assets/images/default-3.jpg
-    overlay_image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
-    image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
-    caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
-    show_overlay_excerpt: false
+    teaser: /assets/images/default-3.jpg # The image you put here will appear as a teaser on the site's homepage.
+    image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
+    image_description: "Describe your header image here." # It is good practice to include an image desription as alt text.
+    caption: # Put a caption for your image here. It will display in the bottom right corner of the image. This is a good place to give credit to the photographer or source.
+    show_overlay_excerpt: true # Set this to false if you do not want a tagline or excerpt to appear in your page header.
 
 sidebar:
     nav: "categories"

@@ -236,8 +236,10 @@ body {
 
 .page__hero-image {
   width: 100%;
-  height: auto;
+  height: 17.5em;
   -ms-interpolation-mode: bicubic;
+  object-fit: cover;
+  object-position: center;
 }
 
 .page__hero-caption {
