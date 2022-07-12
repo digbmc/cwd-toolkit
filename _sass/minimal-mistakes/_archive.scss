@@ -254,7 +254,8 @@
     text-decoration: none;
   }
   a {
-    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
     text-decoration: none !important;
     color:#fff;
   }
@@ -264,19 +265,22 @@
     color:#fff;
     position: absolute;
   }
+
 }
 
 .feature__item {
   position: relative;
-  margin-top: 1.5em;
-  padding-top: 1.5em;
-  margin-bottom: 1.5em;
-  padding-bottom: 1.5em;
-  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-bottom: 0;
   font-size: 1.125em;
-  min-height: 12.5rem;
+  height: 12.5rem;
   border-radius: $border-radius;
   
+
+  .archive__item {
+    height: 100%;
+  }
 
   @include breakpoint($small) {
     float: left;
@@ -499,9 +503,12 @@
 
     .archive__item-title {
       margin-bottom: 0;
+      margin-top: 1em;
       text-decoration: none;
     }
     a {
+      height: 100%;
+      width: 100%;
       margin-bottom: 0;
       text-decoration: none !important;
       color:#fff;
@@ -512,9 +519,9 @@
       color:#fff;
     }
   
-  
     .archive__item {
       position: relative;
+      height: 100%;
       margin-top: 1em;
       margin-bottom: 1em;
       padding-top: 10%;
@@ -524,10 +531,10 @@
       border-radius: $border-radius;
     }
 
-    .archive__item-title {
-      margin-top: 1em;
+    .archive__item-body {
+      height: 100%;
+      width: 100%;
     }
-
   }
 
     /* Place inside an archive layout */
