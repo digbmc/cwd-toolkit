@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Test Post"
+title:  "Test Project"
 category: ["other"]
 permalink: /other/test/
 
