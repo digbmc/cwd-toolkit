@@ -1,6 +1,6 @@
 ---
 layout: category
-permalink: /feedback
+permalink: /feedback/
 title: Feedback
 header:
     # image: /assets/images/home.jpg  # Putting the path to an image here will replace the header image.
