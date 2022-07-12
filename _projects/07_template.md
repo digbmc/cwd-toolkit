@@ -2,6 +2,7 @@
 layout: single
 title:  "Project Page Template" # Replace this with the title of your project.
 tagline: "Copy the code in this file and replace the content with your own." # Add your own tagline or leave this line empty.
+author: "Your Name"
 category: ["templates"] # Give the post the "spotlight" category if you want it to appear in a large box on the homepage, or give it a category that matches one in _data/content.yml .
 permalink: /templates/project/
 
