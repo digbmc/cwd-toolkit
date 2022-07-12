@@ -20,6 +20,7 @@ entries_layout: grid # Choose how to display posts. Options: grid, list.
 classes: wide # Setting the class as wide will extend the page's content into the right margin.
 ---
 
+(We should talk a bit about the CWD Toolkit here.)
 You can replace the text in this section with your own text such as an introduction to your site.
 
 In each of the posts below you will find instructions on how to add certain features. All of these posts have the "How-To" category. You can safely delete them from your repository if you are done referencing them. 
