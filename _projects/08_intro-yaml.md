@@ -98,7 +98,7 @@ works-cited: # Put your sources in here as a list in alphabetical order, each it
 ---
 ```
 
-You can keep or add front matter items as you'd like, depending on your goal. For example, you can leave author blank if including author names is not a part of your project. 
+You can keep, add, or remove front matter items as you'd like, depending on your goal. For example, you can leave author blank if including author names is not a part of your project. 
 
 To add markdown, simply write in plain-text below the last dashed `---` line.
 
