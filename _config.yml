@@ -209,7 +209,7 @@ sass:
 
 
 # Outputting
-permalink: /{{ page.category }}/{{ page.title | slugify }}/
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -301,6 +301,7 @@ defaults:
       layout: single
       header:
         overlay_filter: "rgba(50,50,50,.5)"
+      permalink: /{{ page.category }}/{{ page.title | slugify }}/
       author_profile: false
       read_time: false
       comments: # true
