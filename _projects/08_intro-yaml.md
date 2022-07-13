@@ -18,7 +18,9 @@ Keep reading to learn how to get started.
 [Markdown](https://www.markdownguide.org/) is a plain-text markup language that makes it easy to format your text. Markdown converts what you write in words into HTML code that is readable by your computer. HTML is denoted as **.md** in your files. Because it is so useful for writing, Markdown is an integral element to creating pages, projects, and posts on this site.  
 
 
-[YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) (Yet Another Markdown Language or yml) is a specific category of markdown language that “serializes” or stores data. For example, it can store data on the date, title of a post, category, and so on. 
+[YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) (Yet Another Markdown Language or yml) is a specific category of markdown language that “serializes” or stores data. For example, it can store data on the date, title of a post, category, and so on. One important differentiation of YAML from markdown is that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation is "how YAML denotes nesting" :
+
+> Whitespace is part of YAML's formatting. Unless otherwise indicated, newlines indicate the end of a field. You structure a YAML document with indentation. The indentation level can be one or more spaces. The specification forbids tabs because tools treat them differently.
 
 In creating webpages, YAML files are denoted by a **.yml** tag, such as in the `_config.yml` file in this site’s code which stores all the basic data for the site, such as dates, titles, categories, and authors. 
 
