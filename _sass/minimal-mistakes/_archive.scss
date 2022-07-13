@@ -274,6 +274,7 @@
   font-size: 1.125em;
   height: 12.5rem;
   border-radius: $border-radius;
+  background-color: $primary-color;
 
   .archive__item {
     height: 100%;
@@ -526,6 +527,7 @@
       font-size: 1.125em;
       min-height: 12.5rem;
       border-radius: $border-radius;
+      background-color: $primary-color;
     }
 
     .archive__item-body {

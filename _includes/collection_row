@@ -10,12 +10,8 @@
   
   
       <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}"
-          {% if f.header.teaser %} 
-            style="background-image:url({{ site.baseurl }}{{ f.header.teaser }})" 
-            alt="{% if f.alt %}{{ f.header.alt }}{% endif %}"
-          {% else %}
-            style="background-color:blue;"
-          {% endif %}>
+          {% if f.header.teaser %} style="background-image:url({{ site.baseurl }}{{ f.header.teaser }})" 
+          alt="{% if f.alt %}{{ f.header.alt }}{% endif %}"{% endif %}>
         <a href="{{ f_url }}" class="full">
         <div class="archive__item">
           <div class="archive__item-body">
