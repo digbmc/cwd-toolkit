@@ -2,7 +2,6 @@
 layout: single
 title:  "Embedded Content"
 category: ["how-to"]
-permalink: /how-to/embedded-content/
 
 header:
     teaser: /assets/images/default-2.jpg
@@ -19,6 +18,8 @@ toc_label: "On this page"
 
 code: # This is where you paste your embed code if you want it to get displayed at the bottom of the page.
 map: # This is where you put the embed code of the Google Map.
+
+permalink: /how-to/embedded-content/
 ---
 
 Embedding refers to the integration of links, images, videos, gifs and other content into social media posts or other web media. For example, you are visiting a site such as Khan Academy and you see a youtube video there. The youtube video that you see on the website is an embedded content. 
