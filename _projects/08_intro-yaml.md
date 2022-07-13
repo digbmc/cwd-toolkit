@@ -96,10 +96,13 @@ toc_label: "On this page" # label at the top of your toc
 works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>. The first item is an example...
     - item: "Wilde, Oscar. <i>The Picture of Dorian Grey</i>. Ward Lock & Co., 1891, https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)."
 ---
+# h1 heading
+## h2 heading
+## h3 heading
+
+Add your markdown here. 
 ```
 
 You can keep, add, or remove front matter items as you'd like, depending on your goal. For example, you can leave author blank if including author names is not a part of your project. 
-
-To add markdown, simply write in plain-text below the last dashed `---` line.
 
 To learn more about formatting text in Markdown, click onto the next page... 
