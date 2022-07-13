@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "Bibliography"
 category: "how-to"
 permalink: /how-to/bibliography/
@@ -9,13 +8,6 @@ header:
     image: /assets/images/default-4.jpg  # Putting the path to an image here will replace the header image.
     image_description: "Books on an ornate wooden bookshelf." # It is good practice to include an image desription as alt text.
     caption: "[Photo by Mario Klassen on Unsplash](https://unsplash.com/@marioklassen)" # Put a caption for your image here. It will display in the bottom right corner of the image.
-    show_overlay_excerpt: false
-
-sidebar:
-    nav: "categories"
-
-toc: true;
-toc_label: "On this page"
 
 works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>
     - item: "Stoker, Bram. <i>Dracula</i>. Project Gutenberg, 1897, https://www.gutenberg.org/ebooks/345."

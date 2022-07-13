@@ -299,11 +299,14 @@ defaults:
       type: projects
     values:
       layout: single
-      header:
-        overlay_filter: "rgba(50,50,50,.5)"
-      permalink: /{{ page.category }}/{{ page.title | slugify }}/
+      show_overlay_excerpt: false
       author_profile: false
       read_time: false
       comments: # true
       share: false
       related: false
+      sidebar:
+         nav: "categories"
+      toc: true
+      toc_label: "On this page"
+      

@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "Embedded Content"
 category: "how-to"
 permalink: /how-to/embedded-content/
@@ -9,13 +8,6 @@ header:
     image: /assets/images/default-2.jpg  # Putting the path to an image here will replace the header image.
     image_description: "Many open books scattered and layered on top of each other in a beam of sunlight." # It is good practice to include an image desription as alt text.
     caption: [Photo by Rey Seven on Unsplash](https://unsplash.com/@rey_7)"# Put a caption for your image here. It will display in the bottom right corner of the image. # Put a caption for your image here. It will display in the bottom right corner of the image.
-    show_overlay_excerpt: false
-
-sidebar:
-    nav: "categories"
-
-toc: true
-toc_label: "On this page"
 
 code: # This is where you paste your embed code if you want it to get displayed at the bottom of the page.
 map: # This is where you put the embed code of the Google Map.
@@ -28,7 +20,7 @@ To embed any type of content, you would need an embed code first. An embed code 
 <a href="https://blog.hubspot.com/marketing/embed-social-media-posts-guide" style="color: purple; text-decoration: underline;">You can follow this detailed guide to get the embed code for any type of content.</a>
 
 ## Steps to embed content
-1. To embed any type of content, change the first line of the markdown file where you want to embed your content to layout: single. This will apply the single.html layout on your respective markdown file.
+1. To embed any type of content, change the first line of the markdown file where you want to embed your content to . This will apply the single.html layout on your respective markdown file.
 
 2. After getting the embed code, paste it beside code: **paste the embed code here** in the second line of the markdown file. If you don't see any "code:" in the first few lines of the file, you can type it yourself and paste the embed code beside it as shown previously.
 
