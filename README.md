@@ -68,6 +68,7 @@ After installing Ruby, open Ruby and run the command below to install Jekyll.
 If you decide to work locally, open the folder that you cloned from Github on Visual Studio Code and start coding. A major advantage for working locally is that you can preview the changes that you are making to your website almost instantly! 
 
 **Pulling, pushing and commiting on Github through Visual Studio Code**
+<br/>
 If you want to pull or push changes from another branch to yours, click the "Source Control" button on the left sidebar of Visual Studio Code. Then click on the three dotted lines on the top right of the panel that appears and you will see the pull and push options.
 
 Before you can commit the changes you made, you have to "Stage" your changes. You can do that by clcking on the changes individually and click on the "+" button to stage the changes. After that, you can write a commit message in the box at the top of the panel and click commit.
