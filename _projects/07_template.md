@@ -11,7 +11,7 @@ header:
     image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
     image_description: "Describe your header image here." # It is good practice to include an image desription as alt text.
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image. This is a good place to give credit to the photographer or source.
-    show_overlay_excerpt: true # Set this to false if you do not want a tagline or excerpt to appear in your page header.
+    show_overlay_excerpt: false
 
 sidebar:
     nav: "categories"
