@@ -1,6 +1,5 @@
 ---
 layout: single
-# code: This is where you paste your embed code if you want it to get displayed at the bottom of the page.
 title:  "Embedded Content"
 category: ["how-to"]
 permalink: /how-to/embedded-content/
@@ -18,7 +17,8 @@ sidebar:
 toc: true
 toc_label: "On this page"
 
-# map: This is where you put the embed code of the Google Map.
+code: # This is where you paste your embed code if you want it to get displayed at the bottom of the page.
+map: # This is where you put the embed code of the Google Map.
 ---
 
 Embedding refers to the integration of links, images, videos, gifs and other content into social media posts or other web media. For example, you are visiting a site such as Khan Academy and you see a youtube video there. The youtube video that you see on the website is an embedded content. 
@@ -50,6 +50,3 @@ To embed any type of content, you would need an embed code first. An embed code 
 ## How to edit layouts to embed a content
 * If you want to apply some other layout to your page but if the layout doesn't have the coding that allows you to embed content, you can just add the code shown below at any part of the file based on where you want the embedded content to show up. 
 > <img src="/assets/images/embedded-responsive.png" alt="This is how the embed code should look like more or less." style="height: 73px; width: 100%;"/>
-
-
-<br/>
