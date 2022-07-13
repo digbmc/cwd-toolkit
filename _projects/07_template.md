@@ -2,7 +2,7 @@
 layout: single
 title:  "Project Page Template" # Replace this with the title of your project.
 author: "Your Name"
-category: ["templates"] # Give the post the "spotlight" category if you want it to appear in a large box on the homepage, or give it a category that matches one in _data/content.yml .
+category: "templates" # Give the post the "spotlight" category if you want it to appear in a large box on the homepage, or give it a category that matches one in _data/content.yml .
 permalink: /templates/project/
 
 header:

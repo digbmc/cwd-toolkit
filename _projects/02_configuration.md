@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Configuration"
-category: ["spotlight"]
+category: "spotlight"
 permalink: /how-to/configuration/
 
 header:

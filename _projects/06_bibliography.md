@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Bibliography"
-category: ["how-to"]
+category: "how-to"
 permalink: /how-to/bibliography/
 
 header:

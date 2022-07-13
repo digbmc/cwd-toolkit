@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Installation"
-category: ["spotlight"]
+category: "spotlight"
 permalink: /how-to/installation/
 
 header:

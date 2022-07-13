@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "Embedded Content"
-category: ["how-to"]
-permalink: /how-to/embed/
+category: "how-to"
+permalink: /how-to/embedded-content/
 
 header:
     teaser: /assets/images/default-2.jpg

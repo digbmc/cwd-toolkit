@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Formatting Text with Markdown"
-category: ["how-to"]
+category: "how-to"
 permalink: /how-to/markdown/
 
 header:
