@@ -15,8 +15,6 @@ include_categories:
   - how-to
   - templates
 
-entries_layout: grid # Choose how to display posts. Options: grid, list.
-
 classes: wide # Setting the class as wide will extend the page's content into the right margin.
 ---
 
