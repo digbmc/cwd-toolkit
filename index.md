@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: home
 title: Site Title
 author_profile: false # Setting this to true will display the site author information specified in _config.yml in this page's sidebar.
 
