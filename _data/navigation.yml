@@ -1,7 +1,5 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Home"
     url: /
   - title: "About"
@@ -9,14 +7,15 @@ main:
   - title: "Feedback"
     url: /feedback/
 
+# sidebar links
 categories:
-  - title: 'Getting Started'
+  - title: "Getting Started"
     children:
       - title: "Installation"
         url: /how-to/installation/
       - title: "Configuration"
         url: /how-to/configuration/
-  - title: How-To
+  - title: "How-To"
     children:
       - title: "Formatting Text with Markdown"
         url: /how-to/markdown/
@@ -26,7 +25,7 @@ categories:
         url: /how-to/embedded-content/
       - title: "Bibliography"
         url: /how-to/bibliography/
-  - title: Templates
+  - title: "Templates"
     children:
       - title: Project Template
         url: /templates/project/
