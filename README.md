@@ -81,6 +81,6 @@ After running this command, find the line that has "Server address" and copy the
 ## Minimal Mistakes and Reactor Room
 Our template is based on a jekyll theme called [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/). This theme was built with the aim that individuals would use it for hosting their blog sites, personal sites, portfolio etc. The  programming languages that are used in this theme include HTML, SCSS, JavaScript and Ruby. 
 
-Our Critical Webdesign Template is also inspired by [The Reactor Room](https://ds-pages.swarthmore.edu/reactor-room/). This website is a modified version of the Minimal Mistakes theme.
+The Critical Webdesign Template is also inspired by [The Reactor Room](https://ds-pages.swarthmore.edu/reactor-room/). The Reactor Room's website is a modified version of the Minimal Mistakes theme.
 
 
