@@ -76,8 +76,6 @@ layout: default
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
-        {% include page__taxonomy.html %}
-        {% include page__date.html %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
@@ -85,9 +83,6 @@ layout: default
       {% include post_pagination.html %}
     </div>
 
-    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-      {% include comments.html %}
-    {% endif %}
   </article>
 
 </div>
