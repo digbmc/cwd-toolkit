@@ -1,7 +1,7 @@
 ---
-title:  "Creating files"
+title:  "Adding and Editing Content"
 category: "spotlight"
-permalink: /how-to/creating-files/
+permalink: /how-to/adding-content/
 
 header:
     teaser: /assets/images/default-3.jpg
