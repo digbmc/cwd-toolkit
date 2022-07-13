@@ -1,5 +1,6 @@
 ---
 title:  "Embedded Content"
+slug: embedded-content
 category: "how-to"
 permalink: /how-to/embedded-content/
 

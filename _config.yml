@@ -299,6 +299,7 @@ defaults:
       type: projects
     values:
       layout: single
+      permalink: /:collection/:title/
       show_overlay_excerpt: false
       author_profile: false
       read_time: false
