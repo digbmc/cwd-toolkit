@@ -1,6 +1,6 @@
 ---
 title:  "Creating files"
-category: "how-to"
+category: "spotlight"
 permalink: /how-to/creating-files/
 
 header:

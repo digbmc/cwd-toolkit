@@ -1,6 +1,6 @@
 ---
 title:  "Site Navigation"
-category: "how-to"
+category: "spotlight"
 permalink: /how-to/navigation/
 ---
 
