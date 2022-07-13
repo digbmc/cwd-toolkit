@@ -1,7 +1,7 @@
 ---
 title:  "Embedded Content"
-slug: embedded-content
 category: "how-to"
+permalink: /how-to/embedded-content/
 
 header:
     teaser: /assets/images/default-2.jpg
