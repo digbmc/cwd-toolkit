@@ -1,4 +1,4 @@
-#The Critical Web Design Template
+# The Critical Web Design Template
 
 ## Github, Jekyll and Visual Studio Code
 Github is an online, cloud-based code hosting platform that helps to track and manage changes in Git repositories while enabling multiple people to work on a project at the same time. An essential part when it comes to using Github is having Git installed. Git is a version control system that help individuals to manage and keep track of their source code history.
@@ -35,9 +35,11 @@ To finish, click “create pull request.”
 7. In order to merge the branches, select the “merge pull request” button and click “confirm merge”.
 
 **Forking a repository on GitHub**
+<br/>
 If you want to directly edit the code in Github, you can fork our repository and start working from there. Forking a repository is basically making a copy of the original repository that you want to work with and this allows you to experiment with the code without affecting the original repository. To fork our repository, open our repository and click on the "fork" button towards the top right part of the screen.
 
 **Cloning your repository and working locally**
+<br/>
 You directly edit the code by forking a repository on Github but the drawback is that you have to wait a while before you get to see new changes that you made to your website. Hence, a good alternative to get rid of this issue is to clone the repository and work locally using a code editor like Visual Studio Code.
 
 To clone our repository, follow the steps below:
