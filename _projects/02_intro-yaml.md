@@ -5,106 +5,89 @@ permalink: /how-to/adding-content/
 
 header:
     teaser: /assets/images/default-3.jpg
-    image_description: "A close up of typewriter keys." # It is good practice to include an image desription as alt text.
+    alt: "A close up of typewriter keys." # It is good practice to include an image desription as alt text.
     caption: "[Photo by Camille Orgel on Unsplash](https://unsplash.com/@cam_bam)" # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---
 
-It's great that you're here! In order to edit this webpage and make it your own, our site is set up to be controlled by files that combine two basic programming languages: YAML and Markdown. To add/edit pages or projects all you need to do is edit one of our existing markdown files or create your own. 
+In order to add and edit the content of your site, you will create and make changes to a number of Markdown files. These are files that end in the file extension .md, and they include index.md file as well as all of the files in _pages and _projects. Each of these files has two main sections: the front matter, which is written in YAML, and the content, which is written using Markdown. You can also include some HTML in these files, as Jekyll will convert them to HTML anyway when it builds the site.
 
-Keep reading to learn how to get started. 
+## What are YAML, Markdown, and HTML?
 
-## What are YAML and Markdown?
+### YAML
 
-[Markdown](https://www.markdownguide.org/) is a plain-text markup language that makes it easy to format your text. Markdown converts what you write in words into HTML code that is readable by your computer. HTML is denoted as **.md** in your files. Because it is so useful for writing, Markdown is an integral element to creating pages, projects, and posts on this site.  
-
-
-[YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) (Yet Another Markdown Language or yml) is a specific category of markdown language that “serializes” or stores data. For example, it can store data on the date, title of a post, category, and so on. One important differentiation of YAML from markdown is that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation denotes a new, nested line: 
+[YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) (Yet Another Markdown Language or yml) is a specific category of markdown language that “serializes” or stores data. For example, it can store data on the date, title of a post, category, and so on. It is important to note that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation denotes a new, nested line: 
 
 > *Whitespace is part of YAML's formatting. Unless otherwise indicated, newlines indicate the end of a field. You structure a YAML document with indentation. The indentation level can be one or more spaces. The specification forbids tabs because tools treat them differently.*
 
-In creating webpages, YAML files are denoted by a **.yml** tag, such as in the `_config.yml` file in this site’s code which stores all the basic data for the site, such as dates, titles, categories, and authors. 
+In addition to Markdown files, which contain your site's content, your site also has YAML files, which are denoted by a **.yml** file extension. One such file is the `_config.yml` file, which stores the configuration information that tells Jekyll how to build your site. 
 
-Here is an excerpt from our `_config.yml` file. It looks like this: 
+### Markdown
 
-```yaml
-theme                  : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "academic" 
+[Markdown](https://www.markdownguide.org/) is a plain-text markup language that makes it easy to format your text. Markdown converts what you write in words into HTML code that web browsers can read. Because it is so useful for writing, Markdown is an integral element to creating pages, projects, and posts on this site. This template has a guide on [Formatting Text with Markdown]({{ "/how-to/markdown/" | absolute_url }}), which you can check out later.
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Critical Web Design Toolkit"
+### HTML
+
+You do not need to know the ins and outs of HTML to use this site template, but it can help you edit some of the template's basic formats. Other articles in the How-To section of the template will show you how to do some things with HTML, like adding embedded content. If you want more information on HTML, check out the [W3 Schools resources on HTML](https://www.w3schools.com/html/).
+
+## Editing the Homepage
+
+You may use YAML, Markdown, and HTML together in your pages and projects. Let's take a look at the default index.md file, which Jekyll uses to build the site's homepages.
 ```
-
-As you can see, we chose to include information on the theme, skin, locale, and site title.
-
-Also, the information in the `_config.yml` file is not coded to update regularly, so you have to restart your program to see the changes made. 
-
-### Working together
-
-In your code, YAML and Markdown often work together in .md files. 
-
-They look like this:
-
-```markdown 
 ---
-layout: single
-title:  "Images"
-category: ["how-to", "spotlight"]
-permalink: /how-to/images/
-
-toc: true
-toc_label: "On this page"
-
----
-
-# A header title
-
-```
-
-Above, the YAML **front matter** is used to store data about this markdown page and communicate with the HTML and Liquid code. For example, the category section will store this page in both the "how-to" and "spotlight" categories and display them on the front page accordingly.   
-
-In this site, we use yml front matter at the top of every markdown file. It is always characterized by `---` to enclose the yml code and placed at the very top of the file.  
-
-## How to use front matter in .md files
-
-To create this site, data is stored and sorted for each markdown file using yml front matter. When creating a markdown (.md) file, you should *always* include a yml header, or else the program will not understand what to do with the file.  
-
-### Trying it yourself
-
-To create your own .md file, you can copy and past the following code into the top of your new .md file:
-
-```yaml
----
-layout: single
-title:  "Project Page Template" # Replace this with the title of your project.
-tagline: "Copy the code in this file and replace the content with your own." # Add your own tagline or leave this line empty.
-author: "Your Name"
-category: ["templates"] # Give the post the "spotlight" category if you want it to appear in a large box on the homepage, or give it a category that matches one in _data/content.yml .
-permalink: /templates/project/ # links to this page. Must be edited depending on page title.
+layout: home
+title: {{ site.title }}
+author_profile: false # Setting this to true will display the site author information specified in _config.yml in this page's left sidebar.
 
 header:
-    teaser: /assets/images/default-3.jpg # The image you put here will appear as a teaser on the site's homepage.
-    image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
-    image_description: "Describe your header image here." # It is good practice to include an image desription as alt text.
-    caption: # Put a caption for your image here. It will display in the bottom right corner of the image. This is a good place to give credit to the photographer or source.
-    show_overlay_excerpt: true # Set this to false if you do not want a tagline or excerpt to appear in your page header.
+    image: /assets/images/home.jpg  # Putting the path to an image here will add that image to this page's header.
+    alt: "A large library with tall bookshelves and marble busts." # Describe the header image here
+    caption: "[Photo by Alex Block on Unsplash](https://unsplash.com/@alexblock)" # Add a visible caption to your image or give credit to the photographer or source.
 
 sidebar:
     nav: "categories"
-    
-toc: true # toc stands for "table of contents," if turned to "true" it automatically generates a table of contents based on your markdown headings, either h1 #, h2 ##, or h3 ### 
-toc_label: "On this page" # label at the top of your toc
 
-works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>. The first item is an example...
-    - item: "Wilde, Oscar. <i>The Picture of Dorian Grey</i>. Ward Lock & Co., 1891, https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)."
+include_categories:   
+  - how-to
+  - templates
+
+classes: wide # Setting the class as wide will extend the page's content into the right margin.
 ---
-# h1 heading
-## h2 heading
-## h3 heading
 
-Add your markdown here. 
+You can replace the text in this section with your own text such as an introduction to your site.
+
+Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.
+
+{% comment %} "Spotlight" projects display as boxes that take up the full width of this content section. They are ideal for highlighting your website's most important projects or if you do not have so many projects that a gallery view would be necessary. Add projects to this section by giving them the 'spotlight' category. {% endcomment %}
+<div class="spotlight"> 
+{% assign spotlight_projects = site.projects | where: 'category', 'spotlight' %}
+{% include spotlight projects = spotlight_projects %}
+</div>
+
+{% comment %} The "collection_row" section displays a gallery of projects organized by category. You must specify which categories you would like to be displayed on your homepage in the front matter of this file under "include_categories", and the code below will loop through all of the projects, find the posts in each of the specified "include_categories", and display them in corresponding sections. {% endcomment %}
+{% for c in page.include_categories %}
+<div id="{{ c }}" class="pane">
+<h3>{{ site.data.content.display_categories[c] }}</h3>
+{% assign category_projects = site.projects | where: 'category', c  %}
+{% include collection_row projects = category_projects %} 
+</div>
+{% endfor %}
+
 ```
 
-You can keep, add, or remove front matter items as you'd like, depending on your goal. For example, you can leave author blank if including author names is not a part of your project. 
+Above, the YAML **front matter**, which is enclosed by triple dashes like this `---`, is used to store data about this Markdown file that tells Jekyll how to build it into the site. YAML front matter must be at the top of every Markdown file that you want to be built into your site, otherwise Jekyll will ignore it. 
 
-To learn more about formatting text in Markdown, click onto the next page... 
+The section after the enclosed YAML front matter is the file's content section, and the text content in it is written in Markdown (the text at the top of the section that looks like plain, readable text), but you will notice that this section also contains some Liquid (in the curly brackets) and some HTML. This code adds some unique features to the homepage that Markdown itself cannot support. The Markdown text at the top of the section can be safely edited, but the Liquid and HTML code at the bottom should not be changed.
+
+## Creating Your Own Pages and Projects
+
+About the difference of pages and projects
+
+### Pages
+
+About editing and creating pages
+
+### Projects
+
+A good way to start making your own projects is to copy the code of the project template. First, though, you should create a file in the _projects section and name it with the following format: 00_filename.md, where you can replace 'filename' with whatever name you choose. The two-digit number at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
+
+
