@@ -15,7 +15,7 @@ In order to add and edit the content of your site, you will create and make chan
 
 ### YAML
 
-[YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) (Yet Another Markdown Language or yml) is a specific category of markdown language that “serializes” or stores data. For example, it can store data on the date, title of a post, category, and so on. It is important to note that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation denotes a new, nested line: 
+[YAML](https://yaml.org/) (YAML Ain't Markup Language) is a human-readble data serialization language that can store data that tells Jekyll how to build your site. For example, it can be used to set the title, layout, and permalink of a page on your site. It is important to note that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation denotes a new, nested line: 
 
 > *Whitespace is part of YAML's formatting. Unless otherwise indicated, newlines indicate the end of a field. You structure a YAML document with indentation. The indentation level can be one or more spaces. The specification forbids tabs because tools treat them differently.*
 
