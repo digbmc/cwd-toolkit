@@ -1,15 +1,14 @@
 ---
 layout: single
 permalink: /about/
-title:
+title: About the Critical Web Design Toolkit
 header:
-    image: /assets/images/library-2.jpg  # Putting the path to an image here will replace the header image.
-    image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
+    image: /assets/images/home.jpg  # Putting the path to an image here will replace the header image.
+    alt: "Describe your image here" # It is good practice to include an image desription as alt text.
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
 toc: true
 toc_label: {{ page.title }}
 ---
-# What is the Critical Web Design Toolkit? 
 
 The Critical Web Design Toolkit Project focuses on building a static website for the community to use for various digital scholarship projects. The project also aims to provide user-friendly, informative documentation about the steps that need to be followed in order to be able to use the static site builder efficiently. The underlying reasons behind constructing a static website builder starts from stressing on the environmental consequences that occur due to energy consumption by websites to handling issues surrounding accessibility, digital divide and other social and moral implications of web development tools. Hopefully this toolkit inspires you to not only build your best project, but also encourages you to continue your learning journey in web design and development.  
 

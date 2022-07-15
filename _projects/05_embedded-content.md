@@ -1,24 +1,16 @@
 ---
-layout: single
-# code: This is where you paste your embed code if you want it to get displayed at the bottom of the page.
 title:  "Embedded Content"
-category: ["how-to"]
+category: "how-to"
 permalink: /how-to/embedded-content/
 
 header:
     teaser: /assets/images/default-2.jpg
-    overlay_image: /assets/images/default-2.jpg  # Putting the path to an image here will replace the header image.
-    image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
-    caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
-    show_overlay_excerpt: false
+    image: /assets/images/default-2.jpg  # Putting the path to an image here will replace the header image.
+    alt: "Many open books scattered and layered on top of each other in a beam of sunlight." # It is good practice to include an image desription as alt text.
+    caption: "[Photo by Rey Seven on Unsplash](https://unsplash.com/@rey_7)" # Put a caption for your image here. It will display in the bottom right corner of the image. # Put a caption for your image here. It will display in the bottom right corner of the image.
 
-sidebar:
-    nav: "categories"
-
-toc: true
-toc_label: "On this page"
-
-# map: This is where you put the embed code of the Google Map.
+code: # This is where you paste your embed code if you want it to get displayed at the bottom of the page.
+map: # This is where you put the embed code of the Google Map.
 ---
 
 Embedding refers to the integration of links, images, videos, gifs and other content into social media posts or other web media. For example, you are visiting a site such as Khan Academy and you see a youtube video there. The youtube video that you see on the website is an embedded content. 
@@ -28,7 +20,7 @@ To embed any type of content, you would need an embed code first. An embed code 
 <a href="https://blog.hubspot.com/marketing/embed-social-media-posts-guide" style="color: peach; text-decoration: underline;">You can follow this detailed guide to get the embed code for any type of content.</a>
 
 ## Steps to embed content
-1. To embed any type of content, change the first line of the markdown file where you want to embed your content to layout: single. This will apply the single.html layout on your respective markdown file.
+1. To embed any type of content, change the first line of the markdown file where you want to embed your content to . This will apply the single.html layout on your respective markdown file.
 
 2. After getting the embed code, paste it beside code: **paste the embed code here** in the second line of the markdown file. If you don't see any "code:" in the first few lines of the file, you can type it yourself and paste the embed code beside it as shown previously.
 
@@ -49,7 +41,4 @@ To embed any type of content, you would need an embed code first. An embed code 
 
 ## How to edit layouts to embed a content
 * If you want to apply some other layout to your page but if the layout doesn't have the coding that allows you to embed content, you can just add the code shown below at any part of the file based on where you want the embedded content to show up. 
-> <img src="/assets/images/embedded-responsive.png" alt="This is how the embed code should look like more or less." style="height: 73px; width: 100%;"/>
-
-
-<br/>
+> <img src="{{ site.baseurl }}/assets/images/embedded-responsive.png" alt="This is how the embed code should look like more or less." style="height: 73px; width: 100%;"/>

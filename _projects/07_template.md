@@ -1,21 +1,14 @@
 ---
-layout: single
-title:  "Project Title"
-category: ["templates"]
+title:  "Project Page Template" # Replace this with the title of your project.
+author: "Your Name"
+category: "templates" # Give the post the "spotlight" category if you want it to appear in a large box on the homepage, or give it a category that matches one in _data/content.yml .
 permalink: /templates/project/
 
 header:
-    teaser: /assets/images/default-3.jpg
-    overlay_image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
-    image_description: "Describe your image here" # It is good practice to include an image desription as alt text.
-    caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
-    show_overlay_excerpt: false
-
-sidebar:
-    nav: "categories"
-    
-toc: true
-toc_label: "On this page"
+    teaser: /assets/images/default-3.jpg # The image you put here will appear as a teaser on the site's homepage.
+    image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
+    alt: "Describe your header image here." # It is good practice to include an image desription as alt text.
+    caption: # Put a caption for your image here. It will display in the bottom right corner of the image. This is a good place to give credit to the photographer or source.
 
 works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>
     - item: "Wilde, Oscar. <i>The Picture of Dorian Grey</i>. Ward Lock & Co., 1891, https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)."
