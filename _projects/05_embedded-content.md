@@ -6,7 +6,7 @@ permalink: /how-to/embedded-content/
 header:
     teaser: /assets/images/default-2.jpg
     image: /assets/images/default-2.jpg  # Putting the path to an image here will replace the header image.
-    image_description: "Many open books scattered and layered on top of each other in a beam of sunlight." # It is good practice to include an image desription as alt text.
+    alt: "Many open books scattered and layered on top of each other in a beam of sunlight." # It is good practice to include an image desription as alt text.
     caption: "[Photo by Rey Seven on Unsplash](https://unsplash.com/@rey_7)" # Put a caption for your image here. It will display in the bottom right corner of the image. # Put a caption for your image here. It will display in the bottom right corner of the image.
 
 code: # This is where you paste your embed code if you want it to get displayed at the bottom of the page.

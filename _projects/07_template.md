@@ -7,7 +7,7 @@ permalink: /templates/project/
 header:
     teaser: /assets/images/default-3.jpg # The image you put here will appear as a teaser on the site's homepage.
     image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
-    image_description: "Describe your header image here." # It is good practice to include an image desription as alt text.
+    alt: "Describe your header image here." # It is good practice to include an image desription as alt text.
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image. This is a good place to give credit to the photographer or source.
 
 works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>

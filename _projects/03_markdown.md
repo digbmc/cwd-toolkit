@@ -6,7 +6,7 @@ permalink: /how-to/markdown/
 header:
     teaser: /assets/images/default-3.jpg
     image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
-    image_description: "A close up of typewriter keys." # It is good practice to include an image desription as alt text.
+    alt: "A close up of typewriter keys." # It is good practice to include an image desription as alt text.
     caption: "[Photo by Camille Orgel on Unsplash](https://unsplash.com/@cam_bam)" # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---
 
