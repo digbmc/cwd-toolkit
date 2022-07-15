@@ -85,8 +85,6 @@ In your site repository you will find two folders, one called `_pages` and one c
 
 ### Pages
 
-#### What are pages used for?
-
 We recommend the use of pages as a place to keep information that provides more general information about the whole website. Examples of pages that fit this description might be an About page or a Contact or Feedback page. Perhaps you want to include a page that lists all of the authors who contributed to the site. That, too, could be a good thing to include in `_pages`.
 
 #### Editing Existing Pages and Creating Your Own
@@ -94,8 +92,6 @@ We recommend the use of pages as a place to keep information that provides more 
 WRITE MORE HERE
 
 ### Projects
-
-#### What are projects used for?
 
 Projects are a bit different. You can think of projects like individual blog posts or articles. This is where the main content and collected work that you want to organize and showcase lives on your site.
 
