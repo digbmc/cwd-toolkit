@@ -28,7 +28,7 @@ Follow the steps below to set up github and get started on your first project!
 - Click on the “new repository” button on the upper right-hand corner of Github. 
 - Name your repository and check the box that states “initialize this repository with a README” .
 - Click on “create repository”.
-***If you want to work on a repository that already exists, read the section about "Forking a repository on GitHub".***
+    **If you want to work on a repository that already exists, read the section about "Forking a repository on GitHub".**
 
 4. When you’re working on a project, it helps to have multiple versions of a repository at the same time. You need to create a branch to be able to edit the multiple versions at once. Everytime you create a new branch, it will be a copy of the main branch where you can make your new changes.
 - To start a new branch, in your repository, click the dropdown that reads “branch: master”
@@ -46,9 +46,11 @@ Follow the steps below to set up github and get started on your first project!
 7. In order to merge the branches, select the “merge pull request” button and click “confirm merge”.
 
 **Forking a repository on GitHub**
+<br/>
 If you want to directly edit the code in Github, you can fork our repository and start working from there. Forking a repository is basically making a copy of the original repository that you want to work with and this allows you to experiment with the code without affecting the original repository. To fork our repository, open [our repository](https://github.com/digbmc/ds-project) and click on the "fork" button towards the top right part of the screen.
 
 **Cloning your repository and working locally**
+<br/>
 You can directly edit the code by forking a repository on Github but the drawback is that you have to wait a while before you get to see new changes that you made to your website. Hence, a good alternative to get rid of this issue is to clone the repository and work locally using a code editor like Visual Studio Code.
 
 To clone our repository, follow the steps below:
@@ -77,6 +79,7 @@ After installing Ruby, open Ruby and run the command below to install Jekyll.
 If you decide to work locally, open the folder that you cloned from Github on Visual Studio Code and start coding. A major advantage for working locally is that you can preview the changes that you are making to your website almost instantly! 
 
 **Pulling, pushing and commiting on Github through Visual Studio Code**
+<br/>
 If you want to pull or push changes from another branch to yours, click the "Source Control" button on the left sidebar of Visual Studio Code. Then click on the three dotted lines at the top right of the panel that appears and you will see the pull and push options.
 
 Before you can commit the changes you made, you have to "Stage" your changes. You can do that by clcking on the changes individually and click on the "+" button to stage the changes. After that, you can write a commit message inside the box at the top of the panel and click commit.
