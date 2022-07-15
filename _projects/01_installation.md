@@ -10,7 +10,7 @@ header:
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---
 
-## Overview of Github, Jekyll and Visual Studio Code
+## Github, Jekyll and Visual Studio Code
 Github is an online, cloud-based code hosting platform that helps to track and manage changes in Git repositories while enabling multiple people to work on a project at the same time. An essential part when it comes to using Github is having Git installed. Git is a version control system that help individuals to manage and keep track of their source code history.
 
 Jekyll is a static site generator where it takes Markdown and HTML files and builds a static website based on the user’s preferred layouts. It has built-in support for Github for which it is a very useful tool when it comes to simplified site building.
