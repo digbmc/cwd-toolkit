@@ -18,7 +18,7 @@ toc_label: "On this page"
 
 ---
 
-Customizing the website's overall appearance, also known as its "skin" in Jekyll, is made simple using CSS. In the code for this project, you will find the skins located in the _sass folder. 
+Customizing the website's overall appearance, also known as its "skin," is made simple using CSS. In the code for this project, you will find the skins located in the _sass folder. 
 
 ```
 .
