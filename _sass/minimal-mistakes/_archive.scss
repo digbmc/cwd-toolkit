@@ -278,6 +278,8 @@
 
   .archive__item {
     height: 100%;
+    padding: 0;
+    vertical-align: middle;
   }
 
   @include breakpoint($small) {
@@ -522,7 +524,8 @@
       height: 100%;
       margin-top: 1em;
       margin-bottom: 1em;
-      padding-top: 10%;
+      padding: 0;
+      vertical-align: middle;
       text-align: center;
       font-size: 1.125em;
       min-height: 12.5rem;
