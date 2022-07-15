@@ -32,7 +32,7 @@ You do not need to know the ins and outs of HTML to use this site template, but 
 ## Editing the Homepage
 
 You may use YAML, Markdown, and HTML together in your pages and projects. Let's take a look at the default index.md file, which Jekyll uses to build the site's homepages.
-```
+```markdown
 ---
 layout: home
 title: {{ site.title }}
