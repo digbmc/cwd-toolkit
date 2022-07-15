@@ -249,7 +249,7 @@
   border-bottom: 1px solid $border-color;
 
   .archive__item-title {
-    margin-bottom: 0;
+    margin: 0;
     text-decoration: none;
   }
   a {
@@ -274,6 +274,7 @@
   font-size: 1.125em;
   height: 12.5rem;
   border-radius: $border-radius;
+  background-color: $primary-color;
 
   .archive__item {
     height: 100%;
@@ -308,6 +309,7 @@
   .archive__item-body {
     padding-left: gutter(1 of 12);
     padding-right: gutter(1 of 12);
+    vertical-align: middle;
   }
 
   a.btn::before {
@@ -499,8 +501,7 @@
     border-bottom: 1px solid $border-color;
 
     .archive__item-title {
-      margin-bottom: 0;
-      margin-top: 1em;
+      margin: 0;
       text-decoration: none;
     }
     a {
@@ -526,11 +527,13 @@
       font-size: 1.125em;
       min-height: 12.5rem;
       border-radius: $border-radius;
+      background-color: $primary-color;
     }
 
     .archive__item-body {
       height: 100%;
       width: 100%;
+      vertical-align: middle;
     }
   }
 

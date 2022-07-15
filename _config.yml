@@ -6,26 +6,22 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-theme                  : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "academic" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin    : "academic" # Minimal Mistakes: "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"; CWDT: "academic"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Critical Web Design Toolkit"
+title                    : "Critical Web Design Toolkit" # the title of your site
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Digital Scholarship @ Bryn Mawr College"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "Digital Scholarship @ Bryn Mawr College" # your name or organization
+description              : # a short description of your site
+url                      : https://digbmc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : /ds-project # the subpath of your site, e.g. "/blog"
+repository               : digbmc/ds-project # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/teaser.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "DS Project" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -299,10 +295,14 @@ defaults:
       type: projects
     values:
       layout: single
-      header:
-        overlay_filter: "rgba(50,50,50,.5)"
+      show_overlay_excerpt: false
       author_profile: false
       read_time: false
       comments: # true
       share: false
       related: false
+      sidebar:
+         nav: "categories"
+      toc: true
+      toc_label: "On this page"
+      
