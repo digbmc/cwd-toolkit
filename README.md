@@ -1,5 +1,13 @@
 # The Critical Web Design Template
 
+## What is the Critical Web Design Toolkit? 
+The Critical Web Design Toolkit Project focuses on building a static website for the community to use for various digital scholarship projects. The project also aims to provide user-friendly, informative documentation about the steps that need to be followed in order to be able to use the static site builder efficiently. The underlying reasons behind constructing a static website builder starts from stressing on the environmental consequences that occur due to energy consumption by websites to handling issues surrounding accessibility, digital divide and other social and moral implications of web development tools. Hopefully this toolkit inspires you to not only build your best project, but also encourages you to continue your learning journey in web design and development.  
+
+## Why use a Static Site? 
+We know you might be tempted to close all of your tabs and pay for wordpress or square space at this point, but wepromise that if you stick with this resource, you’ll get a lot out of learning how to build your own site with Jekyll, not to mention, it is free.  
+
+Website performance is a crucial factor when it comes to running websites. In this aspect, static sites are very fast by nature as they serve the same HTML without any dynamic rendering. Static sites are also relatively safer when it comes to security breaches as there is no database to breach and no server-side platform with unpatched vulnerabilities. Moreover, hosting static sites are very inexpensive and even free depending on an individual’s preferences. Static sites are also very flexible to work with as there is no limitation about building a site. On top of that, it is very easy to keep track of using version control systems like Git and Github. 
+
 ## Github, Jekyll and Visual Studio Code
 Github is an online, cloud-based code hosting platform that helps to track and manage changes in Git repositories while enabling multiple people to work on a project at the same time. An essential part when it comes to using Github is having Git installed. Git is a version control system that help individuals to manage and keep track of their source code history.
 
@@ -35,11 +43,9 @@ To finish, click “create pull request.”
 7. In order to merge the branches, select the “merge pull request” button and click “confirm merge”.
 
 **Forking a repository on GitHub**
-<br/>
 If you want to directly edit the code in Github, you can fork our repository and start working from there. Forking a repository is basically making a copy of the original repository that you want to work with and this allows you to experiment with the code without affecting the original repository. To fork our repository, open our repository and click on the "fork" button towards the top right part of the screen.
 
 **Cloning your repository and working locally**
-<br/>
 You directly edit the code by forking a repository on Github but the drawback is that you have to wait a while before you get to see new changes that you made to your website. Hence, a good alternative to get rid of this issue is to clone the repository and work locally using a code editor like Visual Studio Code.
 
 To clone our repository, follow the steps below:
@@ -68,7 +74,6 @@ After installing Ruby, open Ruby and run the command below to install Jekyll.
 If you decide to work locally, open the folder that you cloned from Github on Visual Studio Code and start coding. A major advantage for working locally is that you can preview the changes that you are making to your website almost instantly! 
 
 **Pulling, pushing and commiting on Github through Visual Studio Code**
-<br/>
 If you want to pull or push changes from another branch to yours, click the "Source Control" button on the left sidebar of Visual Studio Code. Then click on the three dotted lines on the top right of the panel that appears and you will see the pull and push options.
 
 Before you can commit the changes you made, you have to "Stage" your changes. You can do that by clcking on the changes individually and click on the "+" button to stage the changes. After that, you can write a commit message in the box at the top of the panel and click commit.
@@ -82,6 +87,18 @@ After running this command, find the line that has "Server address" and copy the
 ## Minimal Mistakes and Reactor Room
 Our template is based on a jekyll theme called [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/). This theme was built with the aim that individuals would use it for hosting their blog sites, personal sites, portfolio etc. The  programming languages that are used in this theme include HTML, SCSS, JavaScript and Ruby. 
 
-The Critical Webdesign Template is also inspired by [The Reactor Room](https://ds-pages.swarthmore.edu/reactor-room/). The Reactor Room's website is a modified version of the Minimal Mistakes theme.
+Our Critical Webdesign Template is also inspired by [The Reactor Room](https://ds-pages.swarthmore.edu/reactor-room/). This website is a modified version of the Minimal Mistakes theme.
 
+## Further resources: 
+
+Some of the resources we used while building our template are: 
+
+- [W3 School](https://www.w3schools.com/)
+
+- [Liquid](https://blog.webjeda.com/amp/jekyll-liquid.html)
+
+- [HTML5 UP](https://html5up.net/)
+
+## Who are the creators?  
+The CWD Toolkit was designed and developed by the Digital Scholarship Summer Fellows at Bryn Mawr College, Arlowe Willingham, Rafiun Haque, Cameron Boucher, and Adrianna Morsey with oversight from Alice McGrath, Karina Gonzalez, Chris Boyland, and Stella Fritzell. To learn more about our program, click here. The project was developed by students who often use digital scholarship in their studies and understand the importance of web accessibility and resources for digital scholarship.  
 
