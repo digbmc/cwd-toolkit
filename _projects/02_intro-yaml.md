@@ -57,6 +57,7 @@ You can replace the text in this section with your own text such as an introduct
 
 Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.
 
+{% raw %}
 {% comment %} "Spotlight" projects display as boxes that take up the full width of this content section. They are ideal for highlighting your website's most important projects or if you do not have so many projects that a gallery view would be necessary. Add projects to this section by giving them the 'spotlight' category. {% endcomment %}
 <div class="spotlight"> 
 {% assign spotlight_projects = site.projects | where: 'category', 'spotlight' %}
@@ -71,7 +72,7 @@ Below you will find instructions on how to install and configure your site as we
 {% include collection_row projects = category_projects %} 
 </div>
 {% endfor %}
-
+{% endraw %}
 ```
 
 Above, the YAML **front matter**, which is enclosed by triple dashes like this `---`, is used to store data about this Markdown file that tells Jekyll how to build it into the site. YAML front matter must be at the top of every Markdown file that you want to be built into your site, otherwise Jekyll will ignore it. 
