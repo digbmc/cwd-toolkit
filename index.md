@@ -1,6 +1,6 @@
 ---
 layout: home
-title: {{ site.title }}
+title: Critical Web Design Toolkit
 author_profile: false # Setting this to true will display the site author information specified in _config.yml in this page's left sidebar.
 
 header:
