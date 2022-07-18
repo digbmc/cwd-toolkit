@@ -42,7 +42,9 @@ At this point, you might have added a project or two, and want to start adding s
 
 In the code, it looks like this:
 ```markdown
+{% raw %}
 ![example image description]({{ "/assets/images/default-1.jpg" | relative_url }})
+{% raw %}
 ```
 
 Here is the outcome:
