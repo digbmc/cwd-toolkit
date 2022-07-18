@@ -185,7 +185,7 @@ Excluding the layout command from the liquid code would revert to the three-colu
 
 ## Image Compression 
 
-Image compression is code that reduces an image’s size in bytes. There are many different codes that have  
+**Image compression** uses code to reduce an image’s size in bytes. 
 
 One of the easiest ways to improve the speed and sustainability of a site is through images. Images and media are heavy and take up a lot of space and loading time on websites. The longer a website takes to load, the more carbon emissions are produced. To address our website’s carbon footprint, all our images are compressed to be smaller than 200 kilobytes (KB).  
 
