@@ -197,19 +197,19 @@ To compress images, you can use an online compression tool of your choice. These
 
 Here are some sites that compress files for free: 
 
-Image compression tool: https://squoosh.app/ 
+- Image compression tool: https://squoosh.app/ 
 
-Dithering tool: https://ditherit.com/ 
+- Dithering tool: https://ditherit.com/ 
 
-Lossless compression tool: https://tinypng.com/ 
+- Compression tool (png): https://tinypng.com/ 
 
 General rules of thumb: 
 
-Only include images and media that are necessary 
+- Only include images and media that are necessary 
 
-When including images, compress them. 100 KB or fewer is generally a good size (especially for decorative images); however, images may need to be larger if showing intricate details, such as 500 kb.  
+- When including images, compress them. 100 KB or fewer is generally a good size (especially for decorative images); however, images may need to be larger if showing intricate details, such as 500 kb.  
 
-Anything more than 1 MB probably too large 
+- Anything more than 1 MB probably too large 
 
 ## Going Further
 
