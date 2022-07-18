@@ -7,7 +7,7 @@
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "academic" # Minimal Mistakes: "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"; CWDT: "academic"
+skin    : "academic" # Minimal Mistakes: "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"; CWDT: "academic"
 
 # Site Settings
 locale                   : "en-US"
