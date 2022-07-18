@@ -29,6 +29,8 @@ categories:
         url: /how-to/embedded-content/
       - title: "Bibliography"
         url: /how-to/bibliography/
+      - title: "Customizing Skins"
+        url: /how-to/custom-skins/
   - title: "Templates"
     children:
       - title: Project Template

@@ -74,6 +74,21 @@ In the code, it looks like this:
 - Yet another list item
 ```
 
+## Links
+
+To add links in Markdown, enclose the visible text of the link in square brackets `[]` and the permalink or url of the link's destination in parentheses `()`. Together, it looks like this: `[linked text](url)`. Here are a few different ways you can use links in your webpages:
+```markdown
+{% raw %}
+- This sentence links to [another website](https://github.com/digbmc/ds-project).
+- This sentence contains a link to the ["Links" section of this page](#links).
+- This sentence contains a link to the [Projects]({{ "/how-to/adding-content/#projects" | absolute_url }}) section on this site's [Adding Content]({{ "/how-to/adding-content/" | absolute_url }}) page.
+{% endraw %}
+```
+And here is how each of the above sentences is rendered on the webpage:
+- This sentence links to [another website](https://github.com/digbmc/ds-project).
+- This sentence contains a link to the ["Links" section of this page](#links).
+- This sentence contains a link to the [Projects]({{ "/how-to/adding-content/#projects" | absolute_url }}) section on this site's [Adding Content]({{ "/how-to/adding-content/" | absolute_url }}) page.
+
 ## Footnotes
 
 You may want to include footnotes in your text content.[^1] You can add footnotes to your text using Markdown.[^2] 
