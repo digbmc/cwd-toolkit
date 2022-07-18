@@ -189,7 +189,7 @@ Excluding the layout command from the liquid code would revert to the three-colu
 
 One of the easiest ways to improve the speed and sustainability of a site is through images. Images and media are heavy and take up a lot of space and loading time on websites. The longer a website takes to load, the more carbon emissions are produced. To address our website’s carbon footprint, all our images are compressed to be smaller than 200 kilobytes (KB).  
 
-The smaller the images, the faster a site will load, and the more sustainable it will be. These adjustments will create a better overall experience for users of a given site. To read more about image compression and sustainability, click here. 
+The smaller the images, the faster a site will load, and the more sustainable it will be. These adjustments will create a better overall experience for users of a given site. To read more about image compression and sustainability, click [here](https://www.pixeledeggs.com/sustainable-websites-tip-1-use-images-efficiently/). 
 
 To compress images, you can use an online compression tool of your choice. These tools use code to reduce the file size.  
 
