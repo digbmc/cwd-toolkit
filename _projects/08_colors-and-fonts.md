@@ -2,7 +2,7 @@
 layout: single
 title:  "Colors and Fonts"
 category: ["how-to"]
-permalink: /how-to/custom-skins/
+permalink: /how-to/colors-and-fonts/
 
 header:
     teaser: /assets/images/default-4.jpg
