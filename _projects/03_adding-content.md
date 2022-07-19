@@ -85,38 +85,13 @@ In your site repository you will find two folders, one called `_pages` and one c
 
 ### Pages
 
-We recommend the use of pages as a place to keep information that provides more general information about the whole website. Creating pages will add a new site page to the top navigation bar or "masthead navigation" of the site. Examples of pages that fit this description might be an About page or a Contact or Feedback page. Perhaps you want to include a page that lists all of the authors who contributed to the site. That, too, could be a good thing to include in `_pages`.
-
-![An example of our site's masthead navigation]({{ "/assets/images/masthead.jpg" | relative_url }})
-<figcaption>An example of our site's masthead navigation</figcaption>
+We recommend the use of pages as a place to keep information that provides more general information about the whole website. Examples of pages that fit this description might be an About page or a Contact or Feedback page. Perhaps you want to include a page that lists all of the authors who contributed to the site. That, too, could be a good thing to include in `_pages`.
 
 #### Editing Existing Pages and Creating Your Own
 
-To add a new page, there are two steps: 
+You may want to keep the existing `about.md` file and edit the YAML front matter and content section to be about your site instead. Feel free, also, to delete existing pages.
 
-1. Add the title and permalink in the navigation.yml file 
-
-2. Create a new markdown (.md) file in the folder `_pages` with the corresponding permalink in the front matter 
-
-To start, first go to the `_data` folder and then open the `navigation.yml` file.  
-
-Under `# main links`, write a new permalink for the page that you’d like to add. For example, if you wanted to add a new header page called “Authors,” you would need to add a link in the navigation file that looks like this: 
-
-```yaml
-
-# main links
-main:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Feedback"
-    url: /feedback/
-  - title: "Authors" # added the "authors" page
-    url: /authors/
-```
- 
-Next, create a new markdown (.md) file in the folder `_pages`. In your new markdown file, you can copy and paste the front matter from this example or from the `about.md` page to get started.  To continue our example, I would create a new markdown file called `authors.md` with the following front matter: 
+To create a new page, create a new Markdown (.md) file in the  `_pages` folder. In your new markdown file, you can copy and paste the front matter from the following example of an "Authors" page or from the code of the existing `about.md` page to get started. To create an "Authors" page you would create a new markdown file called `authors.md` with the following front matter: 
 
 ```yaml
 ---
@@ -132,7 +107,7 @@ toc_label: {{ page.title }} #label of toc is set to be the page's title
 ---
 ```
 
-All you need to do now is add some content according to markdown guidelines and you are good to go.  
+Then, once you have configured the YAML front matter to your liking, you can add text formatted with Markdown to the content section of the file.  
 
 ### Projects
 
@@ -144,4 +119,4 @@ Looking at this site, our main content is a series of instructional written mate
 
 A good way to start making your own projects is to copy the code of the project template. First, though, you should create a file in the _projects section and name it with the following format: 00_filename.md, where you can replace 'filename' with whatever name you choose. The two-digit number at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
 
-WRITE MORE HERE
+WE WILL WRITE MORE HERE
