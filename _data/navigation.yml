@@ -15,10 +15,10 @@ categories:
         url: /how-to/installation/
       - title: "Configuration"
         url: /how-to/configuration/
-      - title: "Navigation"
-        url: /how-to/navigation/
       - title: "Adding Content"
         url: /how-to/adding-content/
+      - title: "Navigation"
+        url: /how-to/navigation/
   - title: "How-To"
     children:
       - title: "Formatting Text with Markdown"
