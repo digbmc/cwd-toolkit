@@ -4,6 +4,8 @@ category: "spotlight"
 permalink: /how-to/installation/
 ---
 
+![An illustration of the workflow for using the site template]({{ "/assets/images/workflow.jpg" | relative_url }})
+
 ## Github, Jekyll and Visual Studio Code
 Github is an online, cloud-based code hosting platform that helps to track and manage changes in Git repositories while enabling multiple people to work on a project at the same time. An essential part when it comes to using Github is having Git installed. Git is a version control system that help individuals to manage and keep track of their source code history.
 
