@@ -6,12 +6,38 @@ permalink: /how-to/installation/
 
 ![An illustration of the workflow for using the site template]({{ "/assets/images/workflow.jpg" | relative_url }})
 
-## Github, Jekyll and Visual Studio Code
-Github is an online, cloud-based code hosting platform that helps to track and manage changes in Git repositories while enabling multiple people to work on a project at the same time. An essential part when it comes to using Github is having Git installed. Git is a version control system that help individuals to manage and keep track of their source code history.
+## Get started with GitHub
 
-Jekyll is a static site generator where it takes Markdown and HTML files and builds a static website based on the user’s preferred layouts. It has built-in support for Github for which it is a very useful tool when it comes to simplified site building.
+(Explanation that the site is a Jekyll site and what that means. Intro to Git Hub Pages, which will build and deploy the site.)
 
-Visual Studio Code is a code editing software which is used by individuals to edit the source code of a project or write new code using different programming languages such as HTML, CSS, JavaScript, etc. 
+GitHub is an online, cloud-based code hosting platform that helps to track and manage changes in code repositories while enabling multiple people to work on a project at the same time. GitHub uses Git, a version control system that help individuals to manage and keep track of their source code history.
+
+Jekyll is a static site generator where it takes Markdown and HTML files and builds a static website based on the user’s preferred layouts. It has built-in support for Github Pages, making it a very useful tool for building websites. 
+
+
+## Recommended
+
+### Editing Code
+
+#### In GitHub
+
+#### In VS Code (*Recommended*)
+
+Visual Studio Code is a free, open-source code editor that makes it easy to navigate around repositories and write and edit code.
+It also has a helpful extension for working with GitHub, which we recommend using.
+
+[Download VS Code](https://code.visualstudio.com/)
+[Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
+
+## Advanced
+
+(code editor like VS Code required)
+
+### Installing Ruby, Jekyll, and a Ruby version manager
+
+### Editing and previewing workflow
+
+-----------------
 
 ## Setting up Github
 Follow the steps below to set up github and get started on your first project!
