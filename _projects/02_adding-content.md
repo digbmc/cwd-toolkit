@@ -85,7 +85,10 @@ In your site repository you will find two folders, one called `_pages` and one c
 
 ### Pages
 
-We recommend the use of pages as a place to keep information that provides more general information about the whole website. Examples of pages that fit this description might be an About page or a Contact or Feedback page. Perhaps you want to include a page that lists all of the authors who contributed to the site. That, too, could be a good thing to include in `_pages`.
+We recommend the use of pages as a place to keep information that provides more general information about the whole website. Creating pages will add a new site page to the top navigation bar or "masthead navigation" of the site. Examples of pages that fit this description might be an About page or a Contact or Feedback page. Perhaps you want to include a page that lists all of the authors who contributed to the site. That, too, could be a good thing to include in `_pages`.
+
+![An example of our site's masthead navigation]({{ "/assets/images/masthead.jpg" | relative_url }})
+<figcaption>An example of our site's masthead navigation</figcaption>
 
 #### Editing Existing Pages and Creating Your Own
 
