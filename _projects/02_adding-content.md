@@ -85,11 +85,54 @@ In your site repository you will find two folders, one called `_pages` and one c
 
 ### Pages
 
-We recommend the use of pages as a place to keep information that provides more general information about the whole website. Examples of pages that fit this description might be an About page or a Contact or Feedback page. Perhaps you want to include a page that lists all of the authors who contributed to the site. That, too, could be a good thing to include in `_pages`.
+We recommend the use of pages as a place to keep information that provides more general information about the whole website. Creating pages will add a new site page to the top navigation bar or "masthead navigation" of the site. Examples of pages that fit this description might be an About page or a Contact or Feedback page. Perhaps you want to include a page that lists all of the authors who contributed to the site. That, too, could be a good thing to include in `_pages`.
+
+![An example of our site's masthead navigation]({{ "/assets/images/masthead.jpg" | relative_url }})
+<figcaption>An example of our site's masthead navigation</figcaption>
 
 #### Editing Existing Pages and Creating Your Own
 
-WRITE MORE HERE
+To add a new page, there are two steps: 
+
+1. Add the title and permalink in the navigation.yml file 
+
+2. Create a new markdown (.md) file in the folder `_pages` with the corresponding permalink in the front matter 
+
+To start, first go to the `_data` folder and then open the `navigation.yml` file.  
+
+Under `# main links`, write a new permalink for the page that you’d like to add. For example, if you wanted to add a new header page called “Authors,” you would need to add a link in the navigation file that looks like this: 
+
+```yaml
+
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Feedback"
+    url: /feedback/
+  - title: "Authors" # added the "authors" page
+    url: /authors/
+```
+ 
+Next, create a new markdown (.md) file in the folder `_pages`. In your new markdown file, you can copy and paste the front matter from this example or from the `about.md` page to get started.  To continue our example, I would create a new markdown file called `authors.md` with the following front matter: 
+
+```yaml
+---
+layout: single
+permalink: /authors/ # should match the permalink you added in the navigation file
+title: Authors of this site #insert your preferred title here
+header:
+    image: /assets/images/default-1.jpg  # Putting the path to an image here will replace the header image.
+    alt: "Describe your image here" # It is good practice to include an image desription as alt text.
+    caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
+toc: true #creates a table of contents
+toc_label: {{ page.title }} #label of toc is set to be the page's title
+---
+```
+
+All you need to do now is add some content according to markdown guidelines and you are good to go.  
 
 ### Projects
 
