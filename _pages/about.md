@@ -31,7 +31,7 @@ Website performance is a crucial factor when it comes to running websites. In th
 
 ## Who are the creators?  
 
-The CWD Toolkit was designed and developed by the Digital Scholarship Summer Fellows at Bryn Mawr College, Arlowe Willingham, Rafiun Haque, Cameron Boucher, and Adrianna Morsey with oversight from Alice McGrath, Karina Gonzalez, Chris Boyland, and Stella Fritzell. To learn more about our program, click here. The project was developed by students who often use digital scholarship in their studies and understand the importance of web accessibility and resources for digital scholarship.  
+The CWD Toolkit was designed and developed by the Digital Scholarship Summer Fellows at Bryn Mawr College, Arlowe Willingham, Rafiun Haque, Cameron Boucher, and Adrianna Morsey with oversight from Alice McGrath, Karina Gonzalez, Chris Boyland, and Stella Fritzell. To learn more about our program, click [here](https://digitalscholarship.blogs.brynmawr.edu/digital-scholarship-summer-fellows-program/). The project was developed by students who often use digital scholarship in their studies and understand the importance of web accessibility and resources for digital scholarship.  
 
 ## Further resources: 
 
