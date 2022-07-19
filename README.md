@@ -5,6 +5,8 @@ The Critical Web Design Toolkit Project focuses on building a static website for
 
 ## Getting Started 
 
+![An illustration of the workflow for using the site template](/assets/images/workflow.jpg)
+
 ### Download Here
 **button**
 
@@ -46,5 +48,3 @@ The resources we used while building our template are:
 - [Liquid](https://blog.webjeda.com/amp/jekyll-liquid.html)
 
 - [HTML5 UP](https://html5up.net/)
-
-*This “About” page of our template is inspired by [Wax](https://minicomp.github.io/wax/about/).* 
