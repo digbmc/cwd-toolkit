@@ -1,5 +1,5 @@
 ---
-title:  "Adding and Editing Content"
+title:  "3. Adding and Editing Content"
 category: "spotlight"
 permalink: /how-to/adding-content/
 
@@ -17,7 +17,7 @@ In order to add and edit the content of your site, you will create and make chan
 
 [YAML](https://yaml.org/) (YAML Ain't Markup Language) is a human-readble data serialization language that can store data that tells Jekyll how to build your site. For example, it can be used to set the title, layout, and permalink of a page on your site. It is important to note that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation denotes a new, nested line: 
 
-> *Whitespace is part of YAML's formatting. Unless otherwise indicated, newlines indicate the end of a field. You structure a YAML document with indentation. The indentation level can be one or more spaces. The specification forbids tabs because tools treat them differently.*
+> *Unless otherwise indicated, new lines indicate the end of a field. You structure a YAML document with indentation. The indentation level can be one or more spaces. The specification forbids tabs because tools treat them differently.*
 
 In addition to Markdown files, which contain your site's content, your site also has YAML files, which are denoted by a `.yml` file extension. One such file is the `_config.yml` file, which stores the configuration information that tells Jekyll how to build your site. 
 
@@ -89,7 +89,25 @@ We recommend the use of pages as a place to keep information that provides more 
 
 #### Editing Existing Pages and Creating Your Own
 
-WRITE MORE HERE
+You may want to keep the existing `about.md` file and edit the YAML front matter and content section to be about your site instead. Feel free, also, to delete existing pages.
+
+To create a new page, create a new Markdown (.md) file in the  `_pages` folder. In your new markdown file, you can copy and paste the front matter from the following example of an "Authors" page or from the code of the existing `about.md` page to get started. To create an "Authors" page you would create a new markdown file called `authors.md` with the following front matter: 
+
+```yaml
+---
+layout: single
+permalink: /authors/ # should match the permalink you added in the navigation file
+title: Authors of this site #insert your preferred title here
+header:
+    image: /assets/images/default-1.jpg  # Putting the path to an image here will replace the header image.
+    alt: "Describe your image here" # It is good practice to include an image desription as alt text.
+    caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
+toc: true #creates a table of contents
+toc_label: {{ page.title }} #label of toc is set to be the page's title
+---
+```
+
+Then, once you have configured the YAML front matter to your liking, you can add text formatted with Markdown to the content section of the file.  
 
 ### Projects
 
@@ -101,4 +119,4 @@ Looking at this site, our main content is a series of instructional written mate
 
 A good way to start making your own projects is to copy the code of the project template. First, though, you should create a file in the _projects section and name it with the following format: 00_filename.md, where you can replace 'filename' with whatever name you choose. The two-digit number at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
 
-WRITE MORE HERE
+WE WILL WRITE MORE HERE

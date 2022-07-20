@@ -15,10 +15,10 @@ categories:
         url: /how-to/installation/
       - title: "Configuration"
         url: /how-to/configuration/
-      - title: "Navigation"
-        url: /how-to/navigation/
       - title: "Adding Content"
         url: /how-to/adding-content/
+      - title: "Navigation"
+        url: /how-to/navigation/
   - title: "How-To"
     children:
       - title: "Formatting Text with Markdown"
@@ -29,8 +29,8 @@ categories:
         url: /how-to/embedded-content/
       - title: "Bibliography"
         url: /how-to/bibliography/
-      - title: "Customizing Skins"
-        url: /how-to/custom-skins/
+      - title: "Colors and Fonts"
+        url: /how-to/colors-and-fonts/
   - title: "Templates"
     children:
       - title: Project Template
