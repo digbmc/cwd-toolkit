@@ -30,7 +30,19 @@ You do not need to know the ins and outs of HTML to use this site template, but 
 
 ### YAML
 
-[YAML](https://yaml.org/) (YAML Ain't Markup Language) is an easy-to-read programming language that stores data on how your site should be built. For example, it can be used to set the titles, layouts, and permalinks (called variables) of a page on your site—kind of like the formatting. 
+[YAML](https://yaml.org/) (YAML Ain't Markup Language) is an easy-to-read programming language that stores data on how your site should be built. For example, it can be used to set the titles, layouts, and permalinks of a page on your site, also known as variables. 
+
+In code, YAML looks like this:
+
+```yaml
+# Site Settings
+locale                   : "en-US"
+title                    : "Critical Web Design Toolkit" # the title of your site
+name                     : "Digital Scholarship @ Bryn Mawr College" 
+```
+
+This is an excerpt of code from the yaml file called `_config.yml`. This file stores general information on the site as a whole. 
+## Using Markdown and YAML together 
 
 YAML code located at the top of a Markdown file is called **Front matter**. It is used to store information for each page and project. For example, YAML is used is in the front matter of this site's home page. 
 
