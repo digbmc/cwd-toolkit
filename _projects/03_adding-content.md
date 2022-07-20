@@ -70,7 +70,7 @@ Let's take a look at the template's default `index.md` file, which Jekyll uses t
 ```
 ---
 layout: home
-title: {{ site.title }}
+title: {{ site.title }} # in the _config.yml file
 author_profile: false # Setting this to true will display the site author information specified in _config.yml in this page's left sidebar.
 
 header:
@@ -89,33 +89,15 @@ classes: wide # Setting the class as wide will extend the page's content into th
 ---
 ```
 
-## Editing the Homepage
-
 You may use YAML, Markdown, and HTML together in your pages and projects. Let's take a look at the template's default `index.md` file, which Jekyll uses to build the site's homepage. The code in that file looks like this:
-```markdown
----
-layout: home
-title: {{ site.title }}
-author_profile: false # Setting this to true will display the site author information specified in _config.yml in this page's left sidebar.
 
-header:
-    image: /assets/images/home.jpg  # Putting the path to an image here will add that image to this page's header.
-    alt: "A large library with tall bookshelves and marble busts." # Describe the header image here
-    caption: "[Photo by Alex Block on Unsplash](https://unsplash.com/@alexblock)" # Add a visible caption to your image or give credit to the photographer or source.
-
-sidebar:
-    nav: "categories"
-
-include_categories:   
-  - how-to
-  - templates
-
-classes: wide # Setting the class as wide will extend the page's content into the right margin.
----
-
-You can replace the text in this section with your own text such as an introduction to your site.
+You can replace the text in this section with your own text, such as an introduction to your site. Here is what each variable does:
+- layout: this sets the layout of the page. Since this is the homepage, layout is set to home. Other layouts are located in the _layouts file andinclude
 
 Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.
+
+
+
 
 {% raw %}
 {% comment %} "Spotlight" projects display as boxes that take up the full width of this content section. They are ideal for highlighting your website's most important projects or if you do not have so many projects that a gallery view would be necessary. Add projects to this section by giving them the 'spotlight' category. {% endcomment %}
@@ -135,7 +117,7 @@ Below you will find instructions on how to install and configure your site as we
 {% endraw %}
 ```
 
-Above, the YAML **front matter**, which is enclosed by triple-dashed lines like this `---`, is used to store data about this Markdown file that tells Jekyll how to build it into the site. Front matter must be at the top of every Markdown file that you want to be built into your site, otherwise Jekyll will ignore it. 
+Above, the YAML **front matter**, is used to store data about this Markdown file that tells Jekyll how to build it into the site. Front matter must be at the top of every Markdown file that you want to be built into your site, otherwise Jekyll will ignore it. 
 
 The rest of the stuff after the enclosed front matter is the file's content section. The text content in this section is written in Markdown (the text directly below the front matter that looks like plain, readable text), but you will notice that this section also contains some Liquid (in the curly brackets) and some HTML. This code adds some unique features to the homepage that Markdown itself cannot support. The Markdown text at the top of the section can be safely edited, but the Liquid and HTML code at the bottom should not be changed.
 
