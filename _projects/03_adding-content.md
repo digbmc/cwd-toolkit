@@ -57,11 +57,13 @@ This is an excerpt of code from the yaml file called `_config.yml`. This file st
 - title: the title of the site
 - name: name or organization, appears at bottom of the page
 
+In the rest of this page, information stored in YAML such as "locale" and and "title" will be referred to as **variables**.
+
 To learn more about YAML syntax, click [here](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started). 
 
 ## Using Markdown and YAML together 
 
-You may use YAML, Markdown, and HTML together in your pages and projects. When YAML and markdown are used together, the YAML text or code is located at the top and called **front matter**. Front matter is always enclosed by triple-dashed lines like this `---`.
+You may use YAML, Markdown, and HTML together in your pages and projects. When YAML and markdown are used together, the YAML text or code is located at the top and called **front matter**. Front matter is always enclosed by triple-dashed lines like this `---`. To include any of the YAML variables on this page, all you need to do is copy and paste them into your front matter. 
 
 ### Editing the Homepage
 
@@ -70,16 +72,16 @@ Let's take a look at the template's default `index.md` file, which Jekyll uses t
 ```
 ---
 layout: home
-title: {{ site.title }} # in the _config.yml file
-author_profile: false # Setting this to true will display the site author information specified in _config.yml in this page's left sidebar.
+title: Critical Web Design Toolkit 
+author_profile: false 
 
 header:
     image: /assets/images/home.jpg  # Putting the path to an image here will add that image to this page's header.
-    alt: "A large library with tall bookshelves and marble busts." # Describe the header image here
+    alt: "A large library with tall bookshelves and marble busts." # Describes the header image here
     caption: "[Photo by Alex Block on Unsplash](https://unsplash.com/@alexblock)" # Add a visible caption to your image or give credit to the photographer or source.
 
 sidebar:
-    nav: "categories"
+    nav: "categories" 
 
 include_categories:   
   - how-to
@@ -91,31 +93,37 @@ classes: wide # Setting the class as wide will extend the page's content into th
 
 You may use YAML, Markdown, and HTML together in your pages and projects. Let's take a look at the template's default `index.md` file, which Jekyll uses to build the site's homepage. The code in that file looks like this:
 
-You can replace the text in this section with your own text, such as an introduction to your site. Here is what each variable does:
-- layout: this sets the layout of the page. Since this is the homepage, layout is set to home. Other layouts are located in the _layouts file andinclude
+You can replace the text in this section with your own text, such as an introduction to your site. Here is what each new variable does:
+
+**layout**
+- This sets the layout of the page. Since this is the homepage, layout is set to home. Other layouts are located in the `_layouts` file. 
+    - It is not necessary to include a layout category, only our home page has a "layout" set
+
+**author_profile**: 
+- Setting this to true will display the site author information specified in _config.yml in this page's left sidebar.
+
+**header**: 
+- The large section of the page at the top
+- As you can see, the category for "image" is indented. This tells the site to place the image *inside* the header
+- alt: short for alt text, used to describe an image
+
+**sidebar**
+- creates the sidebar navigation. Does not need to be changed.
+
+**include_categories**
 
 Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.
 
+### Using YAML for other projects 
+
+On other projects, there are several more variables that may be helpful to you that you can include in the front matter:
+
+**permalink**
 
 
 
-{% raw %}
-{% comment %} "Spotlight" projects display as boxes that take up the full width of this content section. They are ideal for highlighting your website's most important projects or if you do not have so many projects that a gallery view would be necessary. Add projects to this section by giving them the 'spotlight' category. {% endcomment %}
-<div class="spotlight"> 
-{% assign spotlight_projects = site.projects | where: 'category', 'spotlight' %}
-{% include spotlight projects = spotlight_projects %}
-</div>
 
-{% comment %} The "collection_row" section displays a gallery of projects organized by category. You must specify which categories you would like to be displayed on your homepage in the front matter of this file under "include_categories", and the code below will loop through all of the projects, find the posts in each of the specified "include_categories", and display them in corresponding sections. {% endcomment %}
-{% for c in page.include_categories %}
-<div id="{{ c }}" class="pane">
-<h3>{{ site.data.content.display_categories[c] }}</h3>
-{% assign category_projects = site.projects | where: 'category', c  %}
-{% include collection_row projects = category_projects %} 
-</div>
-{% endfor %}
-{% endraw %}
-```
+
 
 Above, the YAML **front matter**, is used to store data about this Markdown file that tells Jekyll how to build it into the site. Front matter must be at the top of every Markdown file that you want to be built into your site, otherwise Jekyll will ignore it. 
 
