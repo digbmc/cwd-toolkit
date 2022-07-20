@@ -3,10 +3,10 @@ title:  "1. Installation"
 category: "spotlight"
 permalink: /how-to/installation/
 header:
-    teaser: /assets/images/mike-yukhtenko.jpg
+    teaser: /assets/images/ocean-teaser-1.jpg
     image:  # Putting the path to an image here will replace the header image.
     alt: "Dark ocean waves." # It is good practice to include an image desription as alt text.
-    caption: "[Photo by Mario Klassen on Unsplash](https://unsplash.com/@marioklassen)" # Put a caption for your image here. It will display in the bottom right corner of the image.
+    caption: "[Original Photo by Mike Yukhtenko on Unsplash](https://unsplash.com/@yamaicle)" # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---
 
 ![An illustration of the workflow for using the site template]({{ "/assets/images/workflow.jpg" | relative_url }})
