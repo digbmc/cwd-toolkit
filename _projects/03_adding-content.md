@@ -28,41 +28,49 @@ You do not need to know the ins and outs of HTML to use this site template, but 
 
 [Markdown](https://www.markdownguide.org/) is a plain-text markup language that makes it easy to format your text. Markdown converts what you write in words into HTML code that web browsers can read. Because it is so useful for writing, Markdown is an integral element to creating pages, projects, and posts on this site. This template has a guide on [Formatting Text with Markdown]({{ "/how-to/markdown/" | absolute_url }}), which you can check out later.
 
+In the code, Markdown looks like this:
+
+```
+# title 
+## subtitle
+body text
+```
+
+This code will display on the website like this:
+
+![Example title, subtitle, and body text in markdown ]({{ "/assets/images/example-markdown.jpg" | relative_url }})
+
 ### YAML
 
-[YAML](https://yaml.org/) (YAML Ain't Markup Language) is an easy-to-read programming language that stores data on how your site should be built. For example, it can be used to set the titles, layouts, and permalinks of a page on your site, also known as variables. 
+[YAML](https://yaml.org/) (YAML Ain't Markup Language) is an easy-to-read programming language that stores data on how your site should be built. For example, it can be used to set the titles, layouts, and permalinks of a page on your site, also known as variables. It is important to note that commands written in YAML are sensitive to line indentation. 
 
 In code, YAML looks like this:
 
 ```yaml
 # Site Settings
 locale                   : "en-US"
-title                    : "Critical Web Design Toolkit" # the title of your site
+title                    : "Critical Web Design Toolkit" 
 name                     : "Digital Scholarship @ Bryn Mawr College" 
 ```
+This is an excerpt of code from the yaml file called `_config.yml`. This file stores general information on the site as a whole:
+- locale: set to "en-US" which means the site's language uses US English
+- title: the title of the site
+- name: name or organization, appears at bottom of the page
 
-This is an excerpt of code from the yaml file called `_config.yml`. This file stores general information on the site as a whole. 
+To learn more about YAML syntax, click [here](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started). 
+
 ## Using Markdown and YAML together 
 
-YAML code located at the top of a Markdown file is called **Front matter**. It is used to store information for each page and project. For example, YAML is used is in the front matter of this site's home page. 
+You may use YAML, Markdown, and HTML together in your pages and projects. When YAML and markdown are used together, the YAML text or code is located at the top and called **front matter**. Front matter is always enclosed by triple-dashed lines like this `---`.
 
-We will prov
+### Editing the Homepage
 
-It is important to note that commands written in YAML are sensitive to line indentation. 
+Let's take a look at the template's default `index.md` file, which Jekyll uses to build the site's homepage. The front matter in that file looks like this:
 
-It is important to note that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation denotes a new, nested line: 
-
-> *Unless otherwise indicated, new lines indicate the end of a field. You structure a YAML document with indentation. The indentation level can be one or more spaces. The specification forbids tabs because tools treat them differently.*
-
-In addition to Markdown files, which contain your site's content, your site also has YAML files, which are denoted by a `.yml` file extension. One such file is the `_config.yml` file, which stores the configuration information that tells Jekyll how to build your site. 
-
-## Editing the Homepage
-
-You may use YAML, Markdown, and HTML together in your pages and projects. Let's take a look at the template's default `index.md` file, which Jekyll uses to build the site's homepage. The code in that file looks like this:
-```markdown
+```
 ---
 layout: home
-title: {{ site.title }}
+title: {{ site.title }} # in the _config.yml file
 author_profile: false # Setting this to true will display the site author information specified in _config.yml in this page's left sidebar.
 
 header:
@@ -79,10 +87,17 @@ include_categories:
 
 classes: wide # Setting the class as wide will extend the page's content into the right margin.
 ---
+```
 
-You can replace the text in this section with your own text such as an introduction to your site.
+You may use YAML, Markdown, and HTML together in your pages and projects. Let's take a look at the template's default `index.md` file, which Jekyll uses to build the site's homepage. The code in that file looks like this:
+
+You can replace the text in this section with your own text, such as an introduction to your site. Here is what each variable does:
+- layout: this sets the layout of the page. Since this is the homepage, layout is set to home. Other layouts are located in the _layouts file andinclude
 
 Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.
+
+
+
 
 {% raw %}
 {% comment %} "Spotlight" projects display as boxes that take up the full width of this content section. They are ideal for highlighting your website's most important projects or if you do not have so many projects that a gallery view would be necessary. Add projects to this section by giving them the 'spotlight' category. {% endcomment %}
@@ -102,7 +117,7 @@ Below you will find instructions on how to install and configure your site as we
 {% endraw %}
 ```
 
-Above, the YAML **front matter**, which is enclosed by triple-dashed lines like this `---`, is used to store data about this Markdown file that tells Jekyll how to build it into the site. Front matter must be at the top of every Markdown file that you want to be built into your site, otherwise Jekyll will ignore it. 
+Above, the YAML **front matter**, is used to store data about this Markdown file that tells Jekyll how to build it into the site. Front matter must be at the top of every Markdown file that you want to be built into your site, otherwise Jekyll will ignore it. 
 
 The rest of the stuff after the enclosed front matter is the file's content section. The text content in this section is written in Markdown (the text directly below the front matter that looks like plain, readable text), but you will notice that this section also contains some Liquid (in the curly brackets) and some HTML. This code adds some unique features to the homepage that Markdown itself cannot support. The Markdown text at the top of the section can be safely edited, but the Liquid and HTML code at the bottom should not be changed.
 

@@ -4,10 +4,10 @@ category: "how-to"
 permalink: /how-to/markdown/
 
 header:
-    teaser: /assets/images/default-3.jpg
-    image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
-    alt: "A close up of typewriter keys." # It is good practice to include an image desription as alt text.
-    caption: "[Photo by Camille Orgel on Unsplash](https://unsplash.com/@cam_bam)" # Put a caption for your image here. It will display in the bottom right corner of the image.
+    teaser: /assets/images/markdown-header.jpg
+    image: /assets/images/markdown-header.jpg  # Putting the path to an image here will add a header image.
+    alt: "A person typing on a computer" # It is good practice to include an image desription as alt text.
+    caption: "[Original Photo by Christin Hume on Unsplash](https://unsplash.com/@christinhumephoto)" # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---
 
 [Markdown](https://www.markdownguide.org/) is a markup language that you can use to add formatting elements to your text content. Here you will find a quick guide on how to add certain elements and what they look like within this site template. You can also take a look at the official [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/). 
