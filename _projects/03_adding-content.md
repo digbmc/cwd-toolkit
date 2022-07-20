@@ -117,7 +117,7 @@ You can replace the text in this section with your own text, such as an introduc
 **classes**:
 - changes the formatting of the page. Shouldn't be changed.
 
-In the home page or index.md file, the rest of the stuff after the enclosed front matter is the file's content section. The content looks like this:
+In the home page or index.md file, the rest of the stuff after the enclosed front matter is the file's content or markdown section. The content looks like this:
 
 ```markdown
 You can replace the text in this section with your own text such as an introduction to your site.
@@ -134,6 +134,9 @@ The text content in this section is written in Markdown (the text directly below
 On other projects, there are several more variables that may be helpful to you that you can include in the front matter:
 
 **permalink**:
+- creates a path or link to the page
+- each new page or project that you create in markdown *needs* a permalink
+- to learn more, go to step 4, Site Navigation.
 
 **teaser**: 
 - the teaser makes an image appear on the front page display
