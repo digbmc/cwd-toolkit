@@ -1,5 +1,5 @@
 ---
-title:  "Adding and Editing Content"
+title:  "3. Adding and Editing Content"
 category: "spotlight"
 permalink: /how-to/adding-content/
 
