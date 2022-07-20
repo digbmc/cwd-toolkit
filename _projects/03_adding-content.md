@@ -51,11 +51,15 @@ In code, YAML looks like this:
 ```yaml
 # Site Settings
 locale                   : "en-US"
-title                    : "Critical Web Design Toolkit" # the title of your site
+title                    : "Critical Web Design Toolkit" 
 name                     : "Digital Scholarship @ Bryn Mawr College" 
 ```
+This is an excerpt of code from the yaml file called `_config.yml`. This file stores general information on the site as a whole:
+- locale: set to "en-US" which means the site's language uses US English
+- title: the title of the site
+- name: name or organization, appears at bottom of the page
 
-This is an excerpt of code from the yaml file called `_config.yml`. This file stores general information on the site as a whole. 
+
 ## Using Markdown and YAML together 
 
 YAML code located at the top of a Markdown file is called **Front matter**. It is used to store information for each page and project. For example, YAML is used is in the front matter of this site's home page. 
