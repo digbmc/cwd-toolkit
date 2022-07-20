@@ -28,6 +28,20 @@ You do not need to know the ins and outs of HTML to use this site template, but 
 
 [Markdown](https://www.markdownguide.org/) is a plain-text markup language that makes it easy to format your text. Markdown converts what you write in words into HTML code that web browsers can read. Because it is so useful for writing, Markdown is an integral element to creating pages, projects, and posts on this site. This template has a guide on [Formatting Text with Markdown]({{ "/how-to/markdown/" | absolute_url }}), which you can check out later.
 
+In the code, Markdown looks like this:
+
+```markdown
+# title 
+## subtitle
+
+body text
+
+```
+
+This code will display on the website like this:
+
+![Example title, subtitle, and body text in markdown ]({{ "/assets/images/markdown-example.jpg" | relative_url }})
+
 ### YAML
 
 [YAML](https://yaml.org/) (YAML Ain't Markup Language) is an easy-to-read programming language that stores data on how your site should be built. For example, it can be used to set the titles, layouts, and permalinks of a page on your site, also known as variables. 
