@@ -3,10 +3,10 @@ title:  "4. Site Navigation"
 category: "spotlight"
 permalink: /how-to/navigation/
 header:
-    teaser: /assets/images/default-4.jpg 
+    teaser: /assets/images/ocean-teaser-4.jpg 
     image:  # Putting the path to an image here will replace the header image.
-    alt: "Books on an ornate wooden bookshelf." # It is good practice to include an image desription as alt text.
-    caption: "[Photo by Mario Klassen on Unsplash](https://unsplash.com/@marioklassen)" # Put a caption for your image here. It will display in the bottom right corner of the image.
+    alt: "Dark ocean waves." # It is good practice to include an image desription as alt text.
+    caption: "[Original Photo by Joanna Kosinska on Unsplash](https://unsplash.com/@joannakosinska)" # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---
 
 Your site has two main navigation bars: the masthead navigation at the top of each page and the sidebar navigation on the left side of most pages. The contents of both of these navigation bars are determined by the `navigation.yml` file in the site's `_data` directory. Let's look at each type of nav bar separately.
