@@ -4,9 +4,10 @@ category: "spotlight"
 permalink: /how-to/adding-content/
 
 header:
-    teaser: /assets/images/default-3.jpg
-    alt: "A close up of typewriter keys." # It is good practice to include an image desription as alt text.
-    caption: "[Photo by Camille Orgel on Unsplash](https://unsplash.com/@cam_bam)" # Put a caption for your image here. It will display in the bottom right corner of the image.
+    teaser: /assets/images/default-4.jpg 
+    image:  # Putting the path to an image here will replace the header image.
+    alt: "Books on an ornate wooden bookshelf." # It is good practice to include an image desription as alt text.
+    caption: "[Photo by Mario Klassen on Unsplash](https://unsplash.com/@marioklassen)" # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---
 
 In order to add and edit the content of your site, you will create and make changes to a number of Markdown files. These are files that end in the file extension `.md`, and they include `index.md` file as well as all of the files in `_pages` and `_projects`. Each of these files has two main sections: the front matter, which is written in YAML, and the content, which is written using Markdown. You can also include some HTML in these files, as Jekyll will convert them to HTML anyway when it builds the site.
