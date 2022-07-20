@@ -117,7 +117,7 @@ You can replace the text in this section with your own text, such as an introduc
 **classes**:
 - changes the formatting of the page. Shouldn't be changed.
 
-In the home page or index.md file, the rest of the stuff after the enclosed front matter is the file's content section. The content looks like this:
+In the home page or index.md file, the rest of the stuff after the enclosed front matter is the file's content or markdown section. The content looks like this:
 
 ```markdown
 You can replace the text in this section with your own text such as an introduction to your site.
@@ -134,25 +134,26 @@ The text content in this section is written in Markdown (the text directly below
 On other projects, there are several more variables that may be helpful to you that you can include in the front matter:
 
 **permalink**:
+- creates a path or link to the page
+- each new page or project that you create in markdown *needs* a permalink
+- to learn more, go to step 4, Site Navigation.
 
 **teaser**: 
 - the teaser makes an image appear on the front page display
 - written as a permalink
 - usually the same as a header image if you have one 
-    
-the code might look like this:
 
 ```
-header
+header:
     teaser: /assets/images/ocean-teaser-2.jpg 
 ```
-And appear on the home page like this:
+
+It will appear on the home page like this:
 
 ![Example teaser image]({{ "/assets/images/example-teaser.jpg" | relative_url }})
     
 **category**: 
-- adds project as to be visible on the home page
-often seen as
+- makes project to be visible on the home page using "spotlight"
 ```
 category: "spotlight"
 ```
@@ -162,7 +163,6 @@ category: "spotlight"
 - when set to true, automatically generates a table of contents on the side of a page
 - **toc_label** is the title of the toc
 
-example
 ```
 toc: true;
 toc_label: "On this page"
