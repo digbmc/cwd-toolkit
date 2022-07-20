@@ -267,12 +267,22 @@ body {
   }
 }
 
+/*
+   CWDT Template Features
+   ========================================================================== */
+
 .by-line {
   color: $muted-text-color;
   font-style: italic;
   margin-top: -0.5em;
   margin-bottom: 0;
   font-size: $type-size-6;
+}
+
+.pane {
+  .category_title {
+    border-bottom: none;
+  }
 }
 
 /*

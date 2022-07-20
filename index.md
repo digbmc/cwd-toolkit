@@ -33,7 +33,7 @@ Below you will find instructions on how to install and configure your site as we
 {% comment %} The "collection_row" section displays a gallery of projects organized by category. You must specify which categories you would like to be displayed on your homepage in the front matter of this file under "include_categories", and the code below will loop through all of the projects, find the posts in each of the specified "include_categories", and display them in corresponding sections. {% endcomment %}
 {% for c in page.include_categories %}
 <div id="{{ c }}" class="pane">
-<h2>{{ site.data.content.display_categories[c] }}</h2>
+<h2 class="category_title">{{ site.data.content.display_categories[c] }}</h2>
 {% assign category_projects = site.projects | where: 'category', c  %}
 {% include collection_row projects = category_projects %} 
 </div>
