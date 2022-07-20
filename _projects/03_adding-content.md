@@ -144,10 +144,11 @@ On other projects, there are several more variables that may be helpful to you t
 - usually the same as a header image if you have one 
 
 ```
-header
+header:
     teaser: /assets/images/ocean-teaser-2.jpg 
 ```
-And appear on the home page like this:
+
+It will appear on the home page like this:
 
 ![Example teaser image]({{ "/assets/images/example-teaser.jpg" | relative_url }})
     
