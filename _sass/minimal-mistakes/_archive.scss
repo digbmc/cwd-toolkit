@@ -522,11 +522,10 @@
         height: 100%;
         margin-top: 1em;
         margin-bottom: 1em;
-        padding-top: 33%;
-        padding-bottom: 33%;
+        padding-top: 2em;
         text-align: center;
         font-size: 1.125em;
-        height: 8rem;
+        min-height: 8rem;
         border-radius: $border-radius;
         background-color: $primary-color;
       }
