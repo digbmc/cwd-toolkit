@@ -76,18 +76,18 @@ title: Critical Web Design Toolkit
 author_profile: false 
 
 header:
-    image: /assets/images/home.jpg  # Putting the path to an image here will add that image to this page's header.
-    alt: "A large library with tall bookshelves and marble busts." # Describes the header image here
-    caption: "[Photo by Alex Block on Unsplash](https://unsplash.com/@alexblock)" # Add a visible caption to your image or give credit to the photographer or source.
+    image: /assets/images/home.jpg  
+    alt: "A large library with tall bookshelves and marble busts." 
+    caption: "[Photo by Alex Block on Unsplash](https://unsplash.com/@alexblock)" 
 
 sidebar:
     nav: "categories" 
 
 include_categories:   
-  - how-to
-  - templates
+  - how-to # category
+  - templates # category
 
-classes: wide # Setting the class as wide will extend the page's content into the right margin.
+classes: wide 
 ---
 ```
 
@@ -100,17 +100,24 @@ You can replace the text in this section with your own text, such as an introduc
     - It is not necessary to include a layout category, only our home page has a "layout" set
 
 **author_profile**: 
-- Setting this to true will display the site author information specified in _config.yml in this page's left sidebar.
+- Setting this to true will display the site author information specified in _config.yml in this page's left sidebar
 
 **header**: 
 - The large section of the page at the top
 - As you can see, the category for "image" is indented. This tells the site to place the image *inside* the header
-- alt: short for alt text, used to describe an image
+    - **image**: Putting the permalink path to an image here will add that image to this page's header
+    - **alt**: short for alt text, used to describe an image
+    - **caption**: provides an image caption which is good for citations. Here we included a link to the photographer
 
 **sidebar**
 - creates the sidebar navigation. Does not need to be changed.
 
 **include_categories**
+- divides the content on the page into categories 
+- the bulleted items are the titles of the categories
+
+**classes**
+- changes the formatting of the page. Shouldn't be changed.
 
 Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.
 
