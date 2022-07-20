@@ -142,8 +142,6 @@ On other projects, there are several more variables that may be helpful to you t
 - the teaser makes an image appear on the front page display
 - written as a permalink
 - usually the same as a header image if you have one 
-    
-the code might look like this:
 
 ```
 header
@@ -154,8 +152,7 @@ And appear on the home page like this:
 ![Example teaser image]({{ "/assets/images/example-teaser.jpg" | relative_url }})
     
 **category**: 
-- adds project as to be visible on the home page
-often seen as
+- makes project to be visible on the home page using "spotlight"
 ```
 category: "spotlight"
 ```
@@ -165,7 +162,6 @@ category: "spotlight"
 - when set to true, automatically generates a table of contents on the side of a page
 - **toc_label** is the title of the toc
 
-example
 ```
 toc: true;
 toc_label: "On this page"
