@@ -28,7 +28,7 @@ Values that you CAN change:
 - locale (changes site language; will also change the language the site's built-in features like the "next" and "previous" buttons)
 - subtitle (if you want to add a site tagline)
 - masthead title (if you want the title that displays in the top left of each page of your site to be different from the site's title)
-- search (you can change the value of search (line 56 of `_config.yml`) to true or false to enable or disable a search bar on you site; NOTE: the format on the search will likely be a bit off)
+- search (you can change the value of search (line 56 of `_config.yml`) to true or false to enable or disable a search bar on you site; NOTE: the formating on the search window will likely be a bit off)
 
 Aside from these settings, you probably won't *need* to change much else in this file. You can read more about some of the other settings in the [Minimal Mistakes guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), if you'd like, but it's not necessary.
 
