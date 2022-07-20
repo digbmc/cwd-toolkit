@@ -22,7 +22,8 @@ Values that you MUST change:
 - description
 - url (format: https://githubUsername.github.io/repoName)
 - repository (format: githubUsername/repoName)
-Values that you can change:
+
+Values that you CAN change:
 - baseurl (if you want the baseurl to be something other than ds-project, you could change to something that reflects what your site is about; remember: no spaces; IMPORTANT NOTE: baseurl MUST match the repository name, so you must also change the repo name, both on GitHub and in the _config.yml file, to match your new baseurl)
 - locale (changes site language; will also change the language the site's built-in features like the "next" and "previous" buttons)
 - subtitle (if you want to add a site tagline)
