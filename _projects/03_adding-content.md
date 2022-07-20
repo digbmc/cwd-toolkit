@@ -30,12 +30,10 @@ You do not need to know the ins and outs of HTML to use this site template, but 
 
 In the code, Markdown looks like this:
 
-```markdown
+```
 # title 
 ## subtitle
-
 body text
-
 ```
 
 This code will display on the website like this:
@@ -44,7 +42,7 @@ This code will display on the website like this:
 
 ### YAML
 
-[YAML](https://yaml.org/) (YAML Ain't Markup Language) is an easy-to-read programming language that stores data on how your site should be built. For example, it can be used to set the titles, layouts, and permalinks of a page on your site, also known as variables. 
+[YAML](https://yaml.org/) (YAML Ain't Markup Language) is an easy-to-read programming language that stores data on how your site should be built. For example, it can be used to set the titles, layouts, and permalinks of a page on your site, also known as variables. It is important to note that commands written in YAML are sensitive to line indentation. 
 
 In code, YAML looks like this:
 
@@ -59,20 +57,37 @@ This is an excerpt of code from the yaml file called `_config.yml`. This file st
 - title: the title of the site
 - name: name or organization, appears at bottom of the page
 
+To learn more about YAML syntax, click [here](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started). 
 
 ## Using Markdown and YAML together 
 
-YAML code located at the top of a Markdown file is called **Front matter**. It is used to store information for each page and project. For example, YAML is used is in the front matter of this site's home page. 
+You may use YAML, Markdown, and HTML together in your pages and projects. When YAML and markdown are used together, the YAML text or code is located at the top and called **front matter**. Front matter is always enclosed by triple-dashed lines like this `---`.
 
-We will prov
+### Editing the Homepage
 
-It is important to note that commands written in YAML are sensitive to line indentation. 
+Let's take a look at the template's default `index.md` file, which Jekyll uses to build the site's homepage. The front matter in that file looks like this:
 
-It is important to note that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation denotes a new, nested line: 
+```
+---
+layout: home
+title: {{ site.title }}
+author_profile: false # Setting this to true will display the site author information specified in _config.yml in this page's left sidebar.
 
-> *Unless otherwise indicated, new lines indicate the end of a field. You structure a YAML document with indentation. The indentation level can be one or more spaces. The specification forbids tabs because tools treat them differently.*
+header:
+    image: /assets/images/home.jpg  # Putting the path to an image here will add that image to this page's header.
+    alt: "A large library with tall bookshelves and marble busts." # Describe the header image here
+    caption: "[Photo by Alex Block on Unsplash](https://unsplash.com/@alexblock)" # Add a visible caption to your image or give credit to the photographer or source.
 
-In addition to Markdown files, which contain your site's content, your site also has YAML files, which are denoted by a `.yml` file extension. One such file is the `_config.yml` file, which stores the configuration information that tells Jekyll how to build your site. 
+sidebar:
+    nav: "categories"
+
+include_categories:   
+  - how-to
+  - templates
+
+classes: wide # Setting the class as wide will extend the page's content into the right margin.
+---
+```
 
 ## Editing the Homepage
 
