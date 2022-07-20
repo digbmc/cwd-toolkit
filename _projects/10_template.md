@@ -5,10 +5,10 @@ category: "templates" # Give the post the "spotlight" category if you want it to
 permalink: /templates/project/
 
 header:
-    teaser: /assets/images/default-3.jpg # The image you put here will appear as a teaser on the site's homepage.
-    image: /assets/images/default-3.jpg  # Putting the path to an image here will add a header image.
-    alt: "Describe your header image here." # It is good practice to include an image desription as alt text.
-    caption: # Put a caption for your image here. It will display in the bottom right corner of the image. This is a good place to give credit to the photographer or source.
+    teaser: /assets/images/template-project-header.jpg # The image you put here will appear as a teaser on the site's homepage.
+    image: /assets/images/template-project-header.jpg  # Putting the path to an image here will add a header image.
+    alt: "Green leaves." # It is good practice to include an image desription as alt text.
+    caption: "[Original Photo by Nahil Naseer on Unsplash](https://unsplash.com/@nahilnaseer)" # Put a caption for your image here. It will display in the bottom right corner of the image. This is a good place to give credit to the photographer or source.
 
 works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>
     - item: "Wilde, Oscar. <i>The Picture of Dorian Grey</i>. Ward Lock & Co., 1891, https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)."
