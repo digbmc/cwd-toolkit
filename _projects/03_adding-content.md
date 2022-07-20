@@ -91,11 +91,9 @@ classes: wide
 ---
 ```
 
-You may use YAML, Markdown, and HTML together in your pages and projects. Let's take a look at the template's default `index.md` file, which Jekyll uses to build the site's homepage. The code in that file looks like this:
-
 You can replace the text in this section with your own text, such as an introduction to your site. Here is what each new variable does:
 
-**layout**
+**layout**:
 - This sets the layout of the page. Since this is the homepage, layout is set to home. Other layouts are located in the `_layouts` file. 
     - It is not necessary to include a layout category, only our home page has a "layout" set
 
@@ -109,32 +107,66 @@ You can replace the text in this section with your own text, such as an introduc
     - **alt**: short for alt text, used to describe an image
     - **caption**: provides an image caption which is good for citations. Here we included a link to the photographer
 
-**sidebar**
+**sidebar**:
 - creates the sidebar navigation. Does not need to be changed.
 
-**include_categories**
+**include_categories**:
 - divides the content on the page into categories 
 - the bulleted items are the titles of the categories
 
-**classes**
+**classes**:
 - changes the formatting of the page. Shouldn't be changed.
 
-Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.
+In the home page or index.md file, the rest of the stuff after the enclosed front matter is the file's content section. The content looks like this:
+
+```markdown
+You can replace the text in this section with your own text such as an introduction to your site.
+
+Below you will find instructions on how to install and configure your site as well as how to add and format your own content. 
+You can safely delete them from your repository if you are done referencing them.
+```
+
+The text content in this section is written in Markdown (the text directly below the front matter that looks like plain, readable text), but you will notice that this section also contains some Liquid (in the curly brackets) and some HTML. This code adds some unique features to the homepage that Markdown itself cannot support. The Markdown text at the top of the section can be safely edited, but the Liquid and HTML code at the bottom should not be changed.
+
 
 ### Using YAML for other projects 
 
 On other projects, there are several more variables that may be helpful to you that you can include in the front matter:
 
-**permalink**
+**permalink**:
 
+**teaser**: 
+- the teaser makes an image appear on the front page display
+- written as a permalink
+- usually the same as a header image if you have one 
+    
+the code might look like this:
 
+```
+header
+    teaser: /assets/images/ocean-teaser-2.jpg 
+```
+And appear on the home page like this:
 
+![Example teaser image]({{ "/assets/images/example-teaser.jpg" | relative_url }})
+    
+**category**: 
+- adds project as to be visible on the home page
+often seen as
+```
+category: "spotlight"
+```
 
+**toc:**
+- "table of contents"
+- when set to true, automatically generates a table of contents on the side of a page
+- **toc_label** is the title of the toc
 
-
-Above, the YAML **front matter**, is used to store data about this Markdown file that tells Jekyll how to build it into the site. Front matter must be at the top of every Markdown file that you want to be built into your site, otherwise Jekyll will ignore it. 
-
-The rest of the stuff after the enclosed front matter is the file's content section. The text content in this section is written in Markdown (the text directly below the front matter that looks like plain, readable text), but you will notice that this section also contains some Liquid (in the curly brackets) and some HTML. This code adds some unique features to the homepage that Markdown itself cannot support. The Markdown text at the top of the section can be safely edited, but the Liquid and HTML code at the bottom should not be changed.
+example
+```
+toc: true;
+toc_label: "On this page"
+```
 
 ## Creating Your Own Pages and Projects
 
