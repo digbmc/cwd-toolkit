@@ -41,3 +41,10 @@ Aside from these settings, you probably won't *need* to change much else in this
 - Any of the template's default images that you don't end up using
 - README.md (or at least the content that is in it by default)
 
+## Deploying the Site with GitHub Pages
+
+Make sure that if you're working in a code editor like VS Code, that you push your changes to the main branch of your GitHub repository.
+
+(Turn on GitHub Pages in repo settings?)
+
+Preview your site
