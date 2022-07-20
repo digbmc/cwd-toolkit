@@ -148,11 +148,25 @@ header
 ```
 And appear on the home page like this:
 
+![Example teaser image]({{ "/assets/images/example-teaser.jpg" | relative_url }})
     
+**category**: 
+- adds project as to be visible on the home page
+often seen as
+```
 category: "spotlight"
+```
 
+**toc:**
+- "table of contents"
+- when set to true, automatically generates a table of contents on the side of a page
+- **toc_label** is the title of the toc
+
+example
+```
 toc: true;
 toc_label: "On this page"
+```
 
 ## Creating Your Own Pages and Projects
 
