@@ -11,7 +11,7 @@ header:
 
 Now that you've forked the template repository and gotten set up in a code editing environment, it is time to configure your site's settings. This will be done by editing the code in your site's `_config.yml` file.
 
-The `_config.yml` is full of **comments** that help to tell you what each setting in the file does. The comments in this file begin with `#`, and they are sometimes used as headings to separate the code into sections or as notes next to items.
+The `_config.yml`file is full of **comments** that help to tell you what each setting in the file does. The comments in this file begin with a pound/hash sign `#`, and they are sometimes used as headings to separate the code into sections or as notes next to items.
 
 ## Locating _config.yml
 
