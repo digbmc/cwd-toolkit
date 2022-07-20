@@ -44,7 +44,7 @@ In the code, it looks like this:
 ```markdown
 {% raw %}
 ![example image description]({{ "/assets/images/default-1.jpg" | relative_url }})
-{% raw %}
+{% endraw %}
 ```
 
 Here is the outcome:
