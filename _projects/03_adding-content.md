@@ -40,7 +40,7 @@ body text
 
 This code will display on the website like this:
 
-![Example title, subtitle, and body text in markdown ]({{ "/assets/images/markdown-example.jpg" | relative_url }})
+![Example title, subtitle, and body text in markdown ]({{ "/assets/images/example-markdown.jpg" | relative_url }})
 
 ### YAML
 
