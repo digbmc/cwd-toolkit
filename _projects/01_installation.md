@@ -1,5 +1,5 @@
 ---
-title:  "1. Installation"
+title:  "1) Installation"
 category: "spotlight"
 permalink: /how-to/installation/
 header:

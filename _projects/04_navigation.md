@@ -1,5 +1,5 @@
 ---
-title:  "4. Site Navigation"
+title:  "4) Site Navigation"
 category: "spotlight"
 permalink: /how-to/navigation/
 header:
