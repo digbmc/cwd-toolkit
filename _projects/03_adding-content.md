@@ -10,25 +10,39 @@ header:
     caption: "[Photo by Mario Klassen on Unsplash](https://unsplash.com/@marioklassen)" # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---
 
-In order to add and edit the content of your site, you will create and make changes to a number of Markdown files. These are files that end in the file extension `.md`, and they include `index.md` file as well as all of the files in `_pages` and `_projects`. Each of these files has two main sections: the front matter, which is written in YAML, and the content, which is written using Markdown. You can also include some HTML in these files, as Jekyll will convert them to HTML anyway when it builds the site.
+In order to add and edit the content of your site, you will create and make changes to a number of files called **Markdown files**. These are files that end in the file extension `.md`, and they include `index.md` file as well as all of the files in `_pages` and `_projects`. 
 
-## What are YAML, Markdown, and HTML?
+Each of these files has two main sections: 
+1. **Front matter**, which is written in a simple coding language called YAML
+2. **Content**, which is written using Markdown. You can also include some HTML in these files, as Jekyll, our site builder, will convert them to HTML anyway when it builds the site.
 
-### YAML
+## What are HTML, Markdown, and YAML?
 
-[YAML](https://yaml.org/) (YAML Ain't Markup Language) is a human-readble data serialization language that can store data that tells Jekyll how to build your site. For example, it can be used to set the title, layout, and permalink of a page on your site. It is important to note that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation denotes a new, nested line: 
+HTML, Markdown and YAML are easy-to-read programming languages used to create websites. While you don't need to know the exact definitions of these three programming languages, it is helpful to understand a little bit about what they do in order to help you build your site.  
 
-> *Unless otherwise indicated, new lines indicate the end of a field. You structure a YAML document with indentation. The indentation level can be one or more spaces. The specification forbids tabs because tools treat them differently.*
+### HTML
 
-In addition to Markdown files, which contain your site's content, your site also has YAML files, which are denoted by a `.yml` file extension. One such file is the `_config.yml` file, which stores the configuration information that tells Jekyll how to build your site. 
+You do not need to know the ins and outs of HTML to use this site template, but it can help you edit some of the template's basic formats. Other articles in the How-To section of the template will show you how to do some things with HTML, like adding embedded content. If you want more information on HTML, check out the [W3 Schools resources on HTML](https://www.w3schools.com/html/).
 
 ### Markdown
 
 [Markdown](https://www.markdownguide.org/) is a plain-text markup language that makes it easy to format your text. Markdown converts what you write in words into HTML code that web browsers can read. Because it is so useful for writing, Markdown is an integral element to creating pages, projects, and posts on this site. This template has a guide on [Formatting Text with Markdown]({{ "/how-to/markdown/" | absolute_url }}), which you can check out later.
 
-### HTML
+### YAML
 
-You do not need to know the ins and outs of HTML to use this site template, but it can help you edit some of the template's basic formats. Other articles in the How-To section of the template will show you how to do some things with HTML, like adding embedded content. If you want more information on HTML, check out the [W3 Schools resources on HTML](https://www.w3schools.com/html/).
+[YAML](https://yaml.org/) (YAML Ain't Markup Language) is an easy-to-read programming language that stores data on how your site should be built. For example, it can be used to set the titles, layouts, and permalinks (called variables) of a page on your site—kind of like the formatting. 
+
+YAML code located at the top of a Markdown file is called **Front matter**. It is used to store information for each page and project. For example, YAML is used is in the front matter of this site's home page. 
+
+We will prov
+
+It is important to note that commands written in YAML are sensitive to line indentation. 
+
+It is important to note that YAML uses indentation-based scoping. According to [CloudBees](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started), indentation denotes a new, nested line: 
+
+> *Unless otherwise indicated, new lines indicate the end of a field. You structure a YAML document with indentation. The indentation level can be one or more spaces. The specification forbids tabs because tools treat them differently.*
+
+In addition to Markdown files, which contain your site's content, your site also has YAML files, which are denoted by a `.yml` file extension. One such file is the `_config.yml` file, which stores the configuration information that tells Jekyll how to build your site. 
 
 ## Editing the Homepage
 
