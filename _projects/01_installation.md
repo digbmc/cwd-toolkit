@@ -51,9 +51,11 @@ If you want to directly edit the code in Github, you can fork our repository and
 
 #### Committing, and Pulling in Github
 **Committing**
+<br/>
 After making changes to a file in your branch, describe your changes by writing a commit message at the bottom of the page of that file. This gives a short description of what changes have been made. The reason for having commit messages is to help other web developers understand how the project has progressed over time.
 
 **Pull request**
+<br/>
 If you want the new changes you made in your branch to be merged with another branch, you have to open a pull request. A pull request is a notifying method to let the relevant parties involved in your project know about your request to merge your changes with another branch.
 - To open a pull request, go to the “pull request” tab and hit the button that says “new pull request.” 
 - After ensuring you like the changes you made in the new branch, click the “create pull request” button.
