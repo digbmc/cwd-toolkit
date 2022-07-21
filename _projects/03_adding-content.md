@@ -101,7 +101,7 @@ You can replace the text in this section with your own text, such as an introduc
 - Setting this to true will display the site author information specified in _config.yml in this page's left sidebar
 
 **header**: 
-- The large section of the page at the top
+- Controls the large section of the page at the top
 - As you can see, the category for "image" is indented. This tells the site to place the image *inside* the header
     - **image**: Putting the permalink path to an image here will add that image to this page's header
     - **alt**: short for alt text, used to describe an image
@@ -136,7 +136,7 @@ On other projects, there are several more variables that may be helpful to you t
 **permalink**:
 - creates a path or link to the page
 - each new page or project that you create in markdown *needs* a permalink
-- to learn more, go to step 4, Site Navigation.
+- to learn more, go to step 4, [Navigation]({{ "/how-to/navigation/" | absolute_url }}).
 
 **teaser**: 
 - the teaser makes an image appear on the front page display
@@ -154,12 +154,14 @@ It will appear on the home page like this:
     
 **category**: 
 - makes project to be visible on the home page using "spotlight"
+- if you don't include category: "spotlight" your new page won't be visible on the homepage
+
 ```
 category: "spotlight"
 ```
 
 **toc:**
-- "table of contents"
+- stands for "table of contents"
 - when set to true, automatically generates a table of contents on the side of a page
 - **toc_label** is the title of the toc
 
@@ -170,7 +172,7 @@ toc_label: "On this page"
 
 ## Creating Your Own Pages and Projects
 
-In your site repository you will find two folders, one called `_pages` and one called `_projects`. By default, the files in `_pages` are what appear on the top navigation bar (`about.md` and `feedback.md`) of your site, while the files in `_projects` make up the instructional content that can be accessed from the home page. This may be a good model for structuring your site as well, but this is discussed more thoroughly in our [Navigation]({{ "/how-to/navigation/" | absolute_url }}) resource.
+In your site repository, or location on GitHub, you will find two folders, one called `_pages` and one called `_projects`. By default, the files in `_pages` are what appear on the top navigation bar (`about.md` and `feedback.md`) of your site, while the files in `_projects` make up the instructional content that can be accessed from the home page. This may be a good model for structuring your site as well, but this is discussed more thoroughly in our [Navigation]({{ "/how-to/navigation/" | absolute_url }}) resource.
 
 ### Pages
 
@@ -180,12 +182,14 @@ We recommend the use of pages as a place to keep information that provides more 
 
 You may want to keep the existing `about.md` file and edit the YAML front matter and content section to be about your site instead. Feel free, also, to delete existing pages.
 
-To create a new page, create a new Markdown (.md) file in the  `_pages` folder. In your new markdown file, you can copy and paste the front matter from the following example of an "Authors" page or from the code of the existing `about.md` page to get started. To create an "Authors" page you would create a new markdown file called `authors.md` with the following front matter: 
+To create a new page, create a new Markdown (.md) file in the  `_pages` folder. In your new markdown file, you can copy and paste the front matter from the following example of an "Authors" page or from the code of the existing `about.md` page to get started. 
+
+For example, to create a new page called "Authors," you would create a new markdown file called `authors.md` with the following front matter: 
 
 ```yaml
 ---
 layout: single
-permalink: /authors/ # should match the permalink you added in the navigation file
+permalink: /authors/ # should match the permalink in the navigation.yml file
 title: Authors of this site #insert your preferred title here
 header:
     image: /assets/images/default-1.jpg  # Putting the path to an image here will replace the header image.
@@ -195,6 +199,8 @@ toc: true #creates a table of contents
 toc_label: {{ page.title }} #label of toc is set to be the page's title
 ---
 ```
+
+Keep in mind that the colors are only in the code to make it easier to read.
 
 Then, once you have configured the YAML front matter to your liking, you can add text formatted with Markdown to the content section of the file.  
 
@@ -206,6 +212,9 @@ Looking at this site, our main content is a series of instructional written mate
 
 #### Creating Your Own Projects
 
-A good way to start making your own projects is to copy the code of the project template. First, though, you should create a file in the _projects section and name it with the following format: 00_filename.md, where you can replace 'filename' with whatever name you choose. The two-digit number at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
+A good way to start making your own projects is to copy the code of the project template, '10_template.md'. 
+
+First, though, you should create a file in the _projects section and name it with the following format: 00_filename.md, where you can replace 'filename' with whatever name you choose. 
+- The two-digit number at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
 
 WE WILL WRITE MORE HERE
