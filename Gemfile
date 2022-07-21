@@ -24,6 +24,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 #   gem "jekyll-include-cache"
 #
 # If you have any other plugins, put them here!
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
 end
