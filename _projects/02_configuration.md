@@ -24,21 +24,24 @@ If the file you are in does not begin with this message, it is not the `_config.
 
 ## Editing _config.yml
 
-Before you begin adding other content and further customizing your site, you **must** change the following items in the `_config.yml` file so that your site will work as intended. To change these items, edit the text after `:` where you see the current information that appears on the template site. Write your information "in between quotation marks" as shown with ours.
+Before you begin adding other content and further customizing your site, you **must** change the following items in the `_config.yml` file so that your site will work as intended. When editing:
+- Only change the text after `:` where you see the current information that appears on the template site.
+- Write your information "in between quotation marks" as shown.
+- Refer to the lefthand side of the code editor for **line numbers** (the # in parenthesis for each item below)
 
-### Title (code line 14)
+### Title (14)
 ![A red box surrounding Line 14 of code]({{ "/assets/images/configtitle.jpg" | relative_url }})
 
 This is where you put your site title as you want it to appear in the browser tab and navigation bar. (Note that what appears in the browser tab can be different from the navigation bar. To do this, see "Masthead Title" later on this page.)
 
-### Name, Description, URL (code lines 17-19)
+### Name, Description, URL (17-19)
 ![A red box surrounding Lines 17-19 of code]({{ "/assets/images/confignamedescurl.jpg" | relative_url }})
 
-- Name (17): Replace with your name, if you are the only contributer to your site, or your organization/class name if this site will host a group's collected work.
-- Description (18): Replace with a brief description of what your site is.
-- URL (19): Replace with the url of your site. This is based off of the github username with the forked repository and the repository name. By default, without changing the repository name, it should be https://githubUsername.github.io/ds-project. If you have changed your repository name, replace "ds-project" with the new name of your respository after the "/"
+- **Name (17)**: Replace with your name, if you are the only contributer to your site, or your organization/class name if this site will host a group's collected work.
+- **Description (18)**: Replace with a brief description of what your site is.
+- **URL (19)**: Replace with the url of your site. This is based off of the github username with the forked repository and the repository name. By default, without changing the repository name, it should be https://githubUsername.github.io/ds-project. If you have changed your repository name, replace "ds-project" with the new name of your respository after the "/"
 
-### Repository (code line 21)
+### Repository (21)
 ![A red box surrounding Line 21 of the code]({{ "/assets/images/configrepo.jpg" | relative_url }})
 
 Replace with your repository name. Similar to the URL, the repository name here should match your forked repository and be based off the the github username with the forked repository. By default, without changing the repository name after forking, it should be githubUsername/ds-project. If you have changed your repository name, replace "ds-project" with the new name of your respository after the "/"
@@ -46,25 +49,26 @@ Replace with your repository name. Similar to the URL, the repository name here 
 These are the only necessary changes to the `_config.yml` file.
 The items below **can** be changed to update other parts of your site, but they do not have to be.
 
-### Base URL
-- line number 20
-- baseurl (if you want the baseurl to be something other than ds-project, you could change to something that reflects what your site is about; remember: no spaces; IMPORTANT NOTE: baseurl MUST match the repository name, so you must also change the repo name, both on GitHub and in the _config.yml file, to match your new baseurl)
+### Base URL (20)
+The Base URL is the same as the repository name by default. If you want the baseurl to be something other than ds-project, you could change to something that reflects what your site is about instead. This process **requires** you to change your repository name in the `_config.yml` *and* officially on Github as well. This change will affect all portions of the site that use the repository name.
 
-### Locale 
-- line number 13
-- locale (changes site language; will also change the language the site's built-in features like the "next" and "previous" buttons)
+Here is the Github documentation for changing your repository name. Once you have done this, return to the `_config.yml` file and replace both the repository section and the Base URL section with your updated repository name. Make sure these match in all places.
 
-### Subtitle
-- line number 16
-- subtitle (if you want to add a site tagline)
+### Locale (13)
+Locale controls the language that the site displays in. It is set to English but can be changed if you would like to develop your site in a different language.
 
-### Masthead Title
-- line number 23
-- masthead title (if you want the title that displays in the top left of each page of your site to be different from the site's title)
+Search for the language you wish to develop your site in followed by the phrase "language code" in your preferred search engine, and replace the English code with the updated code for the language of your choice.
 
-### Search
-- line number 56
-- search (you can change the value of search (line 56 of `_config.yml`) to true or false to enable or disable a search bar on you site; NOTE: the formating on the search window will likely be a bit off)
+### Subtitle (16)
+If you want to display a tagline on your site, add it here.
+
+### Masthead Title (23)
+If you want the title that displays in the top left of each page of your site to be different from the site's title, update this section with the preferred title for the page display.
+
+### Search (56)
+This theme comes with a built in website search function that you can enable by replacing "false" with "true" in this section.
+
+The search function can be useful if your are compiling a lot of projects, but note that the formatting on the search window will likely be distorted.
 
 Aside from these settings, you probably won't *need* to change much else in this file. You can read more about some of the other settings in the [Minimal Mistakes guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), if you'd like, but it's not necessary.
 
