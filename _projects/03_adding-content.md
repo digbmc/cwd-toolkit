@@ -212,7 +212,7 @@ Looking at this site, our main content is a series of instructional written mate
 
 #### Creating Your Own Projects
 
-A good way to start making your own projects is to copy the code of the project template, '10_template.md'. The template is located in the GitHub in the folder called '_projects'. 
+A good way to start making your own projects is to copy the code of the project template, `10_template.md`. The template is located in the GitHub in the folder called `_projects`. 
 
 First, though, you should create a file in the _projects section and name it with the following format: 00_filename.md, where you can replace 'filename' with whatever name you choose. 
 - The two-digit number at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
