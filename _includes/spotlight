@@ -14,7 +14,7 @@
           alt="{% if f.alt %}{{ f.header.alt }}{% endif %}"{% endif %}>
         <div class="archive__item-body">
           {% if f.title %}
-            <h3 class="archive__item-title">{{ f.title | truncatewords: 15 }}</h3>
+            <h2 class="archive__item-title">{{ f.title | truncatewords: 15 }}</h2>
           {% endif %}
         </div>
       </div>

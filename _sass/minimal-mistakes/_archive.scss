@@ -251,6 +251,7 @@
     .archive__item-title {
       margin-bottom: 0;
       text-decoration: none;
+      text-shadow: 2px 2px 2px #000;
     }
     a {
       height: 100%;
@@ -503,6 +504,7 @@
         margin-bottom: 0;
         margin-top: 0;
         text-decoration: none;
+        text-shadow: 2px 2px 2px #000;
       }
       a {
         height: 100%;
@@ -522,10 +524,11 @@
         height: 100%;
         margin-top: 1em;
         margin-bottom: 1em;
-        padding-top: 10%;
+        padding-top: 2em;
         text-align: center;
-        font-size: 1.125em;
-        min-height: 12.5rem;
+        font-size: 1.3em;
+        font-weight: normal;
+        min-height: 8rem;
         border-radius: $border-radius;
         background-color: $primary-color;
       }

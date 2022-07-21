@@ -11,13 +11,13 @@ main:
 categories:
   - title: "Getting Started"
     children:
-      - title: "Installation"
+      - title: "1. Installation"
         url: /how-to/installation/
-      - title: "Configuration"
+      - title: "2. Configuration"
         url: /how-to/configuration/
-      - title: "Adding Content"
+      - title: "3. Adding Content"
         url: /how-to/adding-content/
-      - title: "Navigation"
+      - title: "4. Navigation"
         url: /how-to/navigation/
   - title: "How-To"
     children:

@@ -44,7 +44,7 @@ body {
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    padding-right: $right-sidebar-width-narrow;
   }
 
   .page__inner-wrap {
@@ -266,12 +266,24 @@ body {
   }
 }
 
+/*
+   CWDT Template Features
+   ========================================================================== */
+
 .by-line {
   color: $muted-text-color;
   font-style: italic;
   margin-top: -0.5em;
   margin-bottom: 0;
   font-size: $type-size-6;
+}
+
+.pane {
+  .category_title {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 /*
