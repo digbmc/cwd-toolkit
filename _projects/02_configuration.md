@@ -47,34 +47,35 @@ This is where you put your site title as you want it to appear in the browser ta
 Replace with your repository name. Similar to the URL, the repository name here should match your forked repository and be based off the the github username with the forked repository. By default, without changing the repository name after forking, it should be githubUsername/ds-project. If you have changed your repository name, replace "ds-project" with the new name of your respository after the "/"
 
 These are the only necessary changes to the `_config.yml` file.
+
+### Additional Changes
 The items below **can** be changed to update other parts of your site, but they do not have to be.
 
-### Base URL (20)
+#### Base URL (20)
 The Base URL is the same as the repository name by default. If you want the baseurl to be something other than ds-project, you could change to something that reflects what your site is about instead. This process **requires** you to change your repository name in the `_config.yml` *and* officially on Github as well. This change will affect all portions of the site that use the repository name.
 
 Here is the Github documentation for changing your repository name. Once you have done this, return to the `_config.yml` file and replace both the repository section and the Base URL section with your updated repository name. Make sure these match in all places.
 
-### Locale (13)
+#### Locale (13)
 Locale controls the language that the site displays in. It is set to English but can be changed if you would like to develop your site in a different language.
 
 Search for the language you wish to develop your site in followed by the phrase "language code" in your preferred search engine, and replace the English code with the updated code for the language of your choice.
 
-### Subtitle (16)
+#### Subtitle (16)
 If you want to display a tagline on your site, add it here.
 
-### Masthead Title (23)
+#### Masthead Title (23)
 If you want the title that displays in the top left of each page of your site to be different from the site's title, update this section with the preferred title for the page display.
 
-### Search (56)
+#### Search (56)
 This theme comes with a built in website search function that you can enable by replacing "false" with "true" in this section.
 
 The search function can be useful if your are compiling a lot of projects, but note that the formatting on the search window will likely be distorted.
 
-Aside from these settings, you probably won't *need* to change much else in this file. You can read more about some of the other settings in the [Minimal Mistakes guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), if you'd like, but it's not necessary.
+## Removing the Demo Site Content / Removing the content that comes with the template / Files you can safely delete after forking the repo
+You can read more about some of the other settings in the [Minimal Mistakes guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), if you'd like, but it's not necessary.
 
 Now we will discuss the next steps for setting up your site beyond the `_config.yml` file.
-
-## Removing the Demo Site Content / Removing the content that comes with the template / Files you can safely delete after forking the repo
 
 - All of the files in the `_projects` folder, including:
     - 01_installation.md
