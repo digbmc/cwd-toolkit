@@ -61,23 +61,34 @@ The items below **can** be changed to update other parts of your site, but they 
 
 - **Search (56)**: This theme comes with a built in website search function that you can enable by replacing "false" with "true" in this section. The search function can be useful if your are compiling a lot of projects, but note that the formatting on the search window will likely be distorted.
 
-## Removing the Demo Site Content / Removing the content that comes with the template / Files you can safely delete after forking the repo
 You can read more about some of the other settings in the [Minimal Mistakes guide](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), if you'd like, but it's not necessary.
 
-Now we will discuss the next steps for setting up your site beyond the `_config.yml` file.
+## Clearing the Template
+After setting up the `_config.yml` file, the next step is to remove the content that comes with the template.
+
+**Delete** the following:
 
 - All of the files in the `_projects` folder, including:
     - 01_installation.md
     - 02_configuration.md
     - ...
     - 10_template.md
-- Any of the template's default images that you don't end up using
-- README.md (or at least the content that is in it by default)
+- The template images in the `assets` -> `images` subfolder
+- The contents of README.md
+
+You will learn about adding your own content in the next section, and after finishing the introductory steps, there are various other tutorials on how to format text, add images, embed content, etc. 
 
 ## Deploying the Site with GitHub Pages
 
-Make sure that if you're working in a code editor like VS Code, that you push your changes to the main branch of your GitHub repository.
+Deployment makes your site visible to anyone with the url and is how you will view changes to your site while you are developing.
 
-(Turn on GitHub Pages in repo settings?)
+1. Go to your repositories Settings on Github, then Pages
+2. Under "Source" make sure that the "main" branch is selected
 
-Preview your site
+At this point your site should attempt to "build" from the code that is in the main branch. Make sure that if you're working in a code editor like VS Code, that you regularly push your changes to the main branch of your GitHub repository.
+
+In the "Actions" tab of your repository you can see the progress of these builds and often catch errors if they occur in deployment.
+
+Whenever you make a change on the main branch and save or push it, the site will automatically rebuild. For the template site, it took a little over 1 minute for new changes to appear after each build. When updating images, you may want to clear your web cache frequently to ensure you are actually viewing the updates.
+
+
