@@ -223,7 +223,7 @@ On the site, the template looks like this:
 
 Second, add your text, images, and any other content you would like to include. For more information on adding these elements, go to our "how-to" section. For basics on adding text, go to our tutorial on [Formatting Text with Markdown]({{ "/how-to/markdown/" | absolute_url }}). 
 
-Congratulations! You made it through the adding content section! Everything from here on out is the fun stuff :)
+Congratulations! You made it through the adding content section! :)
 
 To continue your learning journey, click next to step four, Navigation -->
 
