@@ -91,31 +91,38 @@ classes: wide
 ---
 ```
 
-You can replace the text in this section with your own text, such as an introduction to your site. Here is what each new variable does:
+If you want to use this front matter in any of your own pages or projects, all you need to do is copy and paste it into a new markdown file.
+
+Here is what each new variable does:
 
 **layout**:
 - This sets the layout of the page. Since this is the homepage, layout is set to home. Other layouts are located in the `_layouts` file. 
     - It is not necessary to include a layout category, only our home page has a "layout" set
+    - If you decide not to include a "layout" category, the layout will automatically set to default
 
 **author_profile**: 
-- Setting this to true will display the site author information specified in _config.yml in this page's left sidebar
+- Setting this to true will display the site author information specified in _config.yml in this page's left sidebar (example: [project template]({{ "/-templates/project/" | absolute_url }}))
+- Setting it to false will remove author information from the top of the page
 
 **header**: 
-- Controls the large section of the page at the top
+- Controls the large space of the page at the top
 - As you can see, the category for "image" is indented. This tells the site to place the image *inside* the header
     - **image**: Putting the permalink path to an image here will add that image to this page's header
     - **alt**: short for alt text, used to describe an image
     - **caption**: provides an image caption which is good for citations. Here we included a link to the photographer
 
 **sidebar**:
-- creates the sidebar navigation. Does not need to be changed.
+- only applicable to the home page. 
+- creates the sidebar navigation. Does not need to be changed
 
 **include_categories**:
 - divides the content on the page into categories 
 - the bulleted items are the titles of the categories
 
 **classes**:
-- changes the formatting of the page. Shouldn't be changed.
+- changes the formatting of the page. Shouldn't be changed
+
+#### Adding Text
 
 In the home page or index.md file, the rest of the stuff after the enclosed front matter is the file's content or markdown section. The content looks like this:
 
@@ -214,14 +221,17 @@ Looking at this site, our main content is a series of instructional written mate
 
 A good way to start making your own projects is to copy the code of the project template, `10_template.md`. The template is located in the GitHub in the folder called `_projects`. 
 
-First, though, you should create a file in the _projects section and name it with the following format: 00_filename.md, where you can replace 'filename' with whatever name you choose. 
-- The two-digit number at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
+**First**, though, you should create a file in the _projects section and name it with the following format: 00_filename.md, where you can replace 'filename' with whatever name you choose. 
+- The two-digit number (00_) at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
+- To see examples of file names, check out the files in the _projects folder (01_installation.md, 02_configuration.md, etc)
+
+**Second**, copy and paste the code from the projects template into your file.  
 
 On the site, the template looks like this:
 
 ![Image of project template]({{ "/assets/images/example-template.jpg" | relative_url }})
 
-Second, add your text, images, and any other content you would like to include. For more information on adding these elements, go to our "how-to" section. For basics on adding text, go to our tutorial on [Formatting Text with Markdown]({{ "/how-to/markdown/" | absolute_url }}). 
+**Third**, add your text, images, and any other content you would like to include. For more information on adding these elements, go to our "how-to" section. For basics on adding text, go to our tutorial on [Formatting Text with Markdown]({{ "/how-to/markdown/" | absolute_url }}). 
 
 Congratulations! You made it through the adding content section! :)
 
