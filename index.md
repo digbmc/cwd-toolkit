@@ -17,23 +17,11 @@ include_categories:
 classes: # Setting the class as wide will extend the page's content into the right margin.
 ---
 
-Welcome to the CWD Toolkit—we’re so glad you’re here. The CWD Toolkit was designed to simplify the creation of professional static sites for anyone  interested in showcasing their projects or research digitally. 
+Welcome to the CWD Toolkit—we’re so glad you’re here. The CWD Toolkit was designed to simplify the creation of professional static sites for anyone  interested in showcasing their projects or research digitally. This site is built to live up to our core value's of sustainability and accessibility while maintaining an easy-to-use and sleek look.
 
 Hopefully, this toolkit inspires you to not only build your best project, but also encourages you to continue your learning journey in web design and development.
 
-
-## Sustainable & Accessible 
-
-Inspired by the low-tech movement, this site was built with sustainability and accessibility as a core value. As a static site, this toolkit requires less energy and time to generate. As a result, this site produces significantly less emissions when loaded. Our site's palette is designed for easy-to-read color contrasts and all of our images contain alt text that is visible to screen readers.   
-
-## Simple
-
-Our streamlined documentation provides a user-friendly starting point for beginners.
-
-To learn more about our site's missions, [please follow the directions for our site's values on the page titled "Values" ]({{ "/how-to/installation/" | absolute_url }}).
-
-To start using this toolkit, [please follow the directions for our getting started on the page titled 1) Installation]({{ "/how-to/installation/" | absolute_url }}).
-
+To learn more about our site's missions, [please follow the directions for our site's values on the page titled "Values" ]({{ "/how-to/installation/" | absolute_url }}).  
 
 
 {% comment %} You can replace the text in this section with your own text such as an introduction to your site.
