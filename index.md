@@ -17,6 +17,21 @@ include_categories:
 classes: # Setting the class as wide will extend the page's content into the right margin.
 ---
 
+Welcome to the CWD Toolkit—we’re so glad you’re here. The CWD Toolkit was designed to simplify the creation of professional static sites for anyone  interested in showcasing their projects or research digitally. Along the way, you will hopefully learn the basics of web development, and by the end, have a better understanding of how websites are made.  
+
+## Sustainable & Accessible 
+
+Inspired by the low-tech movement, this site was built with sustainability and accessibility in mind. Developed as a static site, the CWD Toolkit is 
+
+As a static site, this toolkit requires less energy and time to generate. 
+
+## Simple
+
+Our streamlined documentation provides an easy-to-access starting point for beginners.
+
+To start using this toolkit, [please follow the directions for our getting started on the page titled 1) Installation]({{ "/how-to/installation/" | absolute_url }}).
+
+
 {% comment %} You can replace the text in this section with your own text such as an introduction to your site.
 
 Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.{% endcomment %}
