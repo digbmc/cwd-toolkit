@@ -189,6 +189,10 @@ We recommend the use of pages as a place to keep information that provides more 
 
 You may want to keep the existing `about.md` file and edit the YAML front matter and content section to be about your site instead. Feel free, also, to delete existing pages.
 
+Pages will appear in to top navigation bar or "masthead navigation": 
+
+![Example top header navigation]({{ "/assets/images/masthead.jpg" | relative_url }})
+
 To create a new page, create a new Markdown (.md) file in the  `_pages` folder. In your new markdown file, you can copy and paste the front matter from the following example of an "Authors" page or from the code of the existing `about.md` page to get started. 
 
 For example, to create a new page called "Authors," you would create a new markdown file called `authors.md` with the following front matter: 
