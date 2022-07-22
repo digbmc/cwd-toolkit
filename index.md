@@ -17,9 +17,9 @@ include_categories:
 classes: # Setting the class as wide will extend the page's content into the right margin.
 ---
 
-You can replace the text in this section with your own text such as an introduction to your site.
+{% comment %} You can replace the text in this section with your own text such as an introduction to your site.
 
-Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.
+Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.{% endcomment %}
 
 {% comment %}The text content in this section is written in Markdown (the text directly below the front matter that looks like plain, readable text), but you will notice that this section also contains some Liquid (in the curly brackets) and some HTML. This code adds some unique features to the homepage that Markdown itself cannot support. The Markdown text at the top of the section (above this comment) can be safely edited, but the Liquid and HTML code at the bottom (below this comment) should not be changed.{% endcomment %}
 
