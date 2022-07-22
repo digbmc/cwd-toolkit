@@ -189,7 +189,7 @@ We recommend the use of pages as a place to keep information that provides more 
 
 You may want to keep the existing `about.md` file and edit the YAML front matter and content section to be about your site instead. Feel free, also, to delete existing pages.
 
-Pages will appear in to top navigation bar or "masthead navigation": 
+Pages will appear in the top navigation bar or "masthead navigation": 
 
 ![Example top header navigation]({{ "/assets/images/masthead.jpg" | relative_url }})
 
