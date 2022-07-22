@@ -17,7 +17,7 @@ include_categories:
 classes: # Setting the class as wide will extend the page's content into the right margin.
 ---
 
-Welcome to the CWD Toolkit—we’re so glad you’re here. The CWD Toolkit is a learning resource and template created to simplify the creation of professional static sites for digital projects. This site was built to live up to our core value's of sustainability and accessibility while maintaining an easy-to-use and sleek design.
+Welcome to the CWD Toolkit—we’re so glad you’re here. The CWD Toolkit is a learning resource and template created to simplify the creation of professional static sites for digital projects. This site was built to live up to our core value's of sustainability and accessibility while maintaining an easy-to-use and minimalist design.
 
 Hopefully, this toolkit inspires you to not only build your best project, but also encourages you to continue your learning journey in web design and development.
 
