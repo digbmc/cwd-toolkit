@@ -17,7 +17,8 @@ include_categories:
 classes: # Setting the class as wide will extend the page's content into the right margin.
 ---
 
-Welcome to the CWD Toolkit—we’re so glad you’re here. The CWD Toolkit was designed to simplify the creation of professional static sites for anyone  interested in showcasing their projects or research digitally. Along the way, you will hopefully learn the basics of web development, and by the end, have a better understanding of how websites are made.  
+Welcome to the CWD Toolkit—we’re so glad you’re here. The CWD Toolkit was designed to simplify the creation of professional static sites for anyone  interested in showcasing their projects or research digitally. Hopefully this toolkit inspires you to not only build your best project, but also encourages you to continue your learning journey in web design and development.
+
 
 ## Sustainable & Accessible 
 
@@ -26,8 +27,6 @@ Inspired by the low-tech movement, this site was built with sustainability and a
 ## Simple
 
 Our streamlined documentation provides a user-friendly starting point for beginners.
-
-Hopefully this toolkit inspires you to not only build your best project, but also encourages you to continue your learning journey in web design and development.
 
 To learn more about our site's missions, [please follow the directions for our site's values on the page titled "Values" ]({{ "/how-to/installation/" | absolute_url }}).
 
