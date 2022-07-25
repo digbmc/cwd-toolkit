@@ -18,9 +18,16 @@ include_categories:
 classes: # Setting the class as wide will extend the page's content into the right margin.
 ---
 
-You can replace the text in this section with your own text such as an introduction to your site.
+Welcome to the CWD Toolkit—we’re so glad you’re here. The CWD Toolkit is a learning resource and template created to simplify the creation of professional static sites for digital projects. This site was built to live up to our core value's of sustainability and accessibility while maintaining an easy-to-use and minimalist design.
 
-Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.
+Hopefully, this toolkit inspires you to not only build your best project, but also encourages you to continue your learning journey in web design and development.
+
+To learn more about our site's missions, [please follow the directions for our site's values on the page titled "Values" ]({{ "/how-to/installation/" | absolute_url }}).  
+
+
+{% comment %} You can replace the text in this section with your own text such as an introduction to your site.
+
+Below you will find instructions on how to install and configure your site as well as how to add and format your own content. You can safely delete them from your repository if you are done referencing them.{% endcomment %}
 
 {% comment %}The text content in this section is written in Markdown (the text directly below the front matter that looks like plain, readable text), but you will notice that this section also contains some Liquid (in the curly brackets) and some HTML. This code adds some unique features to the homepage that Markdown itself cannot support. The Markdown text at the top of the section (above this comment) can be safely edited, but the Liquid and HTML code at the bottom (below this comment) should not be changed.{% endcomment %}
 

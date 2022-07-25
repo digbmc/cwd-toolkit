@@ -41,4 +41,11 @@ To embed any type of content, you would need an embed code first. An embed code 
 
 ## How to edit layouts to embed a content
 * If you want to apply some other layout to your page but if the layout doesn't have the coding that allows you to embed content, you can just add the code shown below at any part of the file based on where you want the embedded content to show up. 
-> <img src="{{ site.baseurl }}/assets/images/embedded-responsive.png" alt="This is how the embed code should look like more or less." style="height: 73px; width: 100%;"/>
+
+```markdown
+{% raw %}
+{% if page.code %} <div class="embed-responsive"> 
+       {{page.code}}
+    </div> {% endif %}
+{% endraw %}
+```
