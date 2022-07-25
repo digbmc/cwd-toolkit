@@ -9,13 +9,13 @@ header:
     caption: "[Original Photo by Eric Han on Unsplash](https://unsplash.com/@madeyes)" # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---
 
-Now that you've forked the template repository and gotten set up in a code editing environment, it is time to configure your site's settings. This will be done by editing the code in your site's `_config.yml` file.
+Now that you've made a copy of the repository and gotten set up in a code editing environment, it is time to configure your site's settings. This will be done by editing the code in your site's `_config.yml` file.
 
 The `_config.yml`file is full of **comments** that help to tell you what each setting in the file does. The comments in this file begin with a pound/hash sign `#`, and they are sometimes used as headings to separate the code into sections or as notes next to items. Reading comments as you encounter them will ensure that you know what the code you are editing will change about your site.
 
 ## Locating _config.yml
 
-To find the `_config.yml` file, scroll past the folders which appear at the top of the files. In a forked Github repository it should be the 8th file below the `assets` folder (Visual Studio Code may slightly rearrange the standalone files).
+To find the `_config.yml` file, scroll past the folders which appear at the top of the files. In a copied Github repository it should be the 8th file below the `assets` folder (Visual Studio Code may slightly rearrange the standalone files).
 
 - To know you're in the right file, open it, and you should see the following:
 ![A message in the code that begins "Welcome to Jekyll! This config file is meant for settings that affect your entire site..."]({{ "/assets/images/configmessage.jpg" | relative_url }})
@@ -39,12 +39,12 @@ This is where you put your site title as you want it to appear in the browser ta
 
 - **Name (17)**: Replace with your name, if you are the only contributer to your site, or your organization/class name if this site will host a group's collected work.
 - **Description (18)**: Replace with a brief description of what your site is.
-- **URL (19)**: Replace with the url of your site. This is based off of the github username with the forked repository and the repository name. By default, without changing the repository name, it should be https://githubUsername.github.io/ds-project. If you have changed your repository name, replace "ds-project" with the new name of your respository after the "/"
+- **URL (19)**: Replace with the url of your site. This is based off of the github username with the copied repository and the repository name. By default, without changing the repository name, it should be https://githubUsername.github.io/ds-project. If you have changed your repository name, replace "ds-project" with the new name of your respository after the "/"
 
 ### Repository (21)
 ![A red box surrounding Line 21 of the code]({{ "/assets/images/configrepo.jpg" | relative_url }})
 
-Replace with your repository name. Similar to the URL, the repository name here should match your forked repository and be based off the the github username with the forked repository. By default, without changing the repository name after forking, it should be githubUsername/ds-project. If you have changed your repository name, replace "ds-project" with the new name of your respository after the "/"
+Replace with your repository name. Similar to the URL, the repository name here should match your copied repository and be based off the the github username with the copied repository. By default, without changing the repository name after making the blank template, it should be githubUsername/ds-project. If you have changed your repository name, replace "ds-project" with the new name of your respository after the "/"
 
 These are the only necessary changes to the `_config.yml` file.
 
