@@ -33,6 +33,8 @@ works-cited: # Put your sources in here as a list in alphabetical order, each it
 
 ## Excerpt from *The Picture of Dorian Grey*
 
+![A dark wooden bookcase full of books]({{ "/assets/images/default-4.jpg" | relative_url }}){: .align-right}
+
 When he reached the library, he saw the bag and coat
 in the corner. They must be hidden away somewhere. He
 unlocked a secret press that was in the wainscoting, and
@@ -45,8 +47,6 @@ month, almost— men were strangled in England for what
 he had done. There had been a madness of murder in the
 air. Some red star had come too close to the earth.
 
-{% include gallery layout="half" caption="A sample gallery of images." %}
-
 Evidence? What evidence was there against him? Basil
 Hallward had left the house at eleven. No one had seen
 him come in again. Most of the servants were at Selby
@@ -57,6 +57,8 @@ midnight train, as he had intended. With his curious
 reserved habits, it would be months before any suspicions
 would be aroused. Months? Everything could be
 destroyed long before then.[^2]
+
+{% include gallery layout="half" caption="A sample gallery of images." %}
 
 A sudden thought struck him. He put on his fur coat
 and hat, and went out into the hall. There he paused,
