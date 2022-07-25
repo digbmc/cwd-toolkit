@@ -2,6 +2,7 @@
 title:  "Toolkit"
 category: "spotlight"
 permalink: /toolkit/
+header:
     teaser: /assets/images/header-1.jpg
     image: /assets/images/header-1.jpg  # Putting the path to an image here will add a header image.
     alt: "A person typing on a computer" # It is good practice to include an image desription as alt text.
