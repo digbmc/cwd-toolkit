@@ -40,6 +40,6 @@ To learn more about website accessibility, check out this resource called [Desig
 ### Notes
 
 [^1]: Low-Tech Magazine: [Why we need a speed limit for the internet](https://solar.lowtechmagazine.com/2015/10/can-the-internet-run-on-renewable-energy.html)
-[^2]: Whose Knowledge? Decolonizing the Internet conference proceedings](https://whoseknowledge.org/decolonizing-the-internet-conference/)
+[^2]: Whose Knowledge? [Decolonizing the Internet conference proceedings](https://whoseknowledge.org/decolonizing-the-internet-conference/)
 [^3]: Pablo Stanley, [Designing for Accessibility is not that hard](https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94) (UX Collective, 2018)
 
