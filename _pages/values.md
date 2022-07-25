@@ -13,7 +13,7 @@ Contrary to popular belief, the internet and the servers required to host it are
 
 While it is challenging to quantify exactly how much energy is saved using static sites rather than dynamic ones, using the carbon calculator online tool can calculate how many grams of CO2 is released. If you want to try for yourself, [put the link to your favorite website into the Website Carbon Calculator linked here](https://www.websitecarbon.com/). 
 
-In addition to using a static site basis, we used compression and dithering techniques to reduce the size of every image on our site, which increases speed and reduces emissions. To learn more about image compression, check out [this link “Sustainable website – tip #1 – use images efficiently”](https://www.pixeledeggs.com/sustainable-websites-tip-1-use-images-efficiently/) by pixeledeggs.  
+In addition to using a static site basis, we used compression and dithering techniques to reduce the size of every image on our site, which increases speed and reduces emissions. To learn more about image compression, check out [this link “Sustainable website – tip #1 – use images efficiently”](https://www.pixeledeggs.com/sustainable-websites-tip-1-use-images-efficiently/) by SEPAS.  
 
  
 
