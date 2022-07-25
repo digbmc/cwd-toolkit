@@ -2,6 +2,7 @@
 title:  "Toolkit"
 category: "spotlight"
 permalink: /toolkit/
+layout: splash
 header:
     teaser: /assets/images/header-1.jpg
     image: /assets/images/header-1.jpg  # Putting the path to an image here will add a header image.
@@ -10,12 +11,6 @@ header:
 ---
 
 *can change the title and all to something better
----
-layout: single
-permalink: /values/
-title: Our Values
-toc: false
----
 
 The Critical Web Design Toolkit Project aims to not only bring awareness to the environmental impact that websites have on energy consumption, but to also tackle the issues of the digital divide, accessibility, and the social and moral implications of web development tools and current practices (taken from our project charter).  
 
