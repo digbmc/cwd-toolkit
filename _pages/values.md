@@ -35,8 +35,6 @@ To learn more about website accessibility, check out this resource called [Desig
 
 - Whole Grain Digital (2019): ["17 ways to make your website more energy efficient"](https://www.wholegraindigital.com/blog/website-energy-efficiency/) 
 
-- Ashish Annacchatre (2020): ["Why static websites are better than dynamic, media rich websites for the environment"](https://medium.com/@ashishaa/why-static-websites-are-better-than-dynamic-media-rich-websites-for-environment-cba008d73804)
-
 - Tao Leigh Goffe, ["Unmapping the Caribbean: Toward a Digital Praxis of Archipelagic Sounding"](http://archipelagosjournal.org/issue05/goffe-unmapping.html) 
 
 ### Notes
