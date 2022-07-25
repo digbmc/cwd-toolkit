@@ -2,7 +2,6 @@
 title:  "Toolkit"
 category: "spotlight"
 permalink: /toolkit/
-layout: splash
 header:
     teaser: /assets/images/header-1.jpg
     image: /assets/images/header-1.jpg  # Putting the path to an image here will add a header image.
