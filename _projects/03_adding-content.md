@@ -229,7 +229,7 @@ A good way to start making your own projects is to copy the code of the project 
 - The two-digit number (00_) at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
 - To see examples of file names, check out the files in the _projects folder (01_installation.md, 02_configuration.md, etc)
 
-**Second**, copy and paste the code from the projects template into your file.  
+**Second**, copy and paste the code from the projects template, `10_template.md`, into your file.  
 
 On the site, the template looks like this:
 
