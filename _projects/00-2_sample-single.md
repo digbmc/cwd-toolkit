@@ -12,20 +12,16 @@ header:
 gallery:
   - url: /assets/images/default-1.jpg
     image_path: /assets/images/default-1.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+    alt: "An open book on a black background"
   - url: /assets/images/default-2.jpg
     image_path: /assets/images/default-2.jpg
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
+    alt: "Many open books in a pile"
   - url: /assets/images/default-3.jpg
     image_path: /assets/images/default-3.jpg
-    alt: "placeholder image 3"
-    title: "Image 3 title caption"
+    alt: "A close-up of a typewriter's keys"
   - url: /assets/images/default-4.jpg
     image_path: /assets/images/default-4.jpg
-    alt: "placeholder image 4"
-    title: "Image 4 title caption"
+    alt: "A dark wooden bookcase full of books"
 
 works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>
     - item: "Wilde, Oscar. <i>The Picture of Dorian Grey</i>. Ward Lock & Co., 1891, https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)."
