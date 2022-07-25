@@ -27,12 +27,12 @@ To embed any type of content, you would need an embed code first. An embed code 
 3. To format the embedded content, you can change the height and width in the embed code itself that you put at the top of the markdown file according to your preferred dimensions. You have to put specific values for the height and width such as 500; percentages are not accepted.
 
 4. Save the changes and view the content that you just embedded. As an example, you can see an embedded video of how to draw cats below.
->  <iframe width="800" height="450" src="https://www.youtube.com/embed/Y-ObdZ6fw60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Y-ObdZ6fw60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Other contents that you can embed
 
 * If you want to embed a Google Map as shown below, follow step 2 from "Steps to Embed Content" but put the embed code of the Google Map beside map: **paste the embed code here** at the top of the markdown file. You could also just follow the first bullet point stated in the next section if you want the map to be in a specific position on the website and not at the bottom of the page.
-> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24440.49827767732!2d-75.3074176!3d40.0293888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1657129930385!5m2!1sen!2sus" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24440.49827767732!2d-75.3074176!3d40.0293888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1657129930385!5m2!1sen!2sus" width="740" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 * If you want to make a timeline for your project(s), you can follow this <a href="https://timeline.knightlab.com/" style="color: purple; text-decoration: underline ;">guide</a> to create a timeline. You will also find the embed code of your timeline in this same guide which you can use to embed the timeline on the website.
 
 
