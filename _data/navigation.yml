@@ -6,8 +6,6 @@ main:
     url: /about/
   - title: "Feedback"
     url: /feedback/
-  - title: "Values"
-    url: /values/
 
 # sidebar links
 categories:
