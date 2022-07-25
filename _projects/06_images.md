@@ -4,7 +4,7 @@ category: "how-to"
 permalink: /how-to/images/
 
 header:
-    teaser: /assets/images/images-header.jpg
+    teaser: /assets/images/header-2.jpg
     image: # Putting the path to an image here will replace the header image.
     alt: "Multiple camera lenses" # It is good practice to include an image desription as alt text.
     caption: # Put a caption for your image here. It will display in the bottom right corner of the image.

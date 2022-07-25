@@ -1,6 +1,6 @@
 ---
 title:  "3) Adding and Editing Content"
-category: "spotlight"
+category: "getting-started"
 permalink: /how-to/adding-content/
 
 header:

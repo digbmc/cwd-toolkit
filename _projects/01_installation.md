@@ -1,6 +1,6 @@
 ---
 title:  "1) Installation"
-category: "spotlight"
+category: "getting-started"
 permalink: /how-to/installation/
 header:
     teaser: /assets/images/ocean-teaser-1.jpg

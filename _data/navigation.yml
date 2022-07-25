@@ -9,6 +9,14 @@ main:
 
 # sidebar links
 categories:
+  - title: "Toolkit"
+    children:
+      - title: "Toolkit"
+        url: /toolkit/
+      - title: "Sample Project 1"
+        url: /sample-single/
+      - title: "Sample Project 2"
+        url: /sample-splash/
   - title: "Getting Started"
     children:
       - title: "1. Installation"

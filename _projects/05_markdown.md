@@ -4,8 +4,8 @@ category: "how-to"
 permalink: /how-to/markdown/
 
 header:
-    teaser: /assets/images/markdown-header.jpg
-    image: /assets/images/markdown-header.jpg  # Putting the path to an image here will add a header image.
+    teaser: /assets/images/header-1.jpg
+    image: /assets/images/header-1.jpg  # Putting the path to an image here will add a header image.
     alt: "A person typing on a computer" # It is good practice to include an image desription as alt text.
     caption: "[Original Photo by Christin Hume on Unsplash](https://unsplash.com/@christinhumephoto)" # Put a caption for your image here. It will display in the bottom right corner of the image.
 ---

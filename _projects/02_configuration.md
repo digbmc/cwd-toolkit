@@ -1,6 +1,6 @@
 ---
 title:  "2) Configuration"
-category: "spotlight"
+category: "getting-started"
 permalink: /how-to/configuration/
 header:
     teaser: /assets/images/ocean-teaser-2.jpg 

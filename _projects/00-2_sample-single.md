@@ -1,14 +1,31 @@
 ---
-title:  "Project Page Template" # Replace this with the title of your project.
-author: "Your Name"
-category: "templates" # Give the post the "spotlight" category if you want it to appear in a large box on the homepage, or give it a category that matches one in _data/content.yml .
-permalink: /templates/project/
-
+title:  "Sample Project 1"
+category: "spotlight"
+permalink: /sample-single/
 header:
-    teaser: /assets/images/header-6.jpg # The image you put here will appear as a teaser on the site's homepage.
-    image: /assets/images/header-6.jpg  # Putting the path to an image here will add a header image.
-    alt: "Green leaves." # It is good practice to include an image desription as alt text.
-    caption: "[Original Photo by Nahil Naseer on Unsplash](https://unsplash.com/@nahilnaseer)" # Put a caption for your image here. It will display in the bottom right corner of the image. This is a good place to give credit to the photographer or source.
+    teaser: /assets/images/header-2.jpg
+    image: # Putting the path to an image here will replace the header image.
+    alt: "Multiple camera lenses" # It is good practice to include an image desription as alt text.
+    caption: # Put a caption for your image here. It will display in the bottom right corner of the image.
+
+
+gallery:
+  - url: /assets/images/default-1.jpg
+    image_path: /assets/images/default-1.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/default-2.jpg
+    image_path: /assets/images/default-2.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: /assets/images/default-3.jpg
+    image_path: /assets/images/default-3.jpg
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"
+  - url: /assets/images/default-4.jpg
+    image_path: /assets/images/default-4.jpg
+    alt: "placeholder image 4"
+    title: "Image 4 title caption"
 
 works-cited: # Put your sources in here as a list in alphabetical order, each item should be in quotations, add italics using html tags <i></i>
     - item: "Wilde, Oscar. <i>The Picture of Dorian Grey</i>. Ward Lock & Co., 1891, https://en.wikisource.org/wiki/The_Picture_of_Dorian_Gray_(1891)."

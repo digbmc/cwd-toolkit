@@ -1,6 +1,6 @@
 ---
 title:  "4) Site Navigation"
-category: "spotlight"
+category: "how-to"
 permalink: /how-to/navigation/
 header:
     teaser: /assets/images/ocean-teaser-4.jpg 
@@ -51,7 +51,7 @@ categories:
         url: /how-to/installation/
       - title: "Configuration"
         url: /how-to/configuration/
-  - title: "How-To"
+  - title: "getting-started"
     children:
       - title: "Formatting Text with Markdown"
         url: /how-to/markdown/

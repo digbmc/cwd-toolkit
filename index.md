@@ -10,7 +10,8 @@ header:
 sidebar:
     nav: "categories"
 
-include_categories:   
+include_categories:
+  - getting-started   
   - how-to
   - templates
 
