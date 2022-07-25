@@ -33,14 +33,12 @@ works-cited: # Put your sources in here as a list in alphabetical order, each it
 
 ## Excerpt from *The Picture of Dorian Grey*
 
-<img src="/ds-project/assets/images/default-4.jpg" alt="A dark wooden bookcase full of books" class="align-right" style="max-width: 300px; object-fit: contain;">
-
 When he reached the library, he saw the bag and coat
 in the corner. They must be hidden away somewhere. He
 unlocked a secret press that was in the wainscoting, and
 put them into it. He could easily burn them afterwards.
 Then he pulled out his watch.[^1] It was twenty minutes to
-two.
+two. <img src="/ds-project/assets/images/default-4.jpg" alt="A dark wooden bookcase full of books" class="align-right" style="max-width: 400px; object-fit: contain;">
 
 He sat down, and began to think. Every year—every
 month, almost— men were strangled in England for what
