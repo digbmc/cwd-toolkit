@@ -29,11 +29,11 @@ To learn more about website accessibility, check out this resource called [Desig
 
 ## Further resources: 
 
-- Alex Gil, [Design for Diversity: The Case of Ed"](https://des4div.library.northeastern.edu/design-for-diversity-the-case-of-ed-alex-gil/#more-1888) and [Ed. A jekyll theme for minimal editions](https://elotroalex.github.io/ed/about/)  
+- Alex Gil, ["Design for Diversity: The Case of Ed"](https://des4div.library.northeastern.edu/design-for-diversity-the-case-of-ed-alex-gil/#more-1888) and [Ed. A jekyll theme for minimal editions](https://elotroalex.github.io/ed/about/)  
 
-- Low-Tech Magazine: [A solar-powered website](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/) 
+- Low-Tech Magazine: ["A solar-powered website"](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/) 
 
-- Whole Grain Digital (2019): [17 ways to make your website more energy efficient](https://www.wholegraindigital.com/blog/website-energy-efficiency/) 
+- Whole Grain Digital (2019): ["17 ways to make your website more energy efficient"](https://www.wholegraindigital.com/blog/website-energy-efficiency/) 
 
 - Tao Leigh Goffe, ["Unmapping the Caribbean: Toward a Digital Praxis of Archipelagic Sounding"](http://archipelagosjournal.org/issue05/goffe-unmapping.html) 
 
