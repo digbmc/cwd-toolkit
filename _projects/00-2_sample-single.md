@@ -33,7 +33,7 @@ works-cited: # Put your sources in here as a list in alphabetical order, each it
 
 ## Excerpt from *The Picture of Dorian Grey*
 
-![A dark wooden bookcase full of books]({{ "/assets/images/default-4.jpg" | relative_url }}){: .align-right}
+<img src="/ds-project/assets/images/default-4.jpg" alt="A dark wooden bookcase full of books" class="align-right" style="max-width: 300px; object-fit: contain;">
 
 When he reached the library, he saw the bag and coat
 in the corner. They must be hidden away somewhere. He
