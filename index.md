@@ -22,7 +22,7 @@ Welcome to the CWD Toolkit—we’re so glad you’re here. The CWD Toolkit is a
 
 Hopefully, this toolkit inspires you to not only build your best project, but also encourages you to continue your learning journey in web design and development.
 
-To learn more about our site's missions, [please follow the directions for our site's values on the page titled "Values" ]({{ "/how-to/installation/" | absolute_url }}).  
+To access this site's GitHub repository, [click here to be brought to digbmc / ds-project](https://github.com/digbmc/ds-project.git).
 
 
 {% comment %} You can replace the text in this section with your own text such as an introduction to your site.
