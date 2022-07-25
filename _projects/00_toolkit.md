@@ -1,5 +1,5 @@
 ---
-title:  "Toolkit*"
+title:  "Toolkit"
 category: "spotlight"
 permalink: /toolkit/
     teaser: /assets/images/header-1.jpg
