@@ -92,6 +92,7 @@ classes: wide
 ```
 
 If you want to use this front matter in any of your own pages or projects, all you need to do is copy and paste it into a new markdown file.
+While you do not need to know exactly how every variable works, it might be helpful. Below, descriptions are provided for the variables from the index.md file.
 
 Here is what each new variable does:
 
