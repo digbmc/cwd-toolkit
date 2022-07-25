@@ -20,7 +20,7 @@ To embed any type of content, you would need an embed code first. An embed code 
 <a href="https://blog.hubspot.com/marketing/embed-social-media-posts-guide" style="color: purple; text-decoration: underline;">You can follow this detailed guide to get the embed code for any type of content.</a>
 
 ## Steps to embed content
-1. To embed any type of content, change the first line of the markdown file where you want to embed your content to . This will apply the single.html layout on your respective markdown file.
+1. To embed any type of content, change the first line of the markdown file where you want to embed your content. This will apply the single.html layout on your respective markdown file.
 
 2. After getting the embed code, paste it beside code: **paste the embed code here** in the second line of the markdown file. If you don't see any "code:" in the first few lines of the file, you can type it yourself and paste the embed code beside it as shown previously.
 
