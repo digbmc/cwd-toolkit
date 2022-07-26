@@ -61,13 +61,10 @@ layout: default
         </div>
         {% endif %}
 
-   {% if page.code %} <div class="embed-responsive"> 
-          {{page.code}}
+   {% if page.embed-code %} <div class="embed-responsive"> 
+          {{page.embed-code}}
         </div> {% endif %}
         <br/>
-        {% if page.map %} <div class="map-responsive"> 
-          {{page.map}}
-        </div> {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
