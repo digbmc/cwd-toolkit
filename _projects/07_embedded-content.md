@@ -37,13 +37,12 @@ To add content that you want to fill the entire page width, we recommend that yo
 If you want to embed different contents at a specfic position in multiple pages on your website, you can use liquid for making the process easier. Liquid is a templating language Jekyll uses to process pages on your site. With Liquid you can output and modify variables, have logic statements inside your pages and loop over content. This is to give an overview of what Liquid does but you don't have to know about Liquid to be able to use this template!
 
 1. Go to the layout file that the pages where you want to embed different contents are using and insert this code snippet either above or below the content section based on your preference. If you find this code snippet present in the layout already then you don't have to do anything and can skip to the next steps. However, this would mean that all of your embedded contents would show up at the bottom of each page so if you want to change this position then place the code snippet in your desired position.
-
-```markdown
+ ```markdown
 {% raw %}
- {% if page.embed-code %} <div class="embed-responsive"> 
-          {{page.embed-code}}
-        </div> {% endif %}
-{% endraw %}
-```
+  {% if page.embed-code %} <div class="embed-responsive"> 
+           {{page.embed-code}}
+         </div> {% endif %}
+ {% endraw %}
+ ```
 2. You can then come back to each of those markdown files and paste the embed code of those different contents as instructed in the next step.
 3. Paste the embed code beside embed-code: **paste the embed code here** at the top of the markdown file. If you don't see any "embed-code:" in the first few lines of the file, you can type it yourself and paste the embed code beside it as shown previously. 
