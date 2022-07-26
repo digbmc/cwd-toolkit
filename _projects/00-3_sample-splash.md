@@ -19,7 +19,7 @@ You can adjust the size by changing the width percentage.
                                 
 
 
-<!-- <iframe width="100%" height="800px" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes"> -->
+<!-- <iframe width="100%" height="200%" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes"> -->
     
 <br>
 <br>
