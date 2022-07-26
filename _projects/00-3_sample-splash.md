@@ -15,11 +15,7 @@ This ArcGIS Storymap was made by the US National Park Service and found on the [
 
 You can adjust the size by changing the width percentage.
 
-<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1xuY4upIooEeszZ_lCmeNx24eSFWe0rHe9ZdqH2xqVNk&font=Default&lang=en&initial_zoom=2&height=100%" width="100%" frameborder="0"></iframe>
-                                
-
-
-<!-- <iframe width="100%" height="100%" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes"> -->
+ <iframe width="100%" height="100%" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes"> 
     
 <br>
 <br>
