@@ -43,6 +43,5 @@ If you want to embed different contents at a specfic position in multiple pages 
 {% endraw %}
 ```
 If you find this code snippet present in the layout already then you don't have to do anything and can skip to the next steps. However, this would mean that all of your embedded contents would show up at the bottom of each page so if you want to change this position then place the code snippet in your desired position.
-
 2. You can then come back to each of those markdown files and paste the embed code of those different contents as instructed in the next step.
 3. Paste the embed code beside embed-code: **paste the embed code here** at the top of the markdown file. If you don't see any "embed-code:" in the first few lines of the file, you can type it yourself and paste the embed code beside it as shown previously. 
