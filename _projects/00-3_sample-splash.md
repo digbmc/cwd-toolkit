@@ -1,6 +1,5 @@
 ---
 title:  "Sample Project 2"
-layout: default
 category: "spotlight"
 permalink: /sample-splash/
 header:
@@ -15,7 +14,7 @@ This ArcGIS Storymap was made by the US National Park Service and found on the [
 
 You can adjust the size by changing the width percentage.
 
-<iframe width="75%" height="800px" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes">
+<iframe width="100%" height="600px" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes">
     
 <br>
 <br>
