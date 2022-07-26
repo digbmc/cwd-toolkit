@@ -1,7 +1,7 @@
 ---
 title:  "Sample Project 2"
 category: "spotlight"
-layout: splash
+layout: single
 permalink: /sample-splash/
 header:
     teaser: /assets/images/header-3.jpg
