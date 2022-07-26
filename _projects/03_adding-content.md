@@ -171,7 +171,7 @@ category: "spotlight"
 **toc:**
 - stands for "table of contents"
     - when set to *true*, automatically generates a table of contents on the side of a page
-    - when set to *false*, the tabloe of contents disappears
+    - when set to *false*, the table of contents disappears
 - **toc_label** is the title of the toc
 
 ```
