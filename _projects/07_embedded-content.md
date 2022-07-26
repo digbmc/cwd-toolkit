@@ -24,6 +24,9 @@ To embed any type of content, you would need an embed code first. An embed code 
 3. To format the embedded content, you can change the height and width in the embed code itself according to your preferred dimensions. You have to put specific values for the height and width such as 500; percentages are not accepted.
 4. Save the changes and view the content that you just embedded. As an example, you can see an embedded video of how to draw cats below.
  <iframe width="800" height="450" src="https://www.youtube.com/embed/Y-ObdZ6fw60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+**Formatting wide content**
+To add content that you want to fill the entire page width, we recommend that you set the page layout to "wide" and remove both the sidebar and Table of Contents to ensure that your embedded content will fit the screen as desired (these are the settings for the second example project including the ArcGIS Storymaps about National Parks).
 
 ### Other contents that you can embed
 * If you want to make a timeline for your project(s), you can follow this <a href="https://timeline.knightlab.com/" style="color: peach; text-decoration: underline ;">guide</a> to create a timeline. You will also find the embed code of your timeline in this same guide which you can use to embed the timeline on your website.
