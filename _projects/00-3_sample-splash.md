@@ -1,6 +1,6 @@
 ---
 title:  "Sample Project 2"
-layout: splash
+layout: default
 category: "spotlight"
 permalink: /sample-splash/
 header:
