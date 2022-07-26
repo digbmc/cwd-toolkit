@@ -39,7 +39,3 @@ categories:
         url: /how-to/bibliography/
       - title: "Colors and Fonts"
         url: /how-to/colors-and-fonts/
-  - title: "Templates"
-    children:
-      - title: Project Template
-        url: /templates/project/
