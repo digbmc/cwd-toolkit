@@ -11,11 +11,13 @@ header:
 
 *can change the title and all to something better
 
-The Critical Web Design Toolkit Project aims to not only bring awareness to the environmental impact that websites have on energy consumption, but to also tackle the issues of the digital divide, accessibility, and the social and moral implications of web development tools and current practices (taken from our project charter).  
+The Critical Web Design Toolkit (CWDT) aims to not only bring awareness to the environmental impact that websites have on energy consumption, but to also tackle the issues of the digital divide, accessibility, and the social and moral implications of web development tools and current practices (taken from our project charter).  
 
 ## Sustainability 
 
-Although it may not be the first thing that comes to mind when you think of carbon emissions, the internet and the servers required to host it are considerable consumers of energy and, as a result, contribute significantly to CO2 emissions.[^1] In an effort to reduce the environmental impact of digital scholarship, we designed the CWD Toolkit, a **static site** template for digital scholarship projects, with sustainability in mind. As opposed to dynamic sites like those made with Wordpress and Squarespace which are re-built from a database every time you open them, static sites only need to be built once, and then they are stored on a server. Because static sites don't have to be built every time they are opened, they are more energy efficient.  
+Although it may not be the first thing that comes to mind when you think of carbon emissions, the internet and the servers required to host it are considerable consumers of energy and, as a result, contribute significantly to CO2 emissions.[^1] In an effort to reduce the environmental impact of digital scholarship, we designed the CWDT, a **static website** template for digital scholarship projects, with sustainability in mind. 
+
+We chose to make a static site template, because unlike dynamic sites like those made with Wordpress and Squarespace, which are re-built from a database every time you open them, static sites only need to be built once and stored on a server. Because static sites don't have to be built every time they are opened, they are more energy efficient. This demo site and any other sites built using the CWDT are static sites.
 
 While it is challenging to quantify exactly how much energy is saved using static sites rather than dynamic ones, the [Website Carbon Calculator](https://www.websitecarbon.com/) can estimate how many grams of CO2 is released each time someone loads a given website. This tool helped us to make decisions about the design of our website that would reduce its carbon footprint.
 
