@@ -15,11 +15,11 @@ The Critical Web Design Toolkit Project aims to not only bring awareness to the 
 
 ## Sustainability 
 
-Contrary to popular belief, the internet and the servers required to host it are considerable consumers of energy and, as a result, contribute to CO2 emissions.[^1] In order to reduce the environmental impact of digital scholarship, the CWD Toolkit was created as a static site. As opposed to dynamic sites like Wordpress and Squarespace which re-generate every time you open them, static sites only need to be loaded onto your computer once to function. Thus, static requires a lot less energy.  
+Although it may not be the first thing that comes to mind when you think of carbon emissions, the internet and the servers required to host it are considerable consumers of energy and, as a result, contribute a lot to CO2 emissions.[^1] In order to reduce the environmental impact of digital scholarship, the CWD Toolkit was created as a static site with sustainability in mind. As opposed to dynamic sites like those made with Wordpress and Squarespace which are re-built from a database every time you open them, static sites only need to be built once, and then they are stored on a server. Because static sites don't have to be built every time they are opened, they are more energy efficient.  
 
-While it is challenging to quantify exactly how much energy is saved using static sites rather than dynamic ones, using the carbon calculator online tool can calculate how many grams of CO2 is released. If you want to try for yourself, [put the link to your favorite website into the Website Carbon Calculator linked here](https://www.websitecarbon.com/). 
+While it is challenging to quantify exactly how much energy is saved using static sites rather than dynamic ones, the [Website Carbon Calculator](https://www.websitecarbon.com/) can estimate how many grams of CO2 is released each time someone loads a given website. This tool helped us to make decisions about the design of our website that would reduce its carbon footprint.
 
-In addition to using a static site basis, we used compression and dithering techniques to reduce the size of every image on our site, which increases speed and reduces emissions. To learn more about image compression, check out [this link “Sustainable website – tip #1 – use images efficiently”](https://www.pixeledeggs.com/sustainable-websites-tip-1-use-images-efficiently/) by SEPAS.  
+One way we did this was by using image compression and dithering to reduce the size of every image on our site, which increases the site's speed and reduces emissions. To learn more about image compression, check out [this Pixeled Eggs blog post by Sepas Seraj, called “Sustainable website – tip #1 – use images efficiently”](https://www.pixeledeggs.com/sustainable-websites-tip-1-use-images-efficiently/).  
 
  
 
