@@ -4,6 +4,8 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "GitHub"
+    url: https://github.com/digbmc/ds-project
   - title: "Feedback"
     url: /feedback/
 
