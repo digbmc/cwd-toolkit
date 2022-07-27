@@ -9,9 +9,7 @@ header:
     caption: "[Original Photo by Christin Hume on Unsplash](https://unsplash.com/@christinhumephoto)" # Put a caption for your image here. It will display in the bottom right corner of the image. 
 ---
 
-*can change the title and all to something better
-
-The Critical Web Design Toolkit (CWDT) aims to not only bring awareness to the environmental impact that websites have on energy consumption, but to also tackle the issues of the digital divide, accessibility, and the social and moral implications of web development tools and current practices (taken from our project charter).  
+The Critical Web Design Toolkit (CWDT) aims to not only bring awareness to the environmental impact that websites have on energy consumption, but also to tackle the issues of the digital divide, accessibility, and the social and moral implications of web development tools and current practices.  
 
 ## Sustainability 
 
@@ -22,8 +20,6 @@ We chose to make a static site template, because unlike dynamic sites like those
 While it is challenging to quantify exactly how much energy is saved using static sites rather than dynamic ones, the [Website Carbon Calculator](https://www.websitecarbon.com/) can estimate how many grams of CO2 is released each time someone loads a given website. This tool helped us to make decisions about the design of our website that would reduce its carbon footprint.
 
 One way we did this was by using image compression and dithering to reduce the size of every image on our site, which increases the site's speed and reduces emissions. To learn more about image compression, check out [this Pixeled Eggs blog post by Sepas Seraj, called “Sustainable website – tip #1 – use images efficiently”](https://www.pixeledeggs.com/sustainable-websites-tip-1-use-images-efficiently/).  
-
- 
 
 ## Accessibility 
 
