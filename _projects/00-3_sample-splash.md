@@ -5,6 +5,8 @@ layout: splash
 permalink: /sample-splash/
 header:
     teaser: /assets/images/header-3.jpg
+
+code: <iframe width="100%" height="800" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes"> 
 ---
 
 ## GIS Storymap example
@@ -15,7 +17,6 @@ This ArcGIS Storymap was made by the US National Park Service and found on the [
 
 You can adjust the size by changing the width percentage.
 
- <iframe width="100%" height="800" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes"> 
     
 
   
