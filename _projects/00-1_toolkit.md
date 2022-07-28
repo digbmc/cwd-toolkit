@@ -13,9 +13,9 @@ The Critical Web Design Toolkit (CWDT) aims to not only bring awareness to the e
 
 ## Sustainability 
 
-Although it may not be the first thing that comes to mind when you think of carbon emissions, the internet and the servers required to host it are considerable consumers of energy and, as a result, contribute significantly to CO2 emissions.[^1] In an effort to reduce the environmental impact of digital scholarship, we designed the CWDT, a **static website** template for digital scholarship projects, with sustainability in mind. 
+Although it may not be the first thing that comes to mind when you think of carbon emissions, the internet and the servers required to host it are considerable consumers of energy and, as a result, contribute significantly to CO2 emissions.[^1] In an effort to reduce the environmental impact of digital scholarship, we designed the CWDT, a **static website** template for digital scholarship projects with sustainability in mind. 
 
-We chose to make a static site template, because unlike dynamic sites like those made with Wordpress and Squarespace, which are re-built from a database every time you open them, static sites only need to be built once and stored on a server. Because static sites don't have to be built every time they are opened, they are more energy efficient. This demo site and any other sites built using the CWDT are static sites.
+There are two types of websites: static and dynamic. We chose to make a static site template, because unlike dynamic sites, which must be re-generated from a database *every* time you open them, static sites only need to be built once and then stored on a server. Because static sites don't have to be rebuilt every time they are opened, they are more energy efficient. The CWD Toolkit site and any other sites built using the CWDT are static sites.
 
 While it is challenging to quantify exactly how much energy is saved using static sites rather than dynamic ones, the [Website Carbon Calculator](https://www.websitecarbon.com/) can estimate how many grams of CO2 is released each time someone loads a given website. This tool helped us to make decisions about the design of our website that would reduce its carbon footprint.
 
