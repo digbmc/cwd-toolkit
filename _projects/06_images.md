@@ -197,11 +197,11 @@ To compress images, you can use an online compression tool of your choice. These
 
 Here are some sites that compress files for free: 
 
-- Image compression tool: https://squoosh.app/ 
+- Image compression tool: [Squoosh editor](https://squoosh.app/) 
 
-- Dithering tool: https://ditherit.com/ 
+- Dithering tool: [Dither It!](https://ditherit.com/) 
 
-- Compression tool (png): https://tinypng.com/ 
+- Compression tool (png): [Tiny PNG](https://tinypng.com/) 
 
 General rules of thumb: 
 
@@ -215,11 +215,8 @@ General rules of thumb:
 
 ### Resources
 
-- To learn more about Liquid syntax, click [here](https://cloudcannon.com/community/learn/jekyll-tutorial/introduction-to-liquid/#:~:text=What%20is%20Liquid%3F,can%20just%20start%20using%20it.)
+- To learn more about Liquid syntax, check out this resource: [Introduction to Liquid](https://cloudcannon.com/community/learn/jekyll-tutorial/introduction-to-liquid/#:~:text=What%20is%20Liquid%3F,can%20just%20start%20using%20it.)
 
-- To learn more about creating galleries in Minimal Mistakes, click [here](https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/)
+- To learn more about creating galleries in Minimal Mistakes: [Post: Gallery](https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/) on galleries by Michael Rose  
 
-- To learn more about embedding images, click [here](https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-and-weblog-posts-with-markdown-monster-9ec6f353d8ec
-)
-
-- To learn more about image captioning and embedded content with Minimal Mistakes, click [here](https://mmistakes.github.io/minimal-mistakes/docs/helpers/)
+- To learn more about embedding images: [Getting Images into Markdown Documents and Weblog Posts with Markdown Monster](https://medium.com/markdown-monster-blog/getting-images-into-markdown-documents-and-weblog-posts-with-markdown-monster-9ec6f353d8ec)
