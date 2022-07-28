@@ -59,7 +59,7 @@ This is an excerpt of code from the yaml file called `_config.yml`. This file st
 
 In the rest of this page, information stored in YAML such as "locale" and and "title" will be referred to as **variables**.
 
-To learn more about YAML syntax, click [here](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started). 
+To learn more about YAML syntax, check out this linked tutorial: ["YAML Tutorial: Everything You Need to Get Started in Minutes"](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started). 
 
 ## Using Markdown and YAML together 
 
