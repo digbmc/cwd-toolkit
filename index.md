@@ -13,7 +13,6 @@ sidebar:
 include_categories:
   - getting-started   
   - how-to
-  - templates
 
 classes: # Setting the class as wide will extend the page's content into the right margin.
 ---
