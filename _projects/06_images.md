@@ -197,11 +197,11 @@ To compress images, you can use an online compression tool of your choice. These
 
 Here are some sites that compress files for free: 
 
-- Image compression tool: https://squoosh.app/ 
+- Image compression tool: [Squoosh editor](https://squoosh.app/) 
 
-- Dithering tool: https://ditherit.com/ 
+- Dithering tool: [Dither It!](https://ditherit.com/) 
 
-- Compression tool (png): https://tinypng.com/ 
+- Compression tool (png): [Tiny PNG](https://tinypng.com/) 
 
 General rules of thumb: 
 
