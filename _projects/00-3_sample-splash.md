@@ -9,18 +9,13 @@ header:
 
 ## GIS Storymap example
 
-<p>The US National Parks are important natural landmarks.</p>
+The US National Parks are important natural landmarks. 
 
-<p>This ArcGIS Storymap was made by the US National Park Service and found on the [esri website, linked here](https://storymaps.arcgis.com/). To embed your own storymap, simply click the triangle of three dots in the corner (share button) and copy and paste the html code into your own markdown file. This page is on "layout: splash" (defined in the front matter), which makes the page wider and more compatible with large embedded media displays, such as this one.</p>
+This ArcGIS Storymap was made by the US National Park Service and found on the [esri website, linked here](https://storymaps.arcgis.com/). To embed your own storymap, simply click the triangle of three dots in the corner (share button) and copy and paste the html code into your own markdown file. This page is on "layout: splash" (defined in the front matter), which makes the page wider and more compatible with large embedded media displays, such as this one.
 
-<p>You can adjust the size by changing the width percentage.</p>
+You can adjust the size by changing the width percentage.
 
  <iframe width="100%" height="800" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes"> 
     
-<p>The US National Parks are important natural landmarks.</p>
-
-<p>This ArcGIS Storymap was made by the US National Park Service and found on the [esri website, linked here](https://storymaps.arcgis.com/). To embed your own storymap, simply click the triangle of three dots in the corner (share button) and copy and paste the html code into your own markdown file. This page is on "layout: splash" (defined in the front matter), which makes the page wider and more compatible with large embedded media displays, such as this one.</p>
-
-<p>You can adjust the size by changing the width percentage.</p>
 
   
