@@ -608,3 +608,10 @@ body {
     padding-left: $right-sidebar-width-narrow;
     padding-right: $right-sidebar-width-narrow;
   }
+
+  .layout--splash {
+    h1, h2, h3, h4, h5, h6, p, ul, ol {
+      margin-left: 5em;
+      margin-right: 5em;
+    }
+  }
