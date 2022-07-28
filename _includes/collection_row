@@ -1,3 +1,5 @@
+{% comment %} CWDT Feature {% endcomment %}
+
 <div class="feature__wrapper">
 
     {% for f in include.projects %}

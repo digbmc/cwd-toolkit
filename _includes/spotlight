@@ -1,3 +1,5 @@
+{% comment %} CWDT Spotlight {% endcomment %}
+
 <div class="spotlight__wrapper">
 
     {% for f in include.projects %}
