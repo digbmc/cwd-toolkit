@@ -610,8 +610,16 @@ body {
   }
   .splash {
     .page__content {
-      max-width: 30rem;
+      max-width: 25rem;
       margin-left: auto;
       margin-right: auto;
+    }
+  }
+
+  .layout--splash {
+    #main {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
