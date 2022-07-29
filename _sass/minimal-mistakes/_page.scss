@@ -608,18 +608,17 @@ body {
     padding-left: $right-sidebar-width-narrow;
     padding-right: $right-sidebar-width-narrow;
   }
-  .splash {
-    .page__content {
-      max-width: 25rem;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
 
   .layout--splash {
     #main {
       width: 100%;
-      margin-left: 0;
-      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    .page__content {
+      max-width: 25rem;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
