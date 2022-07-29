@@ -6,7 +6,7 @@ permalink: /sample-splash/
 header:
     teaser: /assets/images/header-3.jpg
 
-code: <iframe width="100%" height="800" src="https://story.maps.arcgis.com/apps/Cascade/index.html?appid=f4fd10e5f8d24d0eb7a02e33fa4c03f5" frameborder="0" scrolling="yes"> 
+code: <iframe src="https://storymaps.arcgis.com/stories/42b1a6fe6a524b578becd12c0bee4b4c" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
 ---
 
 ## GIS Storymap example
