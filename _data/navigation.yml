@@ -11,9 +11,9 @@ main:
 
 # sidebar links
 categories:
-  - title: "Toolkit"
+  - title: "Welcome"
     children:
-      - title: "Toolkit"
+      - title: "Why Use this Toolkit?"
         url: /toolkit/
       - title: "Sample Project 1"
         url: /sample-single/

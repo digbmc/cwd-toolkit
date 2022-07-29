@@ -1,5 +1,5 @@
 ---
-title:  "Toolkit"
+title:  "Why Use this Toolkit?"
 category: "spotlight"
 permalink: /toolkit/
 header:
@@ -19,7 +19,7 @@ There are two types of websites: static and dynamic. We chose to make a static s
 
 While it is challenging to quantify exactly how much energy is saved using static sites rather than dynamic ones, the [Website Carbon Calculator](https://www.websitecarbon.com/) can estimate how many grams of CO2 is released each time someone loads a given website. This tool helped us to make decisions about the design of our website that would reduce its carbon footprint.
 
-One way we did this was by using image compression and dithering to reduce the size of every image on our site, which increases the site's speed and reduces emissions. To learn more about image compression, check out [this Pixeled Eggs blog post by Sepas Seraj, called “Sustainable website – tip #1 – use images efficiently”](https://www.pixeledeggs.com/sustainable-websites-tip-1-use-images-efficiently/).  
+One way we did this was by using image compression and dithering to reduce the size of every image on our site, which increases the site's speed and reduces emissions. To learn more about image compression, check out [this Pixeled Eggs blog post by Sepas Seraj](https://www.pixeledeggs.com/sustainable-websites-tip-1-use-images-efficiently/). 
 
 ## Accessibility 
 
