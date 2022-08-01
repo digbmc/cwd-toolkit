@@ -10,7 +10,11 @@ toc: true
 toc_label: {{ page.title }}
 ---
 
-The Critical Web Design Toolkit Project focuses on building a static website for the community to use for various digital scholarship projects. The project also aims to provide user-friendly, informative documentation about the steps that need to be followed in order to be able to use the static site builder efficiently. The underlying reasons behind constructing a static website builder starts from stressing on the environmental consequences that occur due to energy consumption by websites to handling issues surrounding accessibility, digital divide and other social and moral implications of web development tools. Hopefully this toolkit inspires you to not only build your best project, but also encourages you to continue your learning journey in web design and development.  
+The Critical Web Design Toolkit is a project that aims to provide users with both an easy-to-use static website template for Digital Scholarship projects and an instructional guide that not only gives step-by-step instructions for using the template, but also provides resources for learning more about web accessibility, sustainability, and the digital divide.
+
+We developed the CWDT to provide people who are interested in creating websites for Digital Scholarship projects with a more sustainable alternative to popular dynamic website builders, which can be easier to learn to use than static website builders but consume more energy. The CWDT aims to make it easier for users to build their own static sites, so they do not have to rely on dynamic site builders, and it is designed for users of all experience levels.
+
+The concerns that lay at the core of the CWDT include the environmental consequences of energy consumption by the internet, web accessibility for people with disabilities, the digital divide, and other social and moral implications of web development tools. Our hope is that the CWDT will not only help users to build static websites for their Digital Scholarship projects, but also to think critically about and participate in sustainable web design.
 
 ## What skills will be developed in using this toolkit? 
 
@@ -19,7 +23,7 @@ The Critical Web Design Toolkit Project focuses on building a static website for
 - Back end development 
 - Ruby, HTML, CSS, and some JavaScript 
 - Building static sites with Jekyll 
-- Familiarity with GitHub 
+- Using Git and GitHub 
 
 ## Who is it for? 
 
@@ -27,23 +31,20 @@ Everyone! Our toolkit is designed in such a way that people with no prior knowle
 
 ## Why use a Static Site? 
 
-Website performance is a crucial factor when it comes to running websites. In this aspect, static sites are very fast by nature as they serve the same HTML without any dynamic rendering. Static sites are also relatively safer when it comes to security breaches as there is no database to breach and no server-side platform with unpatched vulnerabilities. Moreover, hosting static sites are very inexpensive and even free depending on an individual’s preferences. Static sites are also very flexible to work with as there is no limitation about building a site, and on top of that, it is very easy to keep track of using version control systems like Git and Github. 
+Website performance is crucial when developing websites for ease-of-access across the digital divide. Quicker load times are critical when accessing the internet from low-bandwidth areas. Large files and dynamic rendering can significantly reduce a website's performance, so we aim to avoid them whenever possible. 
+
+Static websites help us do just that. They load faster than dynamic sites because they only need to be rendered once, then, each time the site is loaded, it serves the same pre-rendered HTML without any dynamic rendering. Static sites also tend to be more secure as there is no database to breach and no server-side platform with unpatched vulnerabilities. Moreover, static sites are inexpensive to host and can even be hosted for free, depending on an individual’s preferences. Static sites can also be very flexible to work with as there is virtually no limitation to what you can build with them. Furthermore, it is easy to work collaboratively on a static site and keep track of changes using version control systems like Git and GitHub. 
 
 ## Who are the creators?  
 
-The CWD Toolkit was designed and developed by the Digital Scholarship Summer Fellows at Bryn Mawr College, Arlowe Willingham, Rafiun Haque, Cameron Boucher, and Adrianna Morsey with oversight from Alice McGrath, Karina Gonzalez, Chris Boyland, and Stella Fritzell. To learn more about our program, click [here](https://digitalscholarship.blogs.brynmawr.edu/digital-scholarship-summer-fellows-program/). The project was developed by students who often use digital scholarship in their studies and understand the importance of web accessibility and resources for digital scholarship.  
+The Critical Web Design Toolkit was designed and developed by the 2022 Digital Scholarship Summer Fellows at Bryn Mawr College, Arlowe Willingham, Rafiun Haque, Cameron Boucher, and Adrianna Morsey, with oversight from Alice McGrath, Karina Gonzalez, Chris Boyland, and Stella Fritzell. You can learn more about our program on the [Digital Scholarship @ BMC website](https://digitalscholarship.blogs.brynmawr.edu/digital-scholarship-summer-fellows-program/). The project was developed by students who often engage with Digital Scholarship through their studies and who understand the importance of web accessibility and sustainability to the field of Digital Scholarship.  
 
-## Further resources: 
+## Resources: 
 
-The resources we used while building our template are: 
+- [Jekyll](https://jekyllrb.com/): static site builder, used by this template. 
 
-- [Jekyll](https://jekyllrb.com/) 
+- [GitHub](https://github.com/): collaborative code editing and version control, hosts this template.
 
-- [GitHub](https://github.com/)
+- [W3 Schools](https://www.w3schools.com/): useful resources for coding in HTML, CSS, and Javascript.
 
-- [W3 School](https://www.w3schools.com/)
-
-- [Liquid](https://blog.webjeda.com/amp/jekyll-liquid.html)
-
-- [HTML5 UP](https://html5up.net/)
-
+- [Liquid](https://shopify.github.io/liquid/): documentation for Liquid coding language, used by Jekyll.
