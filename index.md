@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Critical Web Design Toolkit
+title: Welcome!
 
 header:
     image: /assets/images/home.jpg  # Putting the path to an image here will add that image to this page's header.
