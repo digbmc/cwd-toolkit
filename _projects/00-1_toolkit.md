@@ -1,5 +1,5 @@
 ---
-title:  "Why Use this Toolkit?"
+title:  "Why use this Toolkit?"
 category: "spotlight"
 permalink: /toolkit/
 header:
