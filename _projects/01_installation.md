@@ -11,7 +11,7 @@ header:
 
 ![An illustration of the workflow for using the site template]({{ "/assets/images/workflow.jpg" | relative_url }})
 
-The Critical Web Design template is built as a Jekyll site. Jekyll is like a content management system like WordPress but it builds static sites instead. It helps to create the static site files and then lets an individual host the site like any other website. It has built-in support for Github Pages, making it a very useful tool for building websites. 
+The Critical Web Design template is built as a Jekyll site. Jekyll is like a content management system like WordPress but it builds static sites instead of dynamic ones. It helps to create the static site files and then lets an individual host the site like any other website. It has built-in support for Github Pages, making it a very useful tool for building websites. 
 
 Github Pages is a static site hosting service which extracts HTML, CSS and JavaScript from a Github repository and then builds and publishes a site based on them.
 
@@ -41,7 +41,7 @@ After setting up Github, you can either code directly in Github or code in a cod
 
 ### Coding in Github
 <hr/>
-The workflow that involves coding directly in Github after clicking the "Use this template" button is for users who do not want to download additional softares on their device. However, as stated before, you have to wait for sometime before you can view the changes on your website if you work on Github. It might also make it slower for you to navigate around your repository. 
+The workflow that involves coding directly in Github after clicking the "Use this template" button is for users who do not want to download additional softare on their device. However, as stated before, you have to wait for sometime before you can view the changes on your website if you work on Github. It might also make it slower for you to navigate around your repository. 
 
 #### "Use this template" on GitHub
 If you want to directly edit the code in Github, you can click on the green "Use this template" button located in the top right of our repository and start working from there. Clicking this button will make a copy of the original repository allows you to experiment with the code without affecting the original repository.
@@ -74,7 +74,7 @@ Before cloning a repository and working locally, always fork the repository and 
 To clone our repository, follow the steps below:
 1. Open [our repository](https://github.com/digbmc/ds-project) and click on the green "Code" button.
 2. Copy the link that you see in the HTTPS tab. 
-3. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+3. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). This is done using the  [command line](https://tutorial.djangogirls.org/en/intro_to_command_line/).
 4. Open git bash and type the following command and press enter.
 ```markdown
 git clone ***paste the link that you copied in step 2 here***
@@ -85,7 +85,7 @@ git clone ***paste the link that you copied in step 2 here***
 #### Pulling, pushing and commiting on Github through Visual Studio Code
 If you want to pull or push changes from another branch to yours, click the "Source Control" button on the left sidebar of Visual Studio Code. Then click on the three dotted lines at the top right of the panel that appears and you will see the pull and push options.
 
-Before you can commit the changes you made, you have to "Stage" your changes. You can do that by clcking on the changes individually and click on the "+" button to stage the changes. After that, you can write a commit message inside the box at the top of the panel and click commit.
+Before you can commit the changes you made, you have to "Stage" your changes. You can do that by clicking on the changes individually and click on the "+" button to stage the changes. After that, you can write a commit message inside the box at the top of the panel and click commit.
 
 ## Deploying on Github Pages 
 Whether you are coding directly in GitHub or using a code editor, you have to deploy your website on Github Pages to preview the changes that you made in your website. To deploy, do the following:

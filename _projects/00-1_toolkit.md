@@ -1,5 +1,5 @@
 ---
-title:  "Why Use this Toolkit?"
+title:  "Why use this Toolkit?"
 category: "spotlight"
 permalink: /toolkit/
 header:
@@ -9,11 +9,11 @@ header:
     caption: "[Original Photo by Christin Hume on Unsplash](https://unsplash.com/@christinhumephoto)" # Put a caption for your image here. It will display in the bottom right corner of the image. 
 ---
 
-The Critical Web Design Toolkit (CWDT) aims to not only bring awareness to the environmental impact that websites have on energy consumption, but also to tackle the issues of the digital divide, accessibility, and the social and moral implications of web development tools and current practices.  
+The Critical Web Design Toolkit (CWDT) aims to bring awareness to the environmental impact that websites have, while also highlighting accessibility practices in web design. It exists both as a tool and a contribution to ongoing conversations about the social and ethical implications of web development tools and current practices. This page contains information and resources that have been considered and used throughout the development process.
 
-## Sustainability 
+## Environmental Sustainability 
 
-Although it may not be the first thing that comes to mind when you think of carbon emissions, the internet and the servers required to host it are considerable consumers of energy and, as a result, contribute significantly to CO2 emissions.[^1] In an effort to reduce the environmental impact of digital scholarship, we designed the CWDT, a **static website** template for digital scholarship projects with sustainability in mind. 
+Although it may not be the first thing that comes to mind when you think of carbon emissions, the internet and the servers required to host it are considerable consumers of energy and, as a result, contribute significantly to CO2 emissions.[^1] In an effort to reduce the environmental impact of digital scholarship, the CWDT is a **static website** template for digital scholarship projects with sustainability in mind. 
 
 There are two types of websites: static and dynamic. We chose to make a static site template, because unlike dynamic sites, which must be re-generated from a database *every* time you open them, static sites only need to be built once and then stored on a server. Because static sites don't have to be rebuilt every time they are opened, they are more energy efficient. The CWD Toolkit site and any other sites built using the CWDT are static sites.
 
@@ -21,11 +21,11 @@ While it is challenging to quantify exactly how much energy is saved using stati
 
 One way we did this was by using image compression and dithering to reduce the size of every image on our site, which increases the site's speed and reduces emissions. To learn more about image compression, check out [this Pixeled Eggs blog post by Sepas Seraj](https://www.pixeledeggs.com/sustainable-websites-tip-1-use-images-efficiently/). 
 
-## Accessibility 
+## Internet Access and Accessibility 
 
 In order to ensure maximum website accessibility, we focused on both the digital divide and general website accessibility for those with disabilities. With most websites, it is easy to achieve a highly accessible user experience and should always be integrated into the development process.   
 
-One roadblock to internet access is download times and loading speeds.[^2] Given that static sites are generally lightweight and only need to be loaded once, the CWD Toolkit template is not only more sustainable, but also more accessible on lower internet bandwidths. 
+One roadblock to internet access is download times and loading speeds.[^2] Given that static sites are generally lightweight and only need to be loaded once, the CWDT template is not only more sustainable, but also more accessible on lower internet bandwidths. 
 
 According to an article by Pablo Stanley for UX Collective, there are over 56 million people in the United States (nearly 1 in 5) and over 1 billion people worldwide who have a disability.[^3] To ensure ease of navigation and site clarity for those with disabilities, we conducted site accessibility tests using the [WAVE Accessibility Evaluation Tool](https://wave.webaim.org/). This free program tests accessibility for tab navigation, headers, color contrasts, alt text for screen readers, and general clarity.  
 
