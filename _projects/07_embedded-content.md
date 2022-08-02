@@ -26,7 +26,7 @@ To embed any type of content, you would need an embed code first. An embed code 
  <iframe width="800" height="450" src="https://www.youtube.com/embed/Y-ObdZ6fw60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 ## Formatting Page-Wide content
-To add content that you want to fill the entire page width, we recommend that you set the page layout to "splash" and remove both the sidebar and Table of Contents to ensure that your embedded content will fit the screen as desired (these are the settings for the second example project including the ArcGIS Storymaps about National Parks).
+To add content that you want to fill the entire page width, we recommend that you set the page layout to "splash" and remove both the sidebar and Table of Contents to ensure that your embedded content will fit the screen as desired (these are the settings for the second example project including the ArcGIS Storymaps about Montana's ecosytems).
 
 ### Other contents that you can embed
 - If you want to make a timeline for your project(s), you can follow this <a href="https://timeline.knightlab.com/" style="color: peach; text-decoration: underline ;">guide</a> to create a timeline. You will also find the embed code of your timeline in this same guide which you can use to embed the timeline on your website.
