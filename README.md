@@ -17,10 +17,9 @@ To get started, go to the top of this page and click the green button in the upp
 
 - Web design  
 - Front end development 
-- Back end development 
-- Ruby, HTML, CSS, and some JavaScript 
+- HTML, CSS, and some JavaScript 
 - Building static sites with Jekyll 
-- Familiarity with GitHub 
+- Using Git and GitHub 
 
 ## Who is it for? 
 
