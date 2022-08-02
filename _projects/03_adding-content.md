@@ -13,12 +13,12 @@ header:
 In order to add and edit the content of your site, you will create and make changes to a number of files called **Markdown files**. These are files that end in the file extension `.md`, and they include `index.md` file as well as all of the files in `_pages` and `_projects`. 
 
 Each of these files has two main sections: 
-1. **Front matter**, which is written in a simple coding language called YAML
-2. **Content**, which is written using Markdown. You can also include some HTML in these files, as Jekyll, our site builder, will convert them to HTML anyway when it builds the site.
+1. **Front matter**, which is written in a simple coding language called YAML.
+2. **Content**, which is written using Markdown. You can also include some HTML in these files, as Jekyll, the site builder, will convert the Markdown to HTML anyway when it builds the site.
 
 ## What are HTML, Markdown, and YAML?
 
-HTML, Markdown and YAML are easy-to-read programming languages used to create websites. While you don't need to know the exact definitions of these three programming languages, it is helpful to understand a little bit about what they do in order to help you build your site.  
+HTML, Markdown and YAML are easy-to-read markup languages used to create websites. While you don't need to know the exact definitions of these three markup languages, it is helpful to understand a little bit about what they do in order to help you build your site.  
 
 ### HTML
 
@@ -38,7 +38,7 @@ body text
 
 This code will display on the website like this:
 
-![Example title, subtitle, and body text in markdown ]({{ "/assets/images/example-markdown.jpg" | relative_url }})
+![Example title, subtitle, and body text in markdown]({{ "/assets/images/example-markdown.jpg" | relative_url }})
 
 ### YAML
 
@@ -63,7 +63,7 @@ To learn more about YAML syntax, check out this linked tutorial: ["YAML Tutorial
 
 ## Using Markdown and YAML together 
 
-You may use YAML, Markdown, and HTML together in your pages and projects. When YAML and markdown are used together, the YAML text or code is located at the top and called **front matter**. Front matter is always enclosed by triple-dashed lines like this `---`. To include any of the YAML variables on this page, all you need to do is copy and paste them into your front matter. 
+You may use YAML, Markdown, and HTML together in your pages and projects. When YAML and Markdown are used together, the YAML text or code is located at the top and is called **front matter**. Front matter is always enclosed by triple-dashed lines like this `---`. To include any of the YAML variables on this page, all you need to do is copy and paste them into your front matter. 
 
 ### Editing the Homepage
 
@@ -72,22 +72,21 @@ Let's take a look at the template's default `index.md` file, which Jekyll uses t
 ```
 ---
 layout: home
-title: Critical Web Design Toolkit 
-author_profile: false 
+title: Welcome!
 
 header:
-    image: /assets/images/home.jpg  
-    alt: "A large library with tall bookshelves and marble busts." 
-    caption: "[Photo by Alex Block on Unsplash](https://unsplash.com/@alexblock)" 
+    image: /assets/images/home.jpg  # Putting the path to an image here will add that image to this page's header.
+    alt: "A large library with tall bookshelves and marble busts." # Describe the header image here
+    caption: "[Photo by Alex Block on Unsplash](https://unsplash.com/@alexblock)" # Add a visible caption to your image or give credit to the photographer or source.
 
 sidebar:
-    nav: "categories" 
+    nav: "categories"
 
-include_categories:   
-  - how-to # category
-  - templates # category
+include_categories:
+  - getting-started   
+  - how-to
 
-classes: wide 
+classes: # Setting the class as wide will extend the page's content into the right margin.
 ---
 ```
 
@@ -97,44 +96,45 @@ While you do not need to know exactly how every variable works, it might be help
 Here is what each new variable does:
 
 **layout**:
-- This sets the layout of the page. Since this is the homepage, layout is set to home. Other layouts are located in the `_layouts` file. 
-    - It is not necessary to include a layout category, only our home page has a "layout" set
-    - If you decide not to include a "layout" category, the layout will automatically set to default
+- This sets the layout of the page. Since this is the homepage, `layout` is set to `home`. Other layouts are located in the `_layouts` file. 
+    - If you decide not to include a `layout` category on a **project** (that is, anything in the `_projects` folder), the layout for that page will default to `single`.
 
-**author_profile**: 
-- Setting this to true will display the site author information specified in _config.yml in this page's left sidebar (example: [project template]({{ "/-templates/project/" | absolute_url }}))
-- Setting it to false will remove author information from the top of the page
+**title**:
+- This sets the title of the page. It will display as a level 1 heading (h1).
 
 **header**: 
-- Controls the large space of the page at the top
-- As you can see, the category for "image" is indented. This tells the site to place the image *inside* the header
-    - **image**: Putting the permalink path to an image here will add that image to this page's header
-    - **alt**: short for alt text, used to describe an image
-    - **caption**: provides an image caption which is good for citations. Here we included a link to the photographer
+- This section is mainly used for setting a large image at the top of the page, but it can also be used to set teaser images for **projects**, which display on the home page.
+- As you can see, the category for `image` is indented. This tells the site that the image belongs to the page's header section
+    - **image**: Putting the path (e.g. `/assets/images/home.jpg`) to an image here will add that image to this page's header.
+    - **alt**: Short for alt text, used to describe an image
+    - **caption**: Provides an image caption which is good for citations. Here we included a link to the photographer
 
 **sidebar**:
-- only applicable to the home page. 
-- creates the sidebar navigation. Does not need to be changed
+- By default, the sidebar navigation is set to display on the home page and any **project** that has the default `single` layout, but you can remove it on individual pages by adding `sidebar: false` to the pages' front matter.
+- Instructions for editing the sidebar navigation are located in this site's [Navigation page]({{ "/how-to/navigation/" | absolute_url }}).
 
 **include_categories**:
-- divides the content on the page into categories 
-- the bulleted items are the titles of the categories
+- The bulleted items in this section tell the site which categories of **projects** to include on this page.
+- This separates the home page into sections for each of the categories listed here. The projects that belong to each category will display in galleries in their corresponding section.
+- Editing this list also requires editing the `content.yml` file in the `_data` folder.
+- More on how to edit these can be found as comments in the code in the `index.md` file.
 
 **classes**:
-- changes the formatting of the page. Shouldn't be changed
+- Setting `class: wide` extends the page content into the right margin. NOTE: this may cause the table of contents to break. We recommend adding `toc: false` to your page's front matter if you intend to set the class to wide.
 
 #### Adding Text
 
 In the home page or index.md file, the rest of the stuff after the enclosed front matter is the file's content or markdown section. The content looks like this:
 
 ```markdown
-You can replace the text in this section with your own text such as an introduction to your site.
+Welcome to the Critical Web Design Toolkit—we’re so glad you’re here. The CWDT is a learning resource and template created to simplify the creation of static websites for Digital Scholarship projects. This site was built to live up to our core values of sustainability and accessibility while maintaining an easy-to-use and minimalist design.
 
-Below you will find instructions on how to install and configure your site as well as how to add and format your own content. 
-You can safely delete them from your repository if you are done referencing them.
+Hopefully, the Toolkit not only inspires you to build your best project, but also encourages you to continue your learning journey in web design and development.
+
+To access this site's [GitHub repository, click here.](https://github.com/digbmc/ds-project) 
 ```
 
-The text content in this section is written in Markdown (the text directly below the front matter that looks like plain, readable text), but you will notice that this section also contains some Liquid (in the curly brackets) and some HTML. This code adds some unique features to the homepage that Markdown itself cannot support. The Markdown text at the top of the section can be safely edited, but the Liquid and HTML code at the bottom should not be changed.
+The text content in this section is written in Markdown (the text directly below the front matter that looks like plain, readable text). If you look at the code in the `index.md` file, you will notice that this section also contains some Liquid (in the curly brackets) and some HTML. This code adds some unique features to the homepage that Markdown itself cannot support. The Markdown text at the top of the section can be safely edited, but the Liquid and HTML code at the bottom should not be changed.
 
 
 ### Using YAML for other projects 
@@ -142,14 +142,15 @@ The text content in this section is written in Markdown (the text directly below
 On other projects, there are several more variables that may be helpful to you that you can include in the front matter:
 
 **permalink**:
-- creates a path or link to the page
-- each new page or project that you create in markdown *needs* a permalink
-- to learn more, go to step 4, [Navigation]({{ "/how-to/navigation/" | absolute_url }}).
+- Creates a path or link to the page
+- Each new page or project that you create in markdown *needs* a permalink
+- To learn more, go to step 4, [Navigation]({{ "/how-to/navigation/" | absolute_url }}).
 
 **teaser**: 
-- the teaser makes an image appear on the front page display
-- written as a permalink
-- usually the same as a header image if you have one 
+- Teaser images are the images that appear in the project galleries on the home page.
+- Usually the same as a header image if you have one 
+- Path specified the same way as header image
+- If no teaser is specified for a project, the project's gallery item will have a solid color background instead of an image background.
 
 ```
 header:
@@ -161,8 +162,10 @@ It will appear on the home page like this:
 ![Example teaser image]({{ "/assets/images/example-teaser.jpg" | relative_url }})
     
 **category**: 
-- makes project to be visible on the home page using "spotlight"
-- if you don't include category: "spotlight" your new page won't be visible on the homepage
+- For **projects** only
+- Controls how projects will be displayed on the homepage
+- Projects with the category `"spotlight"` will display in wide rectangular boxes directly below the text content on the homepage.
+- Projects with other categories will be displayed in category galleries beneath the spotlight items, as long as their matching category is listed in the `include_categories` section of the front matter in `index.md`.
 
 ```
 category: "spotlight"
@@ -172,7 +175,8 @@ category: "spotlight"
 - stands for "table of contents"
     - when set to *true*, automatically generates a table of contents on the side of a page
     - when set to *false*, the table of contents disappears
-- **toc_label** is the title of the toc
+    - By default, `toc: true` is set on all project pages. To override this, add `toc: false` to the front matter on any project.
+- **toc_label** is the title of the table of contents.
 
 ```
 toc: true;
@@ -181,7 +185,7 @@ toc_label: "On this page"
 
 ## Creating Your Own Pages and Projects
 
-In your site repository, or location on GitHub, you will find two folders, one called `_pages` and one called `_projects`. By default, the files in `_pages` are what appear on the top navigation bar (`about.md` and `feedback.md`) of your site, while the files in `_projects` make up the instructional content that can be accessed from the home page. This may be a good model for structuring your site as well, but this is discussed more thoroughly in our [Navigation]({{ "/how-to/navigation/" | absolute_url }}) resource.
+In your site repository, or location on GitHub, you will find two particular folders, one called `_pages` and one called `_projects`. By default, the files in `_pages` are what appear on the top navigation bar (`about.md` and `feedback.md`) of your site, while the files in `_projects` make up the instructional content that can be accessed from the home page. This may be a good model for structuring your site as well, but this is discussed more thoroughly in our [Navigation]({{ "/how-to/navigation/" | absolute_url }}) resource.
 
 ### Pages
 
@@ -203,7 +207,7 @@ For example, to create a new page called "Authors," you would create a new markd
 ---
 layout: single
 permalink: /authors/ # should match the permalink in the navigation.yml file
-title: Authors of this site #insert your preferred title here
+title: Site Authors #insert your preferred title here
 header:
     image: /assets/images/default-1.jpg  # Putting the path to an image here will replace the header image.
     alt: "Describe your image here" # It is good practice to include an image desription as alt text.
@@ -219,28 +223,18 @@ Then, once you have configured the YAML front matter to your liking, you can add
 
 ### Projects
 
-Projects are a bit different. You can think of projects like individual blog posts or articles. This is where the main content and collected work that you want to organize and showcase lives on your site.
+Projects are a bit different from pages. You can think of projects like individual blog posts or articles. This is where the main content and collected work that you want to organize and showcase lives on your site.
 
 Looking at this site, our main content is a series of instructional written materials teaching you how to use this template, so all of these files were created in `_projects`. These can now be seen and accessed from the homepage in an organized way that you specify in the front matter of the `index.md` file, as discussed above.
 
 #### Creating Your Own Projects
 
-A good way to start making your own projects is to copy the code of the project template, `10_template.md`. The template is located in the GitHub in the folder called `_projects`. 
+A good way to start making your own projects is to copy the code of an existing project. 
 
 **First**, though, you should create a file in the _projects section and name it with the following format: 00_filename.md, where you can replace 'filename' with whatever name you choose. 
 - The two-digit number (00_) at the beginning of the filename will determine the order in which the "previous" and "next" buttons at the bottom of each project will navigate through the projects.
 - To see examples of file names, check out the files in the _projects folder (01_installation.md, 02_configuration.md, etc)
 
-**Second**, copy and paste the code from the projects template, `10_template.md`, into your file.  
+**Second**, copy and paste the code from an existing project into your file.  
 
-On the site, the template looks like this:
-
-![Image of project template]({{ "/assets/images/example-template.jpg" | relative_url }})
-
-**Third**, add your text, images, and any other content you would like to include. For more information on adding these elements, go to our "how-to" section. For basics on adding text, go to our tutorial on [Formatting Text with Markdown]({{ "/how-to/markdown/" | absolute_url }}). 
-
-Congratulations! You made it through the adding content section! :)
-
-To continue your learning journey, click next to step four, Navigation -->
-
-
+**Third**, edit the front matter and add your own content, whether it is text, images, or any other content you would like to include. For more information on adding these elements, check out the information in our "How-To" section. For basics on adding text, go to our tutorial on [Formatting Text with Markdown]({{ "/how-to/markdown/" | absolute_url }}). 

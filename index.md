@@ -10,7 +10,7 @@ header:
 sidebar:
     nav: "categories"
 
-include_categories:
+include_categories: # Sets which project categories are visible as galleries on homepage. See _data/content.yml and https://digbmc.github.io/ds-project/how-to/adding-content/#editing-the-homepage for more instructions.
   - getting-started   
   - how-to
 

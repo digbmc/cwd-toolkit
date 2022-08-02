@@ -1,3 +1,17 @@
+# This file sets the titles of the category gallery sections that
+# display on the home page.
+
+# This file must be edited if changes are made to display_categories in
+# the front matter of index.md.
+
+# You may add or remove categories from this list.
+
+# The items under display_categories here should match those in index.md,
+# so make sure you edit both files.
+
+# The text in quotes is the text that will actually display as headings
+# for each category on the rendered home page.
+
 display_categories:
   getting-started: 'Getting Started'
   how-to: 'How-To'
