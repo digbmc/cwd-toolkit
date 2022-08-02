@@ -74,7 +74,7 @@ Before cloning a repository and working locally, always fork the repository and 
 To clone our repository, follow the steps below:
 1. Open [our repository](https://github.com/digbmc/ds-project) and click on the green "Code" button.
 2. Copy the link that you see in the HTTPS tab. 
-3. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+3. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). This is done using the  [command line](https://macpaw.com/how-to/use-terminal-on-mac).
 4. Open git bash and type the following command and press enter.
 ```markdown
 git clone ***paste the link that you copied in step 2 here***
