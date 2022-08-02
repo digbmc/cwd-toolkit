@@ -7,8 +7,8 @@ The Critical Web Design Toolkit Project focuses on building a static website for
 
 ![An illustration of the workflow for using the site template](/assets/images/workflow.jpg)
 
-### Download Here
-**button**
+### Download 
+To use this template, go to the top of this page and click the green button in the upper right that says "use this template."
 
 ## What skills will be developed in using this toolkit? 
 
