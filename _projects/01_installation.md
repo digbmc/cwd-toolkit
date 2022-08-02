@@ -11,7 +11,7 @@ header:
 
 ![An illustration of the workflow for using the site template]({{ "/assets/images/workflow.jpg" | relative_url }})
 
-The Critical Web Design template is built as a Jekyll site. Jekyll is like a content management system like WordPress but it builds static sites instead. It helps to create the static site files and then lets an individual host the site like any other website. It has built-in support for Github Pages, making it a very useful tool for building websites. 
+The Critical Web Design template is built as a Jekyll site. Jekyll is like a content management system like WordPress but it builds static sites instead of dynamic ones. It helps to create the static site files and then lets an individual host the site like any other website. It has built-in support for Github Pages, making it a very useful tool for building websites. 
 
 Github Pages is a static site hosting service which extracts HTML, CSS and JavaScript from a Github repository and then builds and publishes a site based on them.
 
@@ -41,7 +41,7 @@ After setting up Github, you can either code directly in Github or code in a cod
 
 ### Coding in Github
 <hr/>
-The workflow that involves coding directly in Github after clicking the "Use this template" button is for users who do not want to download additional softares on their device. However, as stated before, you have to wait for sometime before you can view the changes on your website if you work on Github. It might also make it slower for you to navigate around your repository. 
+The workflow that involves coding directly in Github after clicking the "Use this template" button is for users who do not want to download additional softare on their device. However, as stated before, you have to wait for sometime before you can view the changes on your website if you work on Github. It might also make it slower for you to navigate around your repository. 
 
 #### "Use this template" on GitHub
 If you want to directly edit the code in Github, you can click on the green "Use this template" button located in the top right of our repository and start working from there. Clicking this button will make a copy of the original repository allows you to experiment with the code without affecting the original repository.
