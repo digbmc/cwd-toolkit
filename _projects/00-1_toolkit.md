@@ -9,7 +9,7 @@ header:
     caption: "[Original Photo by Christin Hume on Unsplash](https://unsplash.com/@christinhumephoto)" # Put a caption for your image here. It will display in the bottom right corner of the image. 
 ---
 
-The Critical Web Design Toolkit (CWDT) aims to not only bring awareness to the environmental impact that websites have on energy consumption, but also to tackle the issues of the digital divide, accessibility, and the social and moral implications of web development tools and current practices.  
+The Critical Web Design Toolkit (CWDT) aims to not only bring awareness to the environmental impact that websites have on energy consumption, but also to tackle the issues of the digital divide, accessibility, and the social and ethical implications of web development tools and current practices.  
 
 ## Sustainability 
 
