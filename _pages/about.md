@@ -20,7 +20,6 @@ The concerns that lay at the core of the CWDT include the environmental conseque
 
 - Web design  
 - Front end development 
-- Back end development 
 - Ruby, HTML, CSS, and some JavaScript 
 - Building static sites with Jekyll 
 - Using Git and GitHub 
