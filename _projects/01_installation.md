@@ -85,7 +85,7 @@ git clone ***paste the link that you copied in step 2 here***
 #### Pulling, pushing and commiting on Github through Visual Studio Code
 If you want to pull or push changes from another branch to yours, click the "Source Control" button on the left sidebar of Visual Studio Code. Then click on the three dotted lines at the top right of the panel that appears and you will see the pull and push options.
 
-Before you can commit the changes you made, you have to "Stage" your changes. You can do that by clcking on the changes individually and click on the "+" button to stage the changes. After that, you can write a commit message inside the box at the top of the panel and click commit.
+Before you can commit the changes you made, you have to "Stage" your changes. You can do that by clicking on the changes individually and click on the "+" button to stage the changes. After that, you can write a commit message inside the box at the top of the panel and click commit.
 
 ## Deploying on Github Pages 
 Whether you are coding directly in GitHub or using a code editor, you have to deploy your website on Github Pages to preview the changes that you made in your website. To deploy, do the following:
