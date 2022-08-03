@@ -11,7 +11,7 @@ header:
 
 ![An illustration of the workflow for using the site template]({{ "/assets/images/workflow.jpg" | relative_url }})
 
-The Critical Web Design template is built as a Jekyll site. Jekyll is like a content management system like WordPress but it builds static sites instead of dynamic ones. It helps to create the static site files and then lets an individual host the site like any other website. It has built-in support for Github Pages, making it a very useful tool for building websites. 
+The Critical Web Design Toolkit is built as a Jekyll site. Jekyll is like a content management system like WordPress but it builds static sites instead of dynamic ones. It helps to create the static site files and then lets an individual host the site like any other website. It has built-in support for Github Pages, making it a very useful tool for building websites. 
 
 Github Pages is a static site hosting service which extracts HTML, CSS and JavaScript from a Github repository and then builds and publishes a site based on them.
 
