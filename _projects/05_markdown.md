@@ -12,7 +12,7 @@ header:
 
 [Markdown](https://www.markdownguide.org/) is a markup language that you can use to add formatting elements to your text content. Here you will find a quick guide on how to add certain elements and what they look like within this site template. You can also take a look at the official [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/). 
 
-If you're learning Markdown for the first time, it may help to view this post as it appears in your web browser alongside its Markdown file in the site directory. The file is found under _posts and is called 2022-07-05-markdown.md.
+If you're learning Markdown for the first time, it may help to view this post as it appears in your web browser alongside its Markdown file in the site directory. The file is found under _posts and is called 05_markdown.md.
 
 ## Headings and Paragraphs
 
