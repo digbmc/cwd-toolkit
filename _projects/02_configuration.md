@@ -51,7 +51,7 @@ These are the only necessary changes to the `_config.yml` file.
 ### Additional Changes
 The items below **can** be changed to update other parts of your site, but they do not have to be.
 
-- **Base URL (20)**: If you want the baseurl to be something other than ds-project, you would update it here. This process **requires** you to change your repository name in the `_config.yml` *and* officially on Github as well. This change will affect all portions of the site that use the repository name. Here is the Github documentation for changing your repository name. Once you have done this, return to the `_config.yml` file and replace both the repository section and the Base URL section with your updated repository name. Make sure these match in all places.
+- **Base URL (20)**: If you want the baseurl to be something other than ds-project, you would update it here. This process **requires** you to change your repository name in the `_config.yml` *and* officially on Github as well. This change will affect all portions of the site that use the repository name. [Here is the Github documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository) for changing your repository name. Once you have done this, return to the `_config.yml` file and replace both the repository section and the Base URL section with your updated repository name. Make sure these match in all places.
 
 - **Locale (13)**: If you want to develop your site in a different language, search for the language followed by the phrase "language code" in your preferred search engine, and replace `en-US` with the new code.
 
