@@ -207,7 +207,7 @@ General rules of thumb:
 
 - Only include images and media that are necessary 
 
-- When including images, compress them. 100 KB or fewer is generally a good size (especially for decorative images); however, images may need to be larger if showing intricate details, such as 500 kb.  
+- When including images, compress them. 100 KB or fewer is generally a good size (especially for decorative images); however, images may need to be larger if showing intricate details, such as 500 kb  
 
 - Anything more than 1 MB probably too large 
 
