@@ -14,7 +14,7 @@ The Critical Web Design Toolkit is a project that aims to provide users with bot
 
 We developed the CWDT to provide people who are interested in creating websites for Digital Scholarship projects with a more sustainable alternative to popular dynamic website builders, which can be easier to learn to use than static website builders but consume more energy. The CWDT aims to make it easier for users to build their own static sites, so they do not have to rely on dynamic site builders, and it is designed for users of all experience levels.
 
-The concerns that lay at the core of the CWDT include the environmental consequences of energy consumption by the internet, web accessibility for people with disabilities, the digital divide, and other social and moral implications of web development tools. Our hope is that the CWDT will not only help users to build static websites for their Digital Scholarship projects, but also to think critically about and participate in sustainable web design.
+The concerns that lay at the core of the CWDT include the environmental consequences of energy consumption by the internet, the importance of web accessibility for people with disabilities, the challenges of the digital divide, and other social and moral implications of web development tools. Our hope is that the CWDT will not only help users to build static websites for their Digital Scholarship projects, but also to think critically about and participate in sustainable web design.
 
 ## What skills will be developed in using this toolkit? 
 
