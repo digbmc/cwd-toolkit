@@ -18,6 +18,12 @@
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/apple-touch-icon.png" />
+<link rel="shortcut icon" href="{{ site.baseurl }}/assets/dog-favicon.ico" />
+<link rel="mask-icon" href=" {{ site.baseurl }}/assets/safari-pinned-tab.svg" color="#5bbad5">
+
+
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
     <script src="{{ script | relative_url }}"></script>
