@@ -1,6 +1,6 @@
 # What is the Critical Web Design Toolkit?
 
-The [Critical Web Design Toolkit](https://digbmc.github.io/ds-project/)(CWDT) is a project that aims to provide users with both an easy-to-use static website template for Digital Scholarship projects and an instructional guide that not only gives step-by-step instructions for using the template, but also provides resources for learning more about web accessibility, sustainability, and the digital divide.
+The [Critical Web Design Toolkit](https://digbmc.github.io/cwd-toolkit)(CWDT) is a project that aims to provide users with both an easy-to-use static website template for Digital Scholarship projects and an instructional guide that not only gives step-by-step instructions for using the template, but also provides resources for learning more about web accessibility, sustainability, and the digital divide.
 
 We developed the CWDT to provide people who are interested in creating websites for Digital Scholarship projects with a more sustainable alternative to popular dynamic website builders, which can be easier to learn to use than static website builders but consume more energy. The CWDT aims to make it easier for users to build their own static sites, so they do not have to rely on dynamic site builders, and it is designed for users of all experience levels.
 
@@ -11,7 +11,7 @@ The concerns that lay at the core of the CWDT include the environmental conseque
 ![An illustration of the workflow for using the site template](/assets/images/workflow.jpg)
 
 ### Download 
-To get started, go to the top of this page and click the green button in the upper right that says "Use this template." Then, please consult the [CWDT website](https://digbmc.github.io/ds-project/) for a step-by-step guide to using our template.
+To get started, go to the top of this page and click the green button in the upper right that says "Use this template." Then, please consult the [CWDT website](https://digbmc.github.io/cwd-toolkit) for a step-by-step guide to using our template.
 
 ## What skills will be developed in using this toolkit? 
 
@@ -35,7 +35,7 @@ Static websites help us do just that. They load faster than dynamic sites becaus
 
 The Critical Web Design Toolkit was designed and developed by the 2022 Digital Scholarship Summer Fellows at Bryn Mawr College, Arlowe Willingham, Rafiun Haque, Cameron Boucher, and Adrianna Morsey, with oversight from Alice McGrath, Karina Gonzalez, Chris Boyland, and Stella Fritzell. You can learn more about our program on the [Digital Scholarship @ BMC website](https://digitalscholarship.blogs.brynmawr.edu/digital-scholarship-summer-fellows-program/). The project was developed by students who often engage with Digital Scholarship through their studies and who understand the importance of web accessibility and sustainability to the field of Digital Scholarship.  
 
-Our template is based on the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme, and it is inspired in part by [The Reactor Room](https://ds-pages.swarthmore.edu/reactor-room/), a digital scholarship project.
+Our template is based on the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme, and it is inspired in part by [The Reactor Room](https://digitalscholarship.brynmawr.edu/reactor-room/), a digital scholarship project.
 
 ## Further resources: 
 
